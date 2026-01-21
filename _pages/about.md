@@ -41,6 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
+- *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!
 - *2025.12*：&nbsp;🎤 Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025!🔗 [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
 - *2025.11*: &nbsp;🔥 Presneted a poster at 2025 AI Tech Day!
 - *2025.09*: &nbsp;🎤 Gave an oral presentation at IEEE European Conference on Solid-State Circuits (ESSERC) 2025!
@@ -103,6 +104,7 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 
 
 ## Journal Articles
+- **[Nat. Electron.]** Cai, Lei, Yaoyu Tao, Teng Zhang, Chang Liu, Pek Jun Tiw, Lianfeng Yu, **Zelun Pan** et al. "A first-principles hetero-integrated Fourier transform system based on memristors." Nature Electronics (2026): 1-13.
 - **[Nat. Electron.]** Lianfeng Yu, Teng Zhang, Zeyu Wang, Xile Wang, **Zelun Pan**, Bowen Wang, Zhaokun Jing, Jiaxin Liu, Yuqi Li, Ziang Xie, Yihang Zhu, Bonan Yan, Yaoyu Tao^, Yuchao Yang^. [A fast and reconfigurable sort-in-memory system based on memristors](https://www.nature.com/articles/s41928-025-01405-2). Nature Electronics, 2025.
 - **[Nat. Commun.]** Chang Liu, Pek Jun Tiw, Teng Zhang, Yanghao Wang, Lei Cai, Rui Yuan, **Zelun Pan**, Wenshuo Yue, Yaoyu Tao^, Yuchao Yang^. [VO2 memristor-based frequency converter with in-situ synthesize and mix for wireless internet-of-things](https://www.nature.com/articles/s41467-024-45923-7). Nature Communications, 2024.
 
@@ -110,6 +112,7 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 - **[arXiv]** Lianfeng Yu, Yaoyu Tao^, Teng Zhang, Zeyu Wang, Xile Wang, **Zelun Pan**, Bowen Wang, Zhaokun Jing, Jiaxin Liu, Yuqi Li, Yihang Zhu, Bonan Yan, Yuchao Yang^. [Fast and reconfigurable sort-in-memory system enabled by memristors.](https://scholar.google.cz/citations?view_op=view_citation&hl=zh-CN&user=366EE6gAAAAJ&citation_for_view=366EE6gAAAAJ:2osOgNQ5qMEC) arXiv, 2024.
 
 # 💬 Oral Presentations
+- *2025.12*, IEDM'25 "A 40nm Mixed-Precision PCM Chip with Fused Analog/Digital Compute-in-Memory and Adaptive Drift Compensation for Embodied AI Applications"
 - *2025.09*, ESSCIRC'25 "A 1308 TOPS/W Charge-Mode ReRAM CIM Macro with 4T2R2C Differential Cell and FIA-Based Analog Accumulation for AI Inference"
 
 # 🔭 Projects
