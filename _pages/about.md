@@ -41,7 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
-- *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!
+- *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!🔗 [Read more](https://www.nature.com/articles/s41928-025-01534-8)
 - *2025.12*：&nbsp;🎤 Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025!🔗 [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
 - *2025.11*: &nbsp;🔥 Presneted a poster at 2025 AI Tech Day!
 - *2025.09*: &nbsp;🎤 Gave an oral presentation at IEEE European Conference on Solid-State Circuits (ESSERC) 2025!
@@ -95,7 +95,7 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 </div>
 </div> -->
 
-# 📝 Collaborative Publications 
+# 👥 Collaborative Publications 
 
 ## Conference Papers
 - **[ICTA’25]** Bowen Wang<sup>#</sup>, Longhao Yan<sup>#</sup>, Xiyuan Tang, Xile Wang, Yuqi Li, Zeyu Wang, **Zelun Pan**, Daijing Shi, Zhe Zhan, Yaoyu Tao, Zhitang Song^, Yuchao Yang^. A 617.7 TOPS/W PCM-Based Charge-Domain CIM Macro with Capacitor Reuse Method and Scalable Local Compute Unit. IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), 2025.
