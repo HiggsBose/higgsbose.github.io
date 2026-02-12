@@ -56,7 +56,10 @@ My research interests focus on
 
 ## Conference Papers
 
-**[IEDM'25]**A 40nm Mixed-Precision PCM Chip with Fused Analog/Digital Compute-in-Memory and Adaptive Drift Compensation for Embodied AI Applications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEDM'25</div><img src='images/AITechDay_PCM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[IEDM'25]**[A 40nm Mixed-Precision PCM Chip with Fused Analog/Digital Compute-in-Memory and Adaptive Drift Compensation for Embodied AI Applications](https://ieeexplore.ieee.org/abstract/document/11353523)
 
 **Zelun Pan<sup>#</sup>**, Longhao Yan<sup>#</sup>, Xile Wang, Bowen Wang, Yueying Luo, Zhe Zhan, Xi Li, Yuqi Li,
 Lei Cai, Teng Zhang, Minghui Yin, Yaoyu Tao^, Zhitang Song^ and Yuchao Yang^
