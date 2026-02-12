@@ -67,6 +67,9 @@ Lei Cai, Teng Zhang, Minghui Yin, Yaoyu Tao^, Zhitang Song^ and Yuchao Yang^
 
 IEEE Electorn Devices Meeting (IEDM), San Francisco, USA, 2025
 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESSCIRC'25</div><img src='images/ESSERC2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
