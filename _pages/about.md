@@ -105,6 +105,10 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 # 👥 Collaborative Publications 
 
 ## Conference Papers
+- **[IEDM'25]** Longhao Yan<sup>#</sup>, Zhe Zhan<sup>#</sup>, **Zelun Pan**, B. Wang, Y. Tao and Y. Yang^ [An 8Mb Learning-Aware RRAM Compute-in-Memory Accelerator for Embodied Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11353856) 2025 IEEE International Electron Devices Meeting (IEDM), San Francisco, CA, USA, 2025 **(Technology Highlight)**
+
+- **[IEDM'25]** Longhao Yan<sup>#</sup>, Zitong Zheng<sup>#</sup>, Xi Li, Xile Wang, Zhe Zhan, Jiukai Fang, Minghui Yin, **Zelun Pan**, Song Jia, Yaoyu Tao, Zhitang Song^, Yuchao Yang^ [Efficient Multimodal Fusion with Intelligent Predictive Programming Based on 64-Core PCM Compute-in-Memory Processor](https://ieeexplore.ieee.org/abstract/document/11353552) 2025 IEEE International Electron Devices Meeting (IEDM), San Francisco, CA, USA, 2025
+
 - **[ICTA’25]** Bowen Wang<sup>#</sup>, Longhao Yan<sup>#</sup>, Xiyuan Tang, Xile Wang, Yuqi Li, Zeyu Wang, **Zelun Pan**, Daijing Shi, Zhe Zhan, Yaoyu Tao, Zhitang Song^, Yuchao Yang^. A 617.7 TOPS/W PCM-Based Charge-Domain CIM Macro with Capacitor Reuse Method and Scalable Local Compute Unit. IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), 2025.
 - **[IEDM’24]** Longhao Yan<sup>#</sup>, Yuqi Li<sup>#</sup>, Xi Li, **Zelun Pan**, Zeyu Wang, Xile Wang, Bowen Wang, Zhe Zhan, Xiyuan Tang, Yaoyu Tao, Woo-Ping Ge, Zhitang Song^, Ru Huang^, Yuchao Yang^ [Neural Manifold Learning Based on 40 nm Dual-Mode PCM Compute-in-Memory Chip with Hardware Adaptive Drift Compensation.](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=366EE6gAAAAJ&citation_for_view=366EE6gAAAAJ:Tyk-4Ss8FVUC) IEEE International Electron Devices Meeting (IEDM), San Francisco, CA, USA, 2024.
 
