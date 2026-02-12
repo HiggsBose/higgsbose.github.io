@@ -105,7 +105,7 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 # 👥 Collaborative Publications 
 
 ## Conference Papers
-- **[IEDM'25]** Longhao Yan<sup>#</sup>, Zhe Zhan<sup>#</sup>, **Zelun Pan**, B. Wang, Y. Tao and Y. Yang^ [An 8Mb Learning-Aware RRAM Compute-in-Memory Accelerator for Embodied Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11353856) 2025 IEEE International Electron Devices Meeting (IEDM), San Francisco, CA, USA, 2025 **(Technology Highlight)**
+- **[IEDM'25]** Longhao Yan<sup>#</sup>, Zhe Zhan<sup>#</sup>, **Zelun Pan**, Bowen Wang, Yaoyu Tao and Yuchao Yang^ [An 8Mb Learning-Aware RRAM Compute-in-Memory Accelerator for Embodied Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11353856) 2025 IEEE International Electron Devices Meeting (IEDM), San Francisco, CA, USA, 2025 **(Technology Highlight)**
 
 - **[IEDM'25]** Longhao Yan<sup>#</sup>, Zitong Zheng<sup>#</sup>, Xi Li, Xile Wang, Zhe Zhan, Jiukai Fang, Minghui Yin, **Zelun Pan**, Song Jia, Yaoyu Tao, Zhitang Song^, Yuchao Yang^ [Efficient Multimodal Fusion with Intelligent Predictive Programming Based on 64-Core PCM Compute-in-Memory Processor](https://ieeexplore.ieee.org/abstract/document/11353552) 2025 IEEE International Electron Devices Meeting (IEDM), San Francisco, CA, USA, 2025
 
