@@ -45,6 +45,7 @@ My research interests focus on
 - *2025.12*：&nbsp;🎤 Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025!🔗 [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
 - *2025.11*: &nbsp;🔥 Presneted a poster at 2025 AI Tech Day!
 - *2025.09*: &nbsp;🎤 Gave an oral presentation at IEEE European Conference on Solid-State Circuits (ESSERC) 2025!
+- *2025.09*: &nbsp;📄 Our collaborative paper was selected as Technology Highlight at IEDM’25! 🔗 [Read more](https://www.facebook.com/IEEE.IEDM/posts/iedm2025-technical-highlight-a-neuromorphic-system-for-on-chip-learning-embodied/1253075260199208/)
 - *2025.09*: &nbsp;📄 One paper and two collaborative papers were accepted at IEDM’25! 
 - *2025.05*: &nbsp;📄 Our collaborative paper was accepted at Nature Electronics!
 - *2025.05*: &nbsp;📄 One paper was accepted at ESSCIRC'25! 🔗 [Read more](https://ieeexplore.ieee.org/document/11214056)
