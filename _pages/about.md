@@ -77,7 +77,7 @@ IEEE Electorn Devices Meeting (IEDM), San Francisco, USA, 2025
 
 Longhao Yan<sup>#</sup>, **Zelun Pan<sup>#</sup>**, Zhe Zhan, Daijing Shi, Yihang Zhu, Yaoyu Tao^, Yuchao Yang^
 
-IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 2025.
+IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 2025. **(<sup>#</sup>Equally Contributed)**
 
 </div>
 </div>
