@@ -70,14 +70,14 @@ IEEE Electorn Devices Meeting (IEDM), San Francisco, USA, 2025
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESSCIRC'25</div><img src='images/ESSERC2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESSERC'25</div><img src='images/ESSERC2025.png' alt="sym" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[ESSERC'25]**[A 1308 TOPS/W Charge-Mode ReRAM CIM Macro with 4T2R2C Differential Cell and FIA-Based Analog Accumulation for AI Inference](https://scholar.google.com/citations?view_op=view_citation&user=2qw1leMAAAAJ&citation_for_view=2qw1leMAAAAJ:Tyk-4Ss8FVUC)
 
-Longhao Yan<sup>#</sup>, **Zelun Pan<sup>#</sup>**, Zhe Zhan, Daijing Shi, Yihang Zhu, Yaoyu Tao^, Yuchao Yang^
+Longhao Yan<sup>#</sup>, **Zelun Pan<sup>#</sup>**, Zhe Zhan, Daijing Shi, Yihang Zhu, Yaoyu Tao^, Yuchao Yang^ **(<sup>#</sup>Equally Contributed)**
 
-IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 2025. **(<sup>#</sup>Equally Contributed)**
+IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 2025. 
 
 </div>
 </div>
