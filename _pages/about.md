@@ -41,6 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
+- *2026.02*：&nbsp;📄 Our paper was accepted at DAC'26!
 - *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!🔗 [Read more](https://www.nature.com/articles/s41928-025-01534-8)
 - *2025.12*：&nbsp;🎤 Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025!🔗 [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
 - *2025.11*: &nbsp;🔥 Presneted a poster at 2025 AI Tech Day!
