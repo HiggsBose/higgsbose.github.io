@@ -27,8 +27,6 @@ My research interests focus on
 
 - In-Memory-Computing (IMC) chip design. 
 
-<span class='anchor' id='cv'></span>
-
 
 # 📖 Educations
 - *2024.09 - Present*, Ph.D. Student at School of Integrated Circuits, Peking University
@@ -144,5 +142,5 @@ I'm actively searching for internships in IC design and AI algorithms. Please re
 
 # CV
 - [中文 CV](/docs/潘泽伦_简历.docx)
-- [English CV](/docs/PanZelun_Resume.pdf)
-
+- [English CV](/docs/PanZelun_Resume.docx)
+<span class='anchor' id='cv'></span>
