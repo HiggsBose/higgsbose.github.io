@@ -27,7 +27,6 @@ My research interests focus on
 
 - In-Memory-Computing (IMC) chip design. 
 
-
 # 📖 Educations
 - *2024.09 - Present*, Ph.D. Student at School of Integrated Circuits, Peking University
 - *2020.09 - 2024.06*, B.S at EECS, Peking University. **Rank: 2/46, Excellent Graduate**
@@ -140,7 +139,10 @@ I'm actively searching for internships in IC design and AI algorithms. Please re
 - TA of [AIArchPKU 25'Spring](https://aiarchpku.com/2024Fall/)
 
 
-# CV
-- [中文 CV](/docs/潘泽伦_简历.docx)
-- [English CV](/docs/PanZelun_Resume.docx)
 <span class='anchor' id='cv'></span>
+
+# Curriculum Vitae
+<ul>
+  <li><a href="/docs/%E6%BD%98%E6%B3%BD%E4%BC%A6_%E7%AE%80%E5%8E%86.docx" download>中文 CV</a></li>
+  <li><a href="/docs/PanZelun_Resume.docx" download>English CV</a></li>
+</ul>
