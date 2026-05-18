@@ -41,6 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
+- *2026.05*：&nbsp;📄 Our paper was accepted at ESSERC'26!
 - *2026.02*：&nbsp;📄 Our paper was accepted at DAC'26!
 - *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!🔗 [Read more](https://www.nature.com/articles/s41928-025-01534-8)
 - *2026.01*: &nbsp;🔥 Passed my Ph.D. qualification exam!
