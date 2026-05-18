@@ -51,7 +51,7 @@ My research interests focus on
 - *2025.09*: &nbsp;📄 Our collaborative paper was selected as Technology Highlight at IEDM’25! 🔗 [Read more](https://www.facebook.com/IEEE.IEDM/posts/iedm2025-technical-highlight-a-neuromorphic-system-for-on-chip-learning-embodied/1253075260199208/)
 - *2025.09*: &nbsp;📄 One paper and two collaborative papers were accepted at IEDM’25! 
 - *2025.05*: &nbsp;📄 Our collaborative paper was accepted at Nature Electronics!
-- *2025.05*: &nbsp;📄 One paper was accepted at ESSCIRC'25! 🔗 [Read more](https://ieeexplore.ieee.org/document/11214056)
+- *2025.05*: &nbsp;📄 One paper was accepted at ESSERC'25! 🔗 [Read more](https://ieeexplore.ieee.org/document/11214056)
 - *2024.08*: &nbsp;📄 Our collaborative paper was accepted at IEDM’24!
 - *2024.06*: &nbsp;🔥 Awarded 24'Fall Excellent Graduate of Peking University! 
 - *2024.02*: &nbsp;📄 Our collaborative paper was accepted by Nature Communications!
@@ -80,7 +80,7 @@ IEEE Electorn Devices Meeting (IEDM), San Francisco, USA, 2025
 
 Longhao Yan<sup>#</sup>, **Zelun Pan<sup>#</sup>**, Zhe Zhan, Daijing Shi, Yihang Zhu, Yaoyu Tao^, Yuchao Yang^ **(<sup>#</sup>Equally Contributed)**
 
-IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 2025. 
+IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025. 
 
 </div>
 </div>
@@ -118,7 +118,7 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 
 
 ## Journal Articles
-- **[Nat. Electron.]** Cai, Lei, Yaoyu Tao, Teng Zhang, Chang Liu, Pek Jun Tiw, Lianfeng Yu, **Zelun Pan** et al. "A first-principles hetero-integrated Fourier transform system based on memristors." Nature Electronics (2026): 1-13.
+- **[Nat. Electron.]** Cai, Lei, Yaoyu Tao, Teng Zhang, Chang Liu, Pek Jun Tiw, Lianfeng Yu, **Zelun Pan** et al. [A first-principles hetero-integrated Fourier transform system based on memristors.](https://www.nature.com/articles/s41928-025-01534-8) Nature Electronics (2026): 1-13.
 - **[Nat. Electron.]** Lianfeng Yu, Teng Zhang, Zeyu Wang, Xile Wang, **Zelun Pan**, Bowen Wang, Zhaokun Jing, Jiaxin Liu, Yuqi Li, Ziang Xie, Yihang Zhu, Bonan Yan, Yaoyu Tao^, Yuchao Yang^. [A fast and reconfigurable sort-in-memory system based on memristors](https://www.nature.com/articles/s41928-025-01405-2). Nature Electronics, 2025.
 - **[Nat. Commun.]** Chang Liu, Pek Jun Tiw, Teng Zhang, Yanghao Wang, Lei Cai, Rui Yuan, **Zelun Pan**, Wenshuo Yue, Yaoyu Tao^, Yuchao Yang^. [VO2 memristor-based frequency converter with in-situ synthesize and mix for wireless internet-of-things](https://www.nature.com/articles/s41467-024-45923-7). Nature Communications, 2024.
 
@@ -127,10 +127,11 @@ IEEE European Conference on Solid-State Circuits (ESSCIRC), Munich, Germany, 202
 
 # 💬 Oral Presentations
 - *2025.12*, IEDM'25 "A 40nm Mixed-Precision PCM Chip with Fused Analog/Digital Compute-in-Memory and Adaptive Drift Compensation for Embodied AI Applications"
-- *2025.09*, ESSCIRC'25 "A 1308 TOPS/W Charge-Mode ReRAM CIM Macro with 4T2R2C Differential Cell and FIA-Based Analog Accumulation for AI Inference"
+- *2025.09*, ESSERC'25 "A 1308 TOPS/W Charge-Mode ReRAM CIM Macro with 4T2R2C Differential Cell and FIA-Based Analog Accumulation for AI Inference"
 
 # 🔭 Projects
 *I like to write some random codes in my spare time, check them out here*
+- [A Lightweight CNN for Ellipsy Detection and Prediction](https://github.com/HiggsBose/Seizure_Detection_Prediction_CNN)
 - [A Simple 5 Stage Pipelined RISC-V CPU with a Customized Accelerator](https://github.com/HiggsBose/RiscV_CPU_with_Accelerator)
 - [A ResNet-20 with Learned Step Quantization(LSQ) and Noise-aware Training](https://github.com/HiggsBose/ResNet20-with-LSQ-quantization)
 
