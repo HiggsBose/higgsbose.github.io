@@ -120,10 +120,14 @@ IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025
 
 ## Journal Articles
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science'26</div><img src='images/Science_2026_1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science'26</div><img src='images/Science_2026_1.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **[Science]** Lei Cai<sup>#</sup>, Yaoyu Tao^<sup>#</sup>, Chenchen Xie<sup>#</sup>, Longhao Yan<sup>#</sup>, Shiqian Li, Ruihong Shen, **Zelun Pan**, Xile Wang, Bowen Wang, Daijing Shi, Yihang Zhu, Teng Zhang, Yixin Zhu^, Xi Li, Zhitang Song^, Ru Huang, and Yuchao Yang^. [A sub–10-millisecond neural dynamical system based on phase-change memristors](https://www.science.org/doi/10.1126/science.aee6277) Science (2026).
+- **[Science]** [A sub–10-millisecond neural dynamical system based on phase-change memristors](https://www.science.org/doi/10.1126/science.aee6277) 
+
+Lei Cai<sup>#</sup>, Yaoyu Tao^<sup>#</sup>, Chenchen Xie<sup>#</sup>, Longhao Yan<sup>#</sup>, Shiqian Li, Ruihong Shen, **Zelun Pan**, Xile Wang, Bowen Wang, Daijing Shi, Yihang Zhu, Teng Zhang, Yixin Zhu^, Xi Li, Zhitang Song^, Ru Huang, and Yuchao Yang^. 
+
+Science (2026).
 
 </div>
 </div>
