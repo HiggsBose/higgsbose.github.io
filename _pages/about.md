@@ -41,7 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
-- *2026.07*: &nbsp;🧠 Our collaborative paper was published on Science!🔗 [Read more](https://www.science.org/doi/10.1126/science.aee6277)
+- *2026.07*: &nbsp;🔥 Our collaborative paper was published on Science!🔗 [Read more](https://www.science.org/doi/10.1126/science.aee6277)
 - *2026.05*：&nbsp;📄 Our paper was accepted at ESSERC'26!
 - *2026.02*：&nbsp;📄 Our paper was accepted at DAC'26!
 - *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!🔗 [Read more](https://www.nature.com/articles/s41928-025-01534-8)
@@ -120,10 +120,10 @@ IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025
 
 ## Journal Articles
 
-<div class='paper-box science-paper'><div class='paper-box-image'><div class="paper-hero-image" style="--paper-bg: url('/images/Science_2026_1.jpg')"><div class="badge">Science'26</div><img src='images/Science_2026_1.jpg' alt="Science paper figure"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science'26</div><img src='images/Science_2026_1.jpg' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Science]** [A sub–10-millisecond neural dynamical system based on phase-change memristors](https://www.science.org/doi/10.1126/science.aee6277) 
+- **[Science]** [A sub–10-millisecond neural dynamical system based on phase-change memristors](https://www.science.org/doi/10.1126/science.aee6277) 
 
 Lei Cai<sup>#</sup>, Yaoyu Tao^<sup>#</sup>, Chenchen Xie<sup>#</sup>, Longhao Yan<sup>#</sup>, Shiqian Li, Ruihong Shen, **Zelun Pan**, Xile Wang, Bowen Wang, Daijing Shi, Yihang Zhu, Teng Zhang, Yixin Zhu^, Xi Li, Zhitang Song^, Ru Huang, and Yuchao Yang^. 
 
