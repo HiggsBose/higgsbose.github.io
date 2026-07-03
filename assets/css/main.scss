@@ -87,6 +87,49 @@
 
 }
 
+.science-paper {
+    .paper-box-image {
+        > div {
+            width: 100%;
+        }
+
+        .paper-hero-image {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            background-image: var(--paper-bg);
+            background-position: center;
+            background-size: cover;
+            box-shadow: 3px 3px 6px #888;
+
+            &::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: rgba(255, 255, 255, .62);
+                backdrop-filter: blur(10px);
+            }
+
+            .badge {
+                z-index: 2;
+            }
+
+            img {
+                position: relative;
+                z-index: 1;
+                max-width: 82%;
+                max-height: 82%;
+                width: auto;
+                box-shadow: none;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
