@@ -41,6 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
+- *2026.07*: &nbsp;🔥 Our collaborative paper was published on Science!🔗 [Read more](https://www.science.org/doi/10.1126/science.aee6277)
 - *2026.05*：&nbsp;📄 Our paper was accepted at ESSERC'26!
 - *2026.02*：&nbsp;📄 Our paper was accepted at DAC'26!
 - *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!🔗 [Read more](https://www.nature.com/articles/s41928-025-01534-8)
@@ -118,6 +119,15 @@ IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025
 
 
 ## Journal Articles
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science'26</div><img src='images/Science_2026_1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- **[Science]** Lei Cai<sup>#</sup>, Yaoyu Tao^<sup>#</sup>, Chenchen Xie<sup>#</sup>, Longhao Yan<sup>#</sup>, Shiqian Li, Ruihong Shen, **Zelun Pan**, Xile Wang, Bowen Wang, Daijing Shi, Yihang Zhu, Teng Zhang, Yixin Zhu^, Xi Li, Zhitang Song^, Ru Huang, and Yuchao Yang^. [A sub–10-millisecond neural dynamical system based on phase-change memristors](https://www.science.org/doi/10.1126/science.aee6277) Science (2026).
+
+</div>
+</div>
+
 - **[Nat. Electron.]** Cai, Lei, Yaoyu Tao, Teng Zhang, Chang Liu, Pek Jun Tiw, Lianfeng Yu, **Zelun Pan** et al. [A first-principles hetero-integrated Fourier transform system based on memristors.](https://www.nature.com/articles/s41928-025-01534-8) Nature Electronics (2026): 1-13.
 - **[Nat. Electron.]** Lianfeng Yu, Teng Zhang, Zeyu Wang, Xile Wang, **Zelun Pan**, Bowen Wang, Zhaokun Jing, Jiaxin Liu, Yuqi Li, Ziang Xie, Yihang Zhu, Bonan Yan, Yaoyu Tao^, Yuchao Yang^. [A fast and reconfigurable sort-in-memory system based on memristors](https://www.nature.com/articles/s41928-025-01405-2). Nature Electronics, 2025.
 - **[Nat. Commun.]** Chang Liu, Pek Jun Tiw, Teng Zhang, Yanghao Wang, Lei Cai, Rui Yuan, **Zelun Pan**, Wenshuo Yue, Yaoyu Tao^, Yuchao Yang^. [VO2 memristor-based frequency converter with in-situ synthesize and mix for wireless internet-of-things](https://www.nature.com/articles/s41467-024-45923-7). Nature Communications, 2024.
