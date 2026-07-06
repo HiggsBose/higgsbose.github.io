@@ -41,7 +41,7 @@ My research interests focus on
 - *2019* Second Prize of 36th CPhO
 
 # 🔥 News
-- *2026.07*: &nbsp;🔥 Our collaborative paper was published on Science!🔗 [Read more](https://www.science.org/doi/10.1126/science.aee6277)
+- *2026.07*：&nbsp;🧠 Our collaborative paper was published on **Science**!🔗 [Read more](https://www.science.org/doi/10.1126/science.aee6277)
 - *2026.05*：&nbsp;📄 Our paper was accepted at ESSERC'26!
 - *2026.02*：&nbsp;📄 Our paper was accepted at DAC'26!
 - *2026.01*：&nbsp;📄 Our collaborative paper was published on Nature Electronics!🔗 [Read more](https://www.nature.com/articles/s41928-025-01534-8)
@@ -49,7 +49,7 @@ My research interests focus on
 - *2025.12*：&nbsp;🎤 Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025!🔗 [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
 - *2025.11*: &nbsp;🔥 Presneted a poster at 2025 AI Tech Day!
 - *2025.09*: &nbsp;🎤 Gave an oral presentation at IEEE European Conference on Solid-State Circuits (ESSERC) 2025!
-- *2025.09*: &nbsp;📄 Our collaborative paper was selected as Technology Highlight at IEDM’25! 🔗 [Read more](https://www.facebook.com/IEEE.IEDM/posts/iedm2025-technical-highlight-a-neuromorphic-system-for-on-chip-learning-embodied/1253075260199208/)
+- *2025.09*: &nbsp;📄 Our collaborative paper was selected as **Technology Highlight** at IEDM’25! 🔗 [Read more](https://www.facebook.com/IEEE.IEDM/posts/iedm2025-technical-highlight-a-neuromorphic-system-for-on-chip-learning-embodied/1253075260199208/)
 - *2025.09*: &nbsp;📄 One paper and two collaborative papers were accepted at IEDM’25! 
 - *2025.05*: &nbsp;📄 Our collaborative paper was accepted at Nature Electronics!
 - *2025.05*: &nbsp;📄 One paper was accepted at ESSERC'25! 🔗 [Read more](https://ieeexplore.ieee.org/document/11214056)
@@ -127,7 +127,9 @@ IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025
 
 Lei Cai<sup>#</sup>, Yaoyu Tao^<sup>#</sup>, Chenchen Xie<sup>#</sup>, Longhao Yan<sup>#</sup>, Shiqian Li, Ruihong Shen, **Zelun Pan**, Xile Wang, Bowen Wang, Daijing Shi, Yihang Zhu, Teng Zhang, Yixin Zhu^, Xi Li, Zhitang Song^, Ru Huang, and Yuchao Yang^. 
 
-Science (2026).
+\# Equal contribution  \^ Corresponding authors
+
+Science, 393(6806), pp.105-112.
 
 </div>
 </div>
