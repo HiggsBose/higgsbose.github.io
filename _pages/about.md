@@ -162,6 +162,6 @@ I'm actively searching for internships in IC design and AI algorithms. Please re
 
 # Curriculum Vitae
 <ul>
-  <li><a href="/docs/潘泽伦_简历.pdf" download>中文 CV</a></li>
+  <li><a href="/docs/潘泽伦_简历.pdf" target="_blank" rel="noopener">中文 CV</a></li>
   <li><a href="/docs/PanZelun_Resume.docx" download>English CV</a></li>
 </ul>
