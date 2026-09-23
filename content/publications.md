@@ -7,7 +7,7 @@
 <div class="paper-box-image" markdown="0">
 <div>
 <div class="badge">DAC'26</div>
-<img src='images/RL_Mapping_Poster.jpg' loading="lazy" alt="PiMM-NoC reinforcement-learning mapping research poster" width="100%">
+<img src='images/RL_Mapping_Poster.jpg' loading="lazy" alt="PiMM-NoC reinforcement-learning mapping research poster" width="7920" height="9240">
 </div>
 </div>
 
@@ -27,7 +27,7 @@ Design Automation Conference (DAC) 2026, Los Angeles, USA, 2026
 <div class="paper-box-image" markdown="0">
 <div>
 <div class="badge">IEDM'25</div>
-<img src='images/AITechDay_PCM.jpg' loading="lazy" alt="Mixed-precision PCM compute-in-memory chip research poster" width="100%">
+<img src='images/AITechDay_PCM.jpg' loading="lazy" alt="Mixed-precision PCM compute-in-memory chip research poster" width="4703" height="2646">
 </div>
 </div>
 
@@ -48,7 +48,7 @@ IEEE International Electron Devices Meeting (IEDM), San Francisco, USA, 2025
 <div class="paper-box-image" markdown="0">
 <div>
 <div class="badge">ESSERC'25</div>
-<img src='images/ESSERC2025.png' loading="lazy" alt="Charge-mode ReRAM CIM macro overview" width="90%">
+<img src='images/ESSERC2025.png' loading="lazy" alt="Charge-mode ReRAM CIM macro overview" width="1117" height="857">
 </div>
 </div>
 
@@ -82,7 +82,7 @@ IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025
 <div class="paper-box-image" markdown="0">
 <div>
 <div class="badge">Science'26</div>
-<img src='images/Science_Poster.png' loading="lazy" alt="Phase-change memristor neural dynamical system overview" width="100%">
+<img src='images/Science_Poster.png' loading="lazy" alt="Phase-change memristor neural dynamical system overview" width="1672" height="941">
 </div>
 </div>
 
