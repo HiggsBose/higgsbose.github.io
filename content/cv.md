@@ -1,8 +1,8 @@
 ## Education
 
-- *2024.09 - Present*, Ph.D. Student at School of Integrated Circuits, Peking University
-- *2020.09 - 2024.06*, B.S at EECS, Peking University. **Rank: 2/46, Excellent Graduate**
-- *2023.09 - 2024.01*, Exchange Student at Department of Computer Science, UCL
+- *2024.09 - Present* Ph.D. Student at School of Integrated Circuits, Peking University
+- *2020.09 - 2024.06* B.S at EECS, Peking University. **Rank: 2/46, Excellent Graduate**
+- *2023.09 - 2024.01* Exchange Student at Department of Computer Science, UCL
 
 ## Honors & awards
 
@@ -17,13 +17,6 @@
 ## Academic service
 
 - TA of [AIArchPKU 25'Spring](https://aiarchpku.com/2024Fall/)
-
-## Curriculum vitae
-
-<ul>
-  <li><a href="/docs/潘泽伦_简历.pdf" target="_blank" rel="noopener">中文 CV</a></li>
-  <li><a href="/docs/PanZelun_Resume.docx" download>English CV</a></li>
-</ul>
 
 ## Opportunities
 

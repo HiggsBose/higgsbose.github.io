@@ -1,5 +1,39 @@
 {% extends "base.html" %}
 {% block main %}
-<section class="page-heading"><p class="eyebrow">{{ page.number }} / {{ page.label }}</p><h1>{{ page.title }}</h1></section>
-<div class="prose">{{ content | safe }}</div>
+{% if not page.slug %}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="status-dot"></span> PEKING UNIVERSITY / INTEGRATED CIRCUITS</p>
+    <h1>Zelun<span class="surname">Pan<span class="name-period">.</span><span class="chinese-name" lang="zh">潘泽伦</span></span></h1>
+    <p class="hero-tagline">Rethinking computing.<br>Starting with memory.</p>
+    <p class="hero-summary">Ph.D. student exploring memory-centric architectures<br class="desktop-break"> and compute-in-memory chip design.</p>
+    <div class="hero-actions"><a class="button" href="{{ url('publications/') }}">Explore my research <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ url('cv/') }}">Background & CV <span aria-hidden="true">↗</span></a></div>
+  </div>
+  <div class="hero-art">
+    <span class="art-index" aria-hidden="true">FIG. 01 — A WORK IN PROGRESS</span>
+    <div class="art-circle" aria-hidden="true"></div><div class="art-orbit" aria-hidden="true"></div><div class="art-slash" aria-hidden="true"></div>
+    <figure class="portrait"><img src="{{ url('images/Pan_Photo_1024x1024.jpg') }}" width="1024" height="1024" alt="Zelun Pan outdoors" fetchpriority="high"><figcaption><span>ZELUN PAN</span><span>北京 · BEIJING</span></figcaption></figure>
+    <div class="art-square" aria-hidden="true"></div><span class="art-cross" aria-hidden="true">+</span><span class="art-axis" aria-hidden="true">CIRCUITS × ARCHITECTURES</span>
+    <span class="art-coordinate" aria-hidden="true">MEMORY → COMPUTE → POSSIBILITY</span>
+  </div>
+</section>
+<div class="affiliation-strip"><span><b>Ph.D. student</b> / {{ profile.department }}</span><span>{{ profile.institution }} <span class="strip-cross" aria-hidden="true">✳</span> {{ profile.location }}</span></div>
+<section class="about-section section-grid">
+  <div><p class="eyebrow">01 / A LITTLE CONTEXT</p><h2>Curiosity,<br>down to the circuit.</h2></div>
+  <div class="about-copy prose">{{ content | safe }}<div class="social-links"><a href="{{ profile.scholar }}">Google Scholar ↗</a><a href="{{ profile.github }}">GitHub ↗</a><a href="{{ profile.linkedin }}">LinkedIn ↗</a><a href="mailto:{{ profile.email }}">Email ↗</a></div></div>
+</section>
+<section class="research-section">
+  <div class="section-heading"><div><p class="eyebrow">02 / RESEARCH DIRECTIONS</p><h2>From devices to systems.</h2></div><a class="text-link" href="{{ url('publications/') }}">View publications <span aria-hidden="true">↗</span></a></div>
+  <div class="research-grid">
+    <a class="research-card" href="{{ url('publications/') }}"><span class="card-number">01 / ARCHITECTURE</span><div class="research-symbol architecture-symbol" aria-hidden="true"><i></i><i></i><i></i></div><h3>Memory-centric<br>architectures</h3><p>Exploring heterogeneous architectures and optical-electrical computing accelerators.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+    <a class="research-card" href="{{ url('publications/') }}"><span class="card-number">02 / CHIP DESIGN</span><div class="research-symbol chip-symbol" aria-hidden="true"><i></i></div><h3>Compute<br>in memory</h3><p>Designing in-memory-computing chips for efficient AI computation.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+  </div>
+</section>
+<section class="contact-banner"><p class="eyebrow">LET’S CONNECT</p><h2>Ideas are better<br>in conversation.</h2><a href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">↗</span></a><p>Interested in IC design and AI algorithm internships.</p><span class="contact-shape" aria-hidden="true">↗</span></section>
+{% else %}
+<section class="page-heading"><div><p class="eyebrow">{{ page.number }} / THE INDEX</p><h1>{{ page.title }}<span class="heading-dot">.</span></h1><p class="page-intro">{% if page.slug == 'publications' %}Research in memory, circuits, and computing. Selected work and collaborations.{% elif page.slug == 'news' %}Milestones, new work, and moments along the way.{% elif page.slug == 'talks' %}Sharing ideas, from the circuit to the conference stage.{% elif page.slug == 'projects' %}A few things I’ve built, explored, and learned from.{% else %}An ongoing education. A growing body of work.{% endif %}</p></div><span class="page-graphic" aria-hidden="true">{{ page.number }}</span></section>
+{% if page.slug == 'publications' %}<div class="page-tools"><span class="eyebrow">PUBLICATION RECORD</span><a class="text-link" href="{{ profile.scholar }}">Google Scholar <span aria-hidden="true">↗</span></a></div>{% endif %}
+{% if page.slug == 'cv' %}<div class="cv-downloads"><a class="button" href="{{ url('docs/潘泽伦_简历.pdf') }}" target="_blank" rel="noopener">中文简历 <span>PDF ↗</span></a><a class="button button-outline" href="{{ url('docs/PanZelun_Resume.docx') }}" download>English résumé <span>DOCX ↓</span></a></div>{% endif %}
+<div class="content-layout"><aside class="page-aside"><span class="eyebrow">{{ page.label | upper }}</span><p>{% if page.slug == 'publications' %}From individual contributions to shared discoveries.{% elif page.slug == 'news' %}The research journey,<br>one update at a time.{% elif page.slug == 'talks' %}Conference talks<br>& oral presentations.{% elif page.slug == 'projects' %}Code, experiments,<br>and side projects.{% else %}Education, recognition,<br>and academic service.{% endif %}</p><span class="aside-mark" aria-hidden="true">↘</span></aside><div class="prose content-body {{ page.slug }}-content">{{ content | safe }}</div></div>
+{% endif %}
 {% endblock %}

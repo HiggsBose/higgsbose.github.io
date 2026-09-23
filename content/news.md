@@ -1,17 +1,17 @@
-- *2026.08*:  We won 1st Prize in the 9th China Postgraduate IC Innovation Competition (CPICIC) in Shenzhen, ranking among the top 18 teams nationwide! [Read More](https://mp.weixin.qq.com/s/FwuskObSNWPe71Ok00YxGw)
-- *2026.07*:  Gave two oral presentations at Design Automation Conference (DAC) 2026!
-- *2026.07*: Our collaborative paper was published on **Science**! [Read more](https://www.science.org/doi/10.1126/science.aee6277)
-- *2026.05*: Our paper was accepted at ESSERC'26!
-- *2026.02*: Our paper was accepted at DAC'26!
-- *2026.01*: Our collaborative paper was published on Nature Electronics! [Read more](https://www.nature.com/articles/s41928-025-01534-8)
-- *2026.01*:  Passed my Ph.D. qualification exam!
-- *2025.12*: Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025! [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
-- *2025.11*:  Presented a poster at 2025 AI Tech Day!
-- *2025.09*:  Gave an oral presentation at IEEE European Conference on Solid-State Circuits (ESSERC) 2025!
-- *2025.09*:  Our collaborative paper was selected as **Technology Highlight** at IEDM’25!  [Read more](https://www.facebook.com/IEEE.IEDM/posts/iedm2025-technical-highlight-a-neuromorphic-system-for-on-chip-learning-embodied/1253075260199208/)
-- *2025.09*:  One paper and two collaborative papers were accepted at IEDM’25! 
-- *2025.05*:  Our collaborative paper was accepted at Nature Electronics!
-- *2025.05*:  One paper was accepted at ESSERC'25!  [Read more](https://ieeexplore.ieee.org/document/11214056)
-- *2024.08*:  Our collaborative paper was accepted at IEDM’24!
-- *2024.06*:  Awarded 24'Fall Excellent Graduate of Peking University! 
-- *2024.02*:  Our collaborative paper was accepted by Nature Communications!
+- *2026.08* We won 1st Prize in the 9th China Postgraduate IC Innovation Competition (CPICIC) in Shenzhen, ranking among the top 18 teams nationwide! [Read More](https://mp.weixin.qq.com/s/FwuskObSNWPe71Ok00YxGw)
+- *2026.07* Gave two oral presentations at Design Automation Conference (DAC) 2026!
+- *2026.07* Our collaborative paper was published on **Science**! [Read more](https://www.science.org/doi/10.1126/science.aee6277)
+- *2026.05* Our paper was accepted at ESSERC'26!
+- *2026.02* Our paper was accepted at DAC'26!
+- *2026.01* Our collaborative paper was published on Nature Electronics! [Read more](https://www.nature.com/articles/s41928-025-01534-8)
+- *2026.01* Passed my Ph.D. qualification exam!
+- *2025.12* Gave an oral presentation at IEEE International Electron Devices Meeting (IEDM) 2025! [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7405514582104010752/)
+- *2025.11* Presented a poster at 2025 AI Tech Day!
+- *2025.09* Gave an oral presentation at IEEE European Conference on Solid-State Circuits (ESSERC) 2025!
+- *2025.09* Our collaborative paper was selected as **Technology Highlight** at IEDM’25!  [Read more](https://www.facebook.com/IEEE.IEDM/posts/iedm2025-technical-highlight-a-neuromorphic-system-for-on-chip-learning-embodied/1253075260199208/)
+- *2025.09* One paper and two collaborative papers were accepted at IEDM’25! 
+- *2025.05* Our collaborative paper was accepted at Nature Electronics!
+- *2025.05* One paper was accepted at ESSERC'25!  [Read more](https://ieeexplore.ieee.org/document/11214056)
+- *2024.08* Our collaborative paper was accepted at IEDM’24!
+- *2024.06* Awarded 24'Fall Excellent Graduate of Peking University! 
+- *2024.02* Our collaborative paper was accepted by Nature Communications!
