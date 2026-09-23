@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}{% if page.slug %} · {{ profile.name }}{% endif %}</title>
+  <meta name="description" content="{{ profile.description }}">
+  <meta name="theme-color" content="#eeeae1">
+  {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ profile.description }}">
+  <meta property="og:type" content="website">
+  {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
+  <link rel="icon" href="{{ url('images/favicon.ico') }}">
+  <link rel="stylesheet" href="{{ asset_url('assets/css/site.css') }}">
+  <script src="{{ asset_url('assets/js/site.js') }}" defer></script>
+</head>
+<body data-page="{{ page.slug or 'about' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="{{ url('') }}" aria-label="Zelun Pan home"><span class="monogram" aria-hidden="true">Z<span>P</span><i></i></span><span>ZELUN PAN<small>RESEARCH & ENGINEERING</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      {% for item in pages %}<a href="{{ url(item.slug + '/' if item.slug else '') }}" {% if item.slug == page.slug %}aria-current="page"{% endif %}><span class="nav-number">{{ item.number }}</span>{{ item.label }}<span class="nav-arrow" aria-hidden="true">↗</span></a>{% endfor %}
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">{% block main %}{% endblock %}</main>
+  <footer class="site-footer"><a class="footer-name" href="{{ url('') }}">{{ profile.name }} <span lang="zh">{{ profile.chinese_name }}</span></a><span>Integrated circuits. New possibilities.</span><a href="mailto:{{ profile.email }}">Let’s get in touch <span aria-hidden="true">↗</span></a><small>© {{ profile.name }} · {{ profile.location }}</small></footer>
+</body>
+</html>
