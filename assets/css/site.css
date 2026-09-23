@@ -202,9 +202,17 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.01e
 .publications-content > ul { font-size: 15px; }
 .publications-content > ul li { padding-block: 24px; }
 sup { line-height: 0; font-size: .7em; }
-.news-content > ul > li, .talks-content > ul > li { position: relative; padding: 23px 0 23px 118px; font-size: 16px; }
-.news-content li > em:first-child, .talks-content li > em:first-child { position: absolute; left: 0; top: 26px; font: 13px var(--mono); color: var(--red); }
-.news-content li:first-child::after { content: "NEW"; position: absolute; top: 48px; left: 0; color: var(--red); font: 11px var(--mono); letter-spacing: .12em; }
+.talks-content > ul > li { position: relative; padding: 23px 0 23px 118px; font-size: 16px; }
+.talks-content li > em:first-child { position: absolute; left: 0; top: 26px; font: 13px var(--mono); color: var(--red); }
+/* A quiet timeline with readable, paper-like update cards. */
+.news-content > ul { border-left: 1px solid var(--line); margin-left: 6px; padding-left: 27px; }
+.news-content > ul > li { position: relative; padding: 22px 26px; margin-bottom: 18px; border: 1px solid var(--line); background: #f7f4ed80; font-size: 17px; line-height: 1.85; transition: background .2s, border-color .2s; }
+.news-content > ul > li::before { content: ""; position: absolute; width: 11px; height: 11px; border: 2px solid var(--red); border-radius: 50%; background: var(--paper); left: -34px; top: 30px; }
+.news-content > ul > li:first-child { background: var(--paper-light); border-top: 3px solid var(--red); }
+.news-content > ul > li:first-child::before { background: var(--red); }
+.news-content > ul > li:hover { background: var(--paper-light); border-color: var(--red); }
+.news-content li > em:first-child { display: block; margin-bottom: 11px; font: 13px/1.5 var(--mono); color: var(--red); }
+.news-content li:first-child > em:first-child::after { content: "LATEST"; display: inline-block; margin-left: 14px; padding: 2px 7px; background: var(--red); color: var(--paper-light); font-size: 11px; letter-spacing: .08em; }
 .news-content li > p, .talks-content li > p { margin: 0; }
 .cv-downloads { display: flex; gap: 16px; padding: 25px 0; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
 .button-outline { background: transparent; color: var(--ink); }
@@ -349,9 +357,11 @@ sup { line-height: 0; font-size: .7em; }
   .paper-box-image img { height: 200px; }
   .paper-box-text { font-size: 15px; }
   .paper-box-text p:first-child { font-size: 20px; }
-  .news-content > ul > li, .talks-content > ul > li { padding: 51px 0 23px; }
-  .news-content li > em:first-child, .talks-content li > em:first-child { top: 23px; }
-  .news-content li:first-child::after { top: 25px; left: 80px; }
+  .talks-content > ul > li { padding: 51px 0 23px; }
+  .talks-content li > em:first-child { top: 23px; }
+  .news-content > ul { padding-left: 20px; }
+  .news-content > ul > li { padding: 18px; font-size: 16px; }
+  .news-content > ul > li::before { left: -27px; top: 26px; }
   .project-card h2 { font-size: 26px; }
   .cv-downloads { gap: 12px; }
   .cv-downloads .button { width: 100%; }
