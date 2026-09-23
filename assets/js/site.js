@@ -25,10 +25,10 @@ nav?.addEventListener("click", (event) => {
 });
 // Keep old bookmarks useful after migrating the former single-page site.
 const legacySections = {
-  "#-educations": "cv/", "#-honors-and-awards": "cv/", "#cv": "cv/",
+  "#-educations": "#education", "#-honors-and-awards": "#awards", "#cv": "cv/",
   "#-news": "news/", "#-main-publications": "publications/",
   "#-collaborative-publications": "publications/", "#-oral-presentations": "talks/",
-  "#-projects": "projects/", "#-internships": "cv/", "#-services": "cv/"
+  "#-projects": "projects/", "#-internships": "#contact", "#-services": "#service"
 };
 if (document.body.dataset.page === "about" && legacySections[location.hash]) {
   location.replace(new URL(legacySections[location.hash], document.querySelector(".wordmark").href));

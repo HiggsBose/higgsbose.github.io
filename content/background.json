@@ -1,0 +1,39 @@
+{
+  "education": [
+    {
+      "period": "2024.09 — Present",
+      "degree": "Ph.D. in Integrated Circuits",
+      "institution": "Peking University",
+      "detail": "School of Integrated Circuits",
+      "note": "In progress"
+    },
+    {
+      "period": "2020.09 — 2024.06",
+      "degree": "B.S. in EECS",
+      "institution": "Peking University",
+      "detail": "School of Electronics Engineering and Computer Science",
+      "note": "Rank 2/46 · Excellent Graduate"
+    },
+    {
+      "period": "2023.09 — 2024.01",
+      "degree": "Exchange student",
+      "institution": "University College London",
+      "detail": "Department of Computer Science",
+      "note": ""
+    }
+  ],
+  "awards": [
+    {"year": "2026", "title": "1st Prize · Huawei Cup", "detail": "9th China Postgraduate IC Innovation Competition · Top 18 in China"},
+    {"year": "2024", "title": "Excellent Graduate", "detail": "Peking University · Fall 2024"},
+    {"year": "2020–23", "title": "Merit Student & Peacemaker of Merit Student", "detail": ""},
+    {"year": "2023", "title": "Jiukun Scholarship", "detail": "Top 5%"},
+    {"year": "2022", "title": "AEON Scholarship", "detail": "Top 5%"},
+    {"year": "2021", "title": "AEON Scholarship", "detail": "Top 5%"},
+    {"year": "2019", "title": "Second Prize · 36th CPhO", "detail": ""}
+  ],
+  "service": {
+    "role": "Teaching assistant",
+    "course": "AIArchPKU · Spring 2025",
+    "url": "https://aiarchpku.com/2024Fall/"
+  }
+}

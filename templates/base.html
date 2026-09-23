@@ -12,8 +12,8 @@
   <meta property="og:type" content="website">
   {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
   <link rel="icon" href="{{ url('images/favicon.ico') }}">
-  <link rel="stylesheet" href="{{ url('assets/css/site.css') }}">
-  <script src="{{ url('assets/js/site.js') }}" defer></script>
+  <link rel="stylesheet" href="{{ asset_url('assets/css/site.css') }}">
+  <script src="{{ asset_url('assets/js/site.js') }}" defer></script>
 </head>
 <body data-page="{{ page.slug or 'about' }}">
   <a class="skip-link" href="#main">Skip to content</a>

@@ -32,13 +32,14 @@ conda activate personal_page
 
 | 页面 | 地址 | 内容来源 |
 | --- | --- | --- |
-| About | `/` | `content/about.md`、`content/profile.json`、`templates/page.html` |
+| About | `/` | `content/about.md`、`content/background.json`、`content/profile.json`、`templates/page.html` |
 | Publications | `/publications/` | `content/publications.md` |
 | News | `/news/` | `content/news.md` |
 | Talks | `/talks/` | `content/talks.md` |
 | Projects | `/projects/` | `content/projects.md` |
-| CV | `/cv/` | `content/cv.md` |
+| CV | `/cv/` | 简历下载卡片、`content/cv.md` 联系说明 |
 
+- 教育经历、荣誉奖项和学术服务：`content/background.json`，通过 `templates/background.html` 展示在 About 页。
 - 个人信息和社交链接：`content/profile.json`。
 - 共用页头、导航、页尾和 SEO：`templates/base.html`。
 - 首页构图、研究方向卡片和分页标题：`templates/page.html`。
