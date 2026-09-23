@@ -70,7 +70,7 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 .art-orbit { position: absolute; width: 290px; aspect-ratio: 1; border: 1px solid var(--ink); border-radius: 50%; top: 95px; left: 8px; z-index: 2; }
 .art-slash { position: absolute; height: 49px; width: 111%; background: var(--ink); left: -10px; top: 260px; transform: rotate(-37deg); z-index: 1; }
 .portrait { position: absolute; width: 62%; height: 333px; top: 83px; left: 22%; margin: 0; background: var(--paper-light); border: 7px solid var(--paper-light); border-bottom: 0; transform: rotate(-8deg); z-index: 3; box-shadow: 3px 8px 0 #2525211a; transition: transform .45s, box-shadow .45s; }
-.portrait img { width: 100%; height: calc(100% - 28px); object-fit: cover; object-position: 65% center; filter: grayscale(1) contrast(1.08); }
+.portrait img { width: 100%; height: calc(100% - 28px); object-fit: cover; object-position: 65% center; }
 .portrait figcaption { display: flex; justify-content: space-between; align-items: center; height: 28px; font: 8px var(--mono); }
 .hero-art:hover .portrait { transform: rotate(-3deg) translateY(-5px); box-shadow: 8px 13px 0 #25252120; }
 .art-square { width: 41px; height: 41px; background: var(--red); position: absolute; bottom: 18px; left: 7%; z-index: 4; transform: rotate(-8deg); }
