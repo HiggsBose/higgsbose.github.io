@@ -48,11 +48,11 @@ main:focus { outline: none; }
 .hero .eyebrow { font-size: 9px; letter-spacing: .07em; display: flex; align-items: center; gap: 8px; }
 .status-dot { width: 7px; height: 7px; background: var(--red); display: inline-block; border-radius: 50%; flex-shrink: 0; }
 h1, h2, h3, p { overflow-wrap: break-word; }
-.hero h1 { margin: 24px 0 19px -7px; font-size: clamp(88px, 9.5vw, 132px); letter-spacing: -.085em; line-height: .82; font-weight: 800; }
+.hero h1 { margin: 24px 0 19px -7px; font-size: clamp(88px, 9.5vw, 132px); letter-spacing: -.035em; line-height: .82; font-weight: 800; }
 .surname { display: block; color: var(--red); position: relative; margin-top: 7px; }
 .chinese-name { color: var(--ink); font-size: 19px; letter-spacing: .2em; display: inline-block; vertical-align: middle; margin: 5px 0 0 26px; font-weight: 400; }
 .name-period { color: var(--ink); margin-left: 0; }
-.hero-tagline { font-size: 25px; line-height: 1.25; font-weight: 600; letter-spacing: -.045em; margin: 26px 0 14px; }
+.hero-tagline { font-size: 25px; line-height: 1.25; font-weight: 600; letter-spacing: -.01em; margin: 26px 0 14px; }
 .hero-summary { font-size: 13px; line-height: 1.8; color: var(--muted); margin-bottom: 24px; }
 .hero-actions { display: flex; gap: 27px; align-items: center; flex-wrap: wrap; }
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; padding: 16px 20px; min-height: 49px; background: var(--ink); color: var(--paper-light); border: 1px solid var(--ink); text-decoration: none; font-size: 12px; font-weight: 600; transition: background .2s, color .2s, transform .2s, box-shadow .2s; }
@@ -82,7 +82,7 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 .strip-cross { color: var(--red); font-size: 28px; }
 .section-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 100px; }
 .about-section { padding: 76px 0; }
-h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045em; margin: 17px 0 0; }
+h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.01em; margin: 17px 0 0; }
 .about-copy { padding-top: 1px; }
 .prose { font-size: 15px; line-height: 1.85; }
 .prose > :first-child { margin-top: 0; }
@@ -97,7 +97,7 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045
 .research-card { min-height: 292px; padding: 30px; position: relative; text-decoration: none; border: 1px solid var(--line); background: #f7f4ed60; transition: background .25s, transform .25s, box-shadow .25s; }
 .research-card:hover { background: var(--paper-light); transform: translateY(-5px); box-shadow: 5px 5px 0 var(--red); }
 .card-number { color: var(--muted); font-size: 9px; }
-.research-card h3 { margin: 47px 0 16px; font-size: 29px; font-weight: 600; line-height: 1.12; letter-spacing: -.04em; }
+.research-card h3 { margin: 47px 0 16px; font-size: 29px; font-weight: 600; line-height: 1.12; letter-spacing: 0; }
 .research-card p { color: var(--muted); font-size: 12px; line-height: 1.7; max-width: 80%; margin-bottom: 0; }
 .card-arrow { position: absolute; bottom: 25px; right: 25px; font-size: 26px; color: var(--red); }
 .research-symbol { position: absolute; top: 32px; right: 35px; width: 64px; height: 64px; }
@@ -112,7 +112,7 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045
 .background-section .section-heading { margin-bottom: 40px; }
 .background-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 64px; }
 .background-grid > section { min-width: 0; scroll-margin-top: 30px; }
-.background-label { display: flex; align-items: baseline; gap: 14px; margin: 0 0 30px; font-size: 16px; font-weight: 600; letter-spacing: -.025em; }
+.background-label { display: flex; align-items: baseline; gap: 14px; margin: 0 0 30px; font-size: 16px; font-weight: 600; letter-spacing: 0; }
 .background-label > span { color: var(--red); font: 10px var(--mono); }
 .education-timeline { list-style: none; padding: 0 0 0 25px; margin: 0 0 0 3px; border-left: 1px solid var(--line); }
 .education-timeline li { position: relative; padding: 0 0 38px 0; }
@@ -120,7 +120,7 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045
 .education-timeline li::before { content: ""; position: absolute; width: 7px; height: 7px; left: -29px; top: 4px; background: var(--paper); border: 1px solid var(--red); }
 .education-timeline li:first-child::before { background: var(--red); }
 .timeline-date { color: var(--red); font: 10px/1.6 var(--mono); margin: 0 0 13px; }
-.education-timeline h4 { margin: 0 0 10px; font-size: 23px; line-height: 1.25; letter-spacing: -.035em; font-weight: 600; }
+.education-timeline h4 { margin: 0 0 10px; font-size: 23px; line-height: 1.25; letter-spacing: 0; font-weight: 600; }
 .education-timeline .institution { font-size: 13px; margin: 0 0 5px; font-weight: 600; }
 .education-detail { color: var(--muted); font-size: 12px; line-height: 1.75; margin: 0; }
 .education-note { display: inline-block; margin: 12px 0 0; padding: 5px 8px; background: var(--paper-light); border: 1px solid var(--line); font: 9px/1.5 var(--mono); }
@@ -173,7 +173,7 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045
 .footer-name span { color: var(--muted); margin-left: 8px; font-weight: 400; font-size: 10px; }
 .page-heading { position: relative; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 65px 0 50px; border-bottom: 1px solid var(--ink); }
 .page-heading > div { min-width: 0; }
-.page-heading h1 { font-size: clamp(44px, 5.4vw, 76px); letter-spacing: -.065em; font-weight: 600; line-height: 1.08; margin: 20px 0; }
+.page-heading h1 { font-size: clamp(44px, 5.4vw, 76px); letter-spacing: -.015em; font-weight: 600; line-height: 1.08; margin: 20px 0; }
 .heading-dot { color: var(--red); }
 .page-intro { color: var(--muted); font-size: 14px; line-height: 1.75; max-width: 540px; margin-bottom: 0; }
 .page-graphic { flex-shrink: 0; font-size: 94px; letter-spacing: -.1em; font-weight: 700; transform: rotate(-12deg); color: var(--red); border-bottom: 12px solid var(--ink); padding-right: 8px; margin: 0 18px 10px 0; }
@@ -194,7 +194,7 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045
 .badge { position: absolute; top: 0; left: 0; padding: 5px 8px; color: var(--paper-light); background: var(--red); font: 9px var(--mono); }
 .paper-box-text { min-width: 0; font-size: 12px; line-height: 1.85; }
 .paper-box-text p { margin-bottom: 13px; }
-.paper-box-text p:first-child { font-size: 17px; font-weight: 600; line-height: 1.4; letter-spacing: -.025em; }
+.paper-box-text p:first-child { font-size: 17px; font-weight: 600; line-height: 1.4; letter-spacing: 0; }
 .paper-box-text p:first-child a { text-decoration: none; }
 .paper-box-text p:last-child { color: var(--muted); font-size: 11px; margin-bottom: 0; }
 .publications-content > ul { font-size: 13px; }
@@ -338,7 +338,7 @@ sup { line-height: 0; font-size: .7em; }
   .site-footer > span { display: none; }
   .site-footer > small { font-size: 8px; }
   .page-heading { padding: 39px 0 30px; align-items: start; gap: 10px; }
-  .page-heading h1 { font-size: 43px; letter-spacing: -.065em; }
+  .page-heading h1 { font-size: 43px; letter-spacing: -.015em; }
   .page-graphic { position: absolute; top: 30px; right: 0; font-size: 28px; border-bottom-width: 4px; margin: 0 3px 0 0; }
   .page-intro { font-size: 13px; }
   .content-layout { padding-top: 30px; }
