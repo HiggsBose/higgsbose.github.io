@@ -106,6 +106,16 @@ class SiteIntegrationTests(unittest.TestCase):
         self.assertTrue((OUTPUT / '404.html').exists())
         self.assertIn('https://higgsbose.github.io/publications/', (OUTPUT / 'sitemap.xml').read_text())
 
+    def test_life_is_linked_and_discoverable(self):
+        route = '/life/'
+        for page in PAGES:
+            html = (OUTPUT / page['slug'] / 'index.html').read_text(encoding='utf-8')
+            self.assertIn(route, Document(html).links)
+        life = (OUTPUT / 'life/index.html').read_text(encoding='utf-8')
+        self.assertIn('Life beyond the lab', life)
+        self.assertIn('First stories coming soon', life)
+        self.assertIn('https://higgsbose.github.io/life/', (OUTPUT / 'sitemap.xml').read_text())
+
     def test_project_site_prefix(self):
         try:
             build('/personal-page')

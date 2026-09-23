@@ -38,6 +38,7 @@ conda activate personal_page
 | Talks | `/talks/` | `content/talks.md` |
 | Projects | `/projects/` | `content/projects.md` |
 | CV | `/cv/` | 实习求职提示、简历下载卡片、`content/cv.md` 联系说明 |
+| Life | `/life/` | `content/life.md`，日常照片、故事和小发现 |
 
 - 教育经历、荣誉奖项和学术服务：`content/background.json`，通过 `templates/background.html` 展示在 About 页。
 - 个人信息和社交链接：`content/profile.json`。
@@ -50,6 +51,27 @@ conda activate personal_page
 - `_site/` 是可删除的构建产物，每次构建重新生成，不要直接编辑。
 
 导航为真实页面链接。JavaScript 被禁用时仍可以阅读所有页面并使用导航。交互支持键盘、可见焦点和系统“减少动态效果”设置。`/about/`、`/about.html` 会跳到首页，旧版首页各主要章节锚点通过 JavaScript 跳到对应新页面。
+
+## 添加日常生活内容
+
+`Life` 已有独立路由 `/life/`，目前展示等待第一篇内容的占位页。
+发布第一篇内容时，删除 `content/life.md` 中的 `life-placeholder` 区块，按以下格式添加真实记录；图片放在 `images/`，使用原始尺寸比例即可。
+
+```html
+<article class="life-entry" markdown="1">
+
+<time datetime="YYYY-MM-DD">YYYY.MM.DD</time>
+
+## 记录标题
+
+在这里写下当天的故事。
+
+<img src="images/your-photo.jpg" alt="对这张照片的具体描述" loading="lazy">
+
+</article>
+```
+
+每篇使用一个 `article`，新内容放在上方，然后重新构建即可。
 
 ## GitHub Pages
 
