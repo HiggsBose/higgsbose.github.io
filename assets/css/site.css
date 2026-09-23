@@ -375,6 +375,32 @@ sup { line-height: 0; font-size: .7em; }
 @media (max-width: 360px) {
   .page-heading h1 { font-size: 36px; }
 }
+/* Life starts as an honest empty state and also supports future journal entries. */
+.life-placeholder { position: relative; min-height: 340px; padding: 46px; border: 1px solid var(--line); background: var(--paper-light); overflow: hidden; }
+.life-placeholder > p, .life-placeholder > h2 { position: relative; max-width: 440px; }
+.life-placeholder h2 { margin-top: 28px; font-size: 34px; }
+.life-placeholder > p:not(.eyebrow) { color: var(--muted); }
+.life-status { display: flex; align-items: center; gap: 10px; padding-top: 22px; font: 13px/1.6 var(--mono); }
+.life-sketch { position: absolute; right: -15px; top: 15px; width: 160px; height: 150px; opacity: .16; }
+.life-sketch span { position: absolute; width: 95px; height: 115px; border: 2px solid var(--ink); transform: rotate(12deg); right: 30px; top: 10px; }
+.life-sketch i { position: absolute; width: 68px; height: 68px; border-radius: 50%; background: var(--red); top: 33px; right: 43px; }
+.life-sketch b { position: absolute; font-size: 64px; left: -10px; bottom: -8px; color: var(--red); }
+.life-entry { padding-block: 28px; border-top: 1px solid var(--line); }
+.life-entry img { max-height: 560px; width: auto; margin-block: 20px; }
+.life-entry time { color: var(--muted); font: 13px/1.6 var(--mono); }
+.life-entry h2 { margin-top: 18px; }
+@media (min-width: 621px) and (max-width: 960px) {
+  .site-header { flex-wrap: wrap; gap: 12px; padding-block: 18px; }
+  .primary-nav { width: 100%; justify-content: space-between; }
+  .primary-nav a { font-size: 14px; }
+}
+@media (max-width: 620px) {
+  .primary-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .primary-nav a:last-child { grid-column: 1 / -1; }
+  .life-placeholder { padding: 28px 22px; }
+  .life-placeholder h2 { font-size: 28px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
   .primary-nav a:hover, .hero-art:hover .portrait, .research-card:hover, .button:hover, .resume-card:hover { transform: none; }

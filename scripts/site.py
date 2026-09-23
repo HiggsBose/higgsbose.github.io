@@ -23,6 +23,7 @@ PAGES = [
     {"slug": "talks", "label": "Talks", "title": "Talks & presentations", "number": "04"},
     {"slug": "projects", "label": "Projects", "title": "Selected projects", "number": "05"},
     {"slug": "cv", "label": "CV", "title": "Curriculum vitae", "number": "06"},
+    {"slug": "life", "label": "Life", "title": "Life beyond the lab", "number": "07"},
 ]
 
 
