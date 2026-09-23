@@ -89,8 +89,10 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.01e
 .prose p { margin: 0 0 18px; }
 .prose a:hover { color: var(--red); }
 .prose strong { font-weight: 600; }
-.social-links { display: flex; flex-wrap: wrap; gap: 25px; padding-top: 7px; }
-.social-links a { font: 13px var(--mono); padding-block: 10px; }
+.social-links { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 7px; }
+.social-links a { display: inline-flex; align-items: center; gap: 9px; font: 13px/1.5 var(--mono); padding: 10px 12px; border: 1px solid var(--line); background: var(--paper-light); text-decoration: none; }
+.social-links a:hover { border-color: var(--red); }
+.social-icon { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
 .research-section { border-top: 1px solid var(--line); padding: 58px 0 70px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 31px; }
 .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
