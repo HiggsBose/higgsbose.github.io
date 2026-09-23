@@ -1,0 +1,5 @@
+- *2026.08*, CPICIC'26 "A High-Reliability Mixed-Precision PCM Compute-in-Memory Chip for Edge Intelligence"
+- *2026.07*, DAC'26 "PiMM-NoC: Process-in-Memristor-Memory NoC with RL Mapping Framework for Versatile AI Models"
+- *2026.07*, DAC'26 "M²CAM: A Multi-level Memristor-based Self-adaptive CAM Architecture for Genome Processing Acceleration"
+- *2025.12*, IEDM'25 "A 40nm Mixed-Precision PCM Chip with Fused Analog/Digital Compute-in-Memory and Adaptive Drift Compensation for Embodied AI Applications"
+- *2025.09*, ESSERC'25 "A 1308 TOPS/W Charge-Mode ReRAM CIM Macro with 4T2R2C Differential Cell and FIA-Based Analog Accumulation for AI Inference"
