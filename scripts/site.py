@@ -35,9 +35,17 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape())
     env.globals["url"] = lambda path: f"{base_path}/{path.lstrip('/')}"
     profile = json.loads((ROOT / "content/profile.json").read_text(encoding="utf-8"))
-    OUTPUT.mkdir(exist_ok=True)
-    for directory in ("assets", "images"):
-        shutil.copytree(ROOT / directory, OUTPUT / directory, dirs_exist_ok=True)
+    # Never delete a symlink target or a directory outside this repository.
+    if OUTPUT.resolve() != ROOT / "_site" or OUTPUT.is_symlink():
+        raise ValueError("Refusing to replace an output directory outside the repository")
+    if OUTPUT.exists():
+        shutil.rmtree(OUTPUT)
+    OUTPUT.mkdir()
+    for name in ("css/site.css", "js/site.js", "images/paper.svg"):
+        target = OUTPUT / "assets" / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ROOT / "assets" / name, target)
+    shutil.copytree(ROOT / "images", OUTPUT / "images", ignore=shutil.ignore_patterns("*.zip"))
     (OUTPUT / "docs").mkdir(exist_ok=True)
     for name in ("潘泽伦_简历.pdf", "PanZelun_Resume.docx"):
         shutil.copy2(ROOT / "docs" / name, OUTPUT / "docs" / name)
