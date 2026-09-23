@@ -1,1 +1,1 @@
-For research or internship inquiries, get in touch at [zlpan@stu.pku.edu.cn](mailto:zlpan@stu.pku.edu.cn).
+I'm looking for opportunities in **IC design and AI algorithms**. Please feel free to contact me about suitable internships — I'd love to hear from you.

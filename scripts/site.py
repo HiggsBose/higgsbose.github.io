@@ -18,8 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
 PAGES = [
     {"slug": "", "label": "About", "title": "Zelun Pan · Researcher", "number": "01"},
-    {"slug": "publications", "label": "Publications", "title": "Publications", "number": "02"},
-    {"slug": "news", "label": "News", "title": "News & updates", "number": "03"},
+    {"slug": "news", "label": "News", "title": "News & updates", "number": "02"},
+    {"slug": "publications", "label": "Publications", "title": "Publications", "number": "03"},
     {"slug": "talks", "label": "Talks", "title": "Talks & presentations", "number": "04"},
     {"slug": "projects", "label": "Projects", "title": "Selected projects", "number": "05"},
     {"slug": "cv", "label": "CV", "title": "Curriculum vitae", "number": "06"},

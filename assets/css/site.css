@@ -131,11 +131,20 @@ h2 { font-size: 35px; line-height: 1.13; font-weight: 600; letter-spacing: -.045
 .award-year { color: var(--red); font: 10px/1.7 var(--mono); padding-top: 2px; }
 .awards-list h4 { margin: 0; font-size: 14px; line-height: 1.5; font-weight: 600; }
 .awards-list p { margin: 5px 0 0; font-size: 11px; line-height: 1.7; color: var(--muted); }
-.service-strip { display: flex; align-items: center; gap: 32px; border-block: 1px solid var(--line); padding: 22px 0; margin-top: 36px; scroll-margin-top: 30px; }
-.service-strip .background-label { margin: 0 auto 0 0; }
-.service-strip p { margin: 0; color: var(--muted); font-size: 12px; }
-.service-strip a { font-size: 12px; }
-.service-strip a:hover { color: var(--red); }
+.service-section { border-top: 1px solid var(--line); padding: 45px 0 60px; align-items: center; scroll-margin-top: 30px; }
+.service-detail { padding-left: 22px; border-left: 3px solid var(--red); }
+.service-detail p { margin: 0 0 12px; color: var(--muted); font: 11px var(--mono); }
+.service-detail a { font-size: 20px; font-weight: 600; line-height: 1.5; text-decoration: none; }
+.service-detail a span { color: var(--red); margin-left: 20px; }
+.service-detail a:hover { color: var(--red); }
+.internship-callout { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 36px; margin-top: 36px; padding: 30px 32px; border-left: 5px; border-left-style: solid; border-left-color: var(--red); background: var(--ink); color: var(--paper-light); }
+.internship-callout .eyebrow { color: var(--paper); }
+.internship-callout h2 { font-size: 28px; margin: 12px 0 16px; }
+.internship-callout .prose { max-width: 630px; font-size: 13px; color: var(--paper); }
+.internship-callout .prose p { margin: 0; }
+.internship-callout .button { display: grid; grid-template-columns: 1fr auto; gap: 12px 20px; background: var(--red); border-color: var(--red); }
+.internship-callout .button small { grid-column: 1 / -1; font: 10px var(--mono); }
+.internship-callout .button:hover { background: var(--paper-light); border-color: var(--paper-light); color: var(--ink); box-shadow: none; }
 .resume-section { padding: 44px 0 5px; }
 .resume-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
 .resume-card { position: relative; min-height: 285px; padding: 30px; border: 1px solid var(--line); background: var(--paper-light); text-decoration: none; transition: transform .25s, box-shadow .25s; }
@@ -238,7 +247,8 @@ sup { line-height: 0; font-size: .7em; }
   .awards-column { padding-left: 24px; }
   .awards-list li { gap: 10px; grid-template-columns: 48px minmax(0, 1fr); }
   .education-timeline h4 { font-size: 21px; }
-  .service-strip { gap: 20px; flex-wrap: wrap; }
+  .internship-callout { grid-template-columns: 1fr; gap: 24px; }
+  .internship-callout .button { justify-self: start; }
   .resume-note { align-items: start; flex-direction: column; gap: 18px; }
   .site-header { min-height: 89px; }
   .wordmark small { display: none; }
@@ -275,8 +285,11 @@ sup { line-height: 0; font-size: .7em; }
   .awards-column { border-left: 0; border-top: 1px solid var(--line); padding: 26px 0 0; }
   .background-label { margin-bottom: 24px; }
   .awards-list li { grid-template-columns: 58px minmax(0, 1fr); gap: 16px; }
-  .service-strip { margin-top: 24px; gap: 12px; flex-direction: column; align-items: start; }
-  .service-strip .background-label { margin-bottom: 7px; }
+  .service-section { padding: 32px 0 42px; }
+  .service-detail { padding-left: 16px; }
+  .service-detail a { font-size: 18px; }
+  .internship-callout { margin-top: 26px; padding: 24px 20px; }
+  .internship-callout h2 { font-size: 26px; }
   .resume-section { padding-top: 30px; }
   .resume-grid { gap: 18px; }
   .resume-card { padding: 24px; min-height: 260px; }

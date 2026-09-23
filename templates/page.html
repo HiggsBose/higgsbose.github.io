@@ -33,12 +33,16 @@
 <section class="contact-banner" id="contact"><p class="eyebrow">LET’S CONNECT</p><h2>Ideas are better<br>in conversation.</h2><a href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">↗</span></a><p>Interested in IC design and AI algorithm internships.</p><span class="contact-shape" aria-hidden="true">↗</span></section>
 {% elif page.slug == 'cv' %}
 <section class="page-heading"><div><p class="eyebrow">06 / CURRICULUM VITAE</p><h1>{{ page.title }}<span class="heading-dot">.</span></h1><p class="page-intro">A copy to keep. Choose your preferred language below.</p></div><span class="page-graphic" aria-hidden="true">06</span></section>
+<section class="internship-callout" aria-labelledby="internship-title">
+  <div><p class="eyebrow">OPEN TO OPPORTUNITIES</p><h2 id="internship-title">Actively seeking internships.</h2><div class="prose">{{ content | safe }}</div></div>
+  <a class="button" href="mailto:{{ profile.email }}">Let’s get in touch <span aria-hidden="true">↗</span><small>{{ profile.email }}</small></a>
+</section>
 <section class="resume-section" aria-label="Résumé downloads">
   <div class="resume-grid">
     <a class="resume-card" href="{{ url('docs/潘泽伦_简历.pdf') }}" target="_blank" rel="noopener"><span class="card-number">01 / CHINESE</span><span class="resume-symbol" aria-hidden="true">中</span><h2 lang="zh">中文简历</h2><p>Chinese curriculum vitae</p><span class="resume-action">Open PDF <span aria-hidden="true">↗</span></span></a>
     <a class="resume-card" href="{{ url('docs/PanZelun_Resume.docx') }}" download><span class="card-number">02 / ENGLISH</span><span class="resume-symbol" aria-hidden="true">En</span><h2>English résumé</h2><p>English curriculum vitae</p><span class="resume-action">Download DOCX <span aria-hidden="true">↓</span></span></a>
   </div>
-  <div class="resume-note"><div class="prose">{{ content | safe }}</div><a class="text-link" href="{{ url('#background') }}">Explore my background <span aria-hidden="true">↗</span></a></div>
+  <div class="resume-note"><a class="text-link" href="{{ url('#background') }}">Explore my background <span aria-hidden="true">↗</span></a></div>
 </section>
 {% else %}
 <section class="page-heading"><div><p class="eyebrow">{{ page.number }} / THE INDEX</p><h1>{{ page.title }}<span class="heading-dot">.</span></h1><p class="page-intro">{% if page.slug == 'publications' %}Research in memory, circuits, and computing. Selected work and collaborations.{% elif page.slug == 'news' %}Milestones, new work, and moments along the way.{% elif page.slug == 'talks' %}Sharing ideas, from the circuit to the conference stage.{% elif page.slug == 'projects' %}A few things I’ve built, explored, and learned from.{% else %}An ongoing education. A growing body of work.{% endif %}</p></div><span class="page-graphic" aria-hidden="true">{{ page.number }}</span></section>
