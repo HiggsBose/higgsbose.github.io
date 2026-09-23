@@ -92,7 +92,7 @@ IEEE European Conference on Solid-State Circuits (ESSERC), Munich, Germany, 2025
 
 Lei Cai<sup>#</sup>, Yaoyu Tao^<sup>#</sup>, Chenchen Xie<sup>#</sup>, Longhao Yan<sup>#</sup>, Shiqian Li, Ruihong Shen, **Zelun Pan**, Xile Wang, Bowen Wang, Daijing Shi, Yihang Zhu, Teng Zhang, Yixin Zhu^, Xi Li, Zhitang Song^, Ru Huang, and Yuchao Yang^. 
 
-\# Equal contribution  \^ Corresponding authors
+\# Equal contribution · ^ Corresponding authors
 
 Science, 393(6806), pp.105-112.
 
