@@ -1,0 +1,1349 @@
+{
+  "version": 1,
+  "group_radius_m": 250,
+  "photos": [
+    {
+      "id": "c8329113bf08559d5cba",
+      "date": "2023-01-01",
+      "coordinates": [
+        28.170931,
+        112.95555
+      ],
+      "place": "Changsha, China",
+      "alt": "A monumental stone face rises above dense green trees.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/c8329113bf08559d5cba.jpg",
+      "thumbnail": "images/travel/c8329113bf08559d5cba-thumb.jpg",
+      "place_id": "c8329113bf08559d5cba"
+    },
+    {
+      "id": "52fc7bc1318e72521502",
+      "date": "2023-01-21",
+      "coordinates": null,
+      "place": "Location not recorded",
+      "alt": "A multi-tiered Chinese tower stands at the end of a street, framed by buildings and overhead cables.",
+      "width": 1333,
+      "height": 2000,
+      "image": "images/travel/52fc7bc1318e72521502.jpg",
+      "thumbnail": "images/travel/52fc7bc1318e72521502-thumb.jpg",
+      "place_id": null
+    },
+    {
+      "id": "1932e487e0530ae6466c",
+      "date": "2023-02-10",
+      "coordinates": [
+        24.444689,
+        118.092636
+      ],
+      "place": "Xiamen, China",
+      "alt": "Traditional roofed pavilions stand above a stone waterfront embankment.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/1932e487e0530ae6466c.jpg",
+      "thumbnail": "images/travel/1932e487e0530ae6466c-thumb.jpg",
+      "place_id": "1932e487e0530ae6466c"
+    },
+    {
+      "id": "8bfd04d9b81be21349c6",
+      "date": "2023-10-29",
+      "coordinates": [
+        51.505222,
+        -0.104467
+      ],
+      "place": "London, England",
+      "alt": "A glass office building rises above a tree-lined street.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/8bfd04d9b81be21349c6.jpg",
+      "thumbnail": "images/travel/8bfd04d9b81be21349c6-thumb.jpg",
+      "place_id": "8bfd04d9b81be21349c6"
+    },
+    {
+      "id": "1647679a843f05c4cb95",
+      "date": "2023-10-29",
+      "coordinates": [
+        51.508636,
+        -0.104669
+      ],
+      "place": "London, England",
+      "alt": "A construction crane and riverside buildings are seen across the Thames.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/1647679a843f05c4cb95.jpg",
+      "thumbnail": "images/travel/1647679a843f05c4cb95-thumb.jpg",
+      "place_id": "1647679a843f05c4cb95"
+    },
+    {
+      "id": "dc2575fcaa954cf80f3b",
+      "date": "2023-11-04",
+      "coordinates": [
+        55.9549,
+        -3.183075
+      ],
+      "place": "Calton Hill, Edinburgh",
+      "alt": "Visitors stand beneath the columns of the National Monument.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/dc2575fcaa954cf80f3b.jpg",
+      "thumbnail": "images/travel/dc2575fcaa954cf80f3b-thumb.jpg",
+      "place_id": "dc2575fcaa954cf80f3b"
+    },
+    {
+      "id": "5f56dcda4e0bfd6bd240",
+      "date": "2023-11-04",
+      "coordinates": [
+        55.954494,
+        -3.182861
+      ],
+      "place": "Edinburgh, Scotland",
+      "alt": "A clock tower rises above Edinburgh rooftops, with distant spires visible beneath a cloudy sky.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/5f56dcda4e0bfd6bd240.jpg",
+      "thumbnail": "images/travel/5f56dcda4e0bfd6bd240-thumb.jpg",
+      "place_id": "dc2575fcaa954cf80f3b"
+    },
+    {
+      "id": "a6680cc5941eb0852750",
+      "date": "2023-11-05",
+      "coordinates": [
+        55.949703,
+        -3.183467
+      ],
+      "place": "Edinburgh, Scotland",
+      "alt": "A city street curves between tall stone buildings in the evening light.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/a6680cc5941eb0852750.jpg",
+      "thumbnail": "images/travel/a6680cc5941eb0852750-thumb.jpg",
+      "place_id": "a6680cc5941eb0852750"
+    },
+    {
+      "id": "80c807040407be8958a5",
+      "date": "2023-11-06",
+      "coordinates": [
+        57.324619,
+        -4.441594
+      ],
+      "place": "Scottish Highlands",
+      "alt": "Autumn-colored woodland covers a hillside above a calm loch.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/80c807040407be8958a5.jpg",
+      "thumbnail": "images/travel/80c807040407be8958a5-thumb.jpg",
+      "place_id": "80c807040407be8958a5"
+    },
+    {
+      "id": "006fc81521df283809f4",
+      "date": "2023-11-07",
+      "coordinates": [
+        57.565853,
+        -6.152167
+      ],
+      "place": "Isle of Skye, Scotland",
+      "alt": "A stream runs through a green rocky gorge toward distant mountains.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/006fc81521df283809f4.jpg",
+      "thumbnail": "images/travel/006fc81521df283809f4-thumb.jpg",
+      "place_id": "006fc81521df283809f4"
+    },
+    {
+      "id": "8fd0835648289114bd90",
+      "date": "2023-11-09",
+      "coordinates": [
+        57.233906,
+        -5.424064
+      ],
+      "place": "Scottish Highlands",
+      "alt": "A mountain range and a small settlement sit beneath a band of evening cloud.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/8fd0835648289114bd90.jpg",
+      "thumbnail": "images/travel/8fd0835648289114bd90-thumb.jpg",
+      "place_id": "8fd0835648289114bd90"
+    },
+    {
+      "id": "81d4db6593c11b620e77",
+      "date": "2023-12-02",
+      "coordinates": [
+        51.509425,
+        -0.09855
+      ],
+      "place": "London, England",
+      "alt": "St Paul’s Cathedral is illuminated beyond pedestrians on a riverside walkway.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/81d4db6593c11b620e77.jpg",
+      "thumbnail": "images/travel/81d4db6593c11b620e77-thumb.jpg",
+      "place_id": "81d4db6593c11b620e77"
+    },
+    {
+      "id": "170cef29829042f8148e",
+      "date": "2023-12-20",
+      "coordinates": [
+        51.51965,
+        -0.095253
+      ],
+      "place": "Barbican, London",
+      "alt": "People stand on a raised walkway beside the Barbican’s concrete residential blocks.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/170cef29829042f8148e.jpg",
+      "thumbnail": "images/travel/170cef29829042f8148e-thumb.jpg",
+      "place_id": "170cef29829042f8148e"
+    },
+    {
+      "id": "9e21376bd7253d1ef91f",
+      "date": "2023-12-23",
+      "coordinates": [
+        51.502075,
+        -0.115975
+      ],
+      "place": "London, England",
+      "alt": "Graffiti covers the walls of a pedestrian tunnel beneath a brightly lit ceiling.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/9e21376bd7253d1ef91f.jpg",
+      "thumbnail": "images/travel/9e21376bd7253d1ef91f-thumb.jpg",
+      "place_id": "9e21376bd7253d1ef91f"
+    },
+    {
+      "id": "d9a186d6d88c7394eaa4",
+      "date": "2024-04-27",
+      "coordinates": [
+        35.696281,
+        139.570314
+      ],
+      "place": "Tokyo, Japan",
+      "alt": "A dark metal human-shaped sculpture stands among trees in a park.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/d9a186d6d88c7394eaa4.jpg",
+      "thumbnail": "images/travel/d9a186d6d88c7394eaa4-thumb.jpg",
+      "place_id": "d9a186d6d88c7394eaa4"
+    },
+    {
+      "id": "da82bdbe2abedf0445f0",
+      "date": "2024-07-18",
+      "coordinates": [
+        30.550342,
+        114.296967
+      ],
+      "place": "Wuhan, China",
+      "alt": "A multi-tiered pagoda glows with warm lights against the night sky.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/da82bdbe2abedf0445f0.jpg",
+      "thumbnail": "images/travel/da82bdbe2abedf0445f0-thumb.jpg",
+      "place_id": "da82bdbe2abedf0445f0"
+    },
+    {
+      "id": "2aa8d3a2d6d9fe3bbc0f",
+      "date": "2024-08-01",
+      "coordinates": [
+        30.588422,
+        114.281219
+      ],
+      "place": "Wuhan, China",
+      "alt": "Modern buildings frame a vivid orange sunset over the city.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/2aa8d3a2d6d9fe3bbc0f.jpg",
+      "thumbnail": "images/travel/2aa8d3a2d6d9fe3bbc0f-thumb.jpg",
+      "place_id": "2aa8d3a2d6d9fe3bbc0f"
+    },
+    {
+      "id": "f6d6bc40b82973ae9329",
+      "date": "2025-02-03",
+      "coordinates": [
+        51.513686,
+        -0.081414
+      ],
+      "place": "London, England",
+      "alt": "A tall modern office tower rises between older city buildings.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/f6d6bc40b82973ae9329.jpg",
+      "thumbnail": "images/travel/f6d6bc40b82973ae9329-thumb.jpg",
+      "place_id": "f6d6bc40b82973ae9329"
+    },
+    {
+      "id": "495b8ff7e95e5d4991f2",
+      "date": "2025-07-05",
+      "coordinates": [
+        39.993856,
+        116.304717
+      ],
+      "place": "Beijing, China",
+      "alt": "A wooded lakeside park and low buildings reflect in still water.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/495b8ff7e95e5d4991f2.jpg",
+      "thumbnail": "images/travel/495b8ff7e95e5d4991f2-thumb.jpg",
+      "place_id": "495b8ff7e95e5d4991f2"
+    },
+    {
+      "id": "cc3895d5014728ee49ff",
+      "date": "2025-08-03",
+      "coordinates": [
+        51.483508,
+        -0.146119
+      ],
+      "place": "Battersea, London",
+      "alt": "Battersea Power Station’s brick façade and chimneys face a public plaza.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/cc3895d5014728ee49ff.jpg",
+      "thumbnail": "images/travel/cc3895d5014728ee49ff-thumb.jpg",
+      "place_id": "cc3895d5014728ee49ff"
+    },
+    {
+      "id": "db76a4b3a7a37522697a",
+      "date": "2025-08-06",
+      "coordinates": [
+        55.952903,
+        -3.192231
+      ],
+      "place": "Edinburgh, Scotland",
+      "alt": "A red sightseeing bus passes historic stone buildings on a city street.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/db76a4b3a7a37522697a.jpg",
+      "thumbnail": "images/travel/db76a4b3a7a37522697a-thumb.jpg",
+      "place_id": "db76a4b3a7a37522697a"
+    },
+    {
+      "id": "fff5c1d9796556d5784d",
+      "date": "2025-08-08",
+      "coordinates": [
+        48.861194,
+        2.335508
+      ],
+      "place": "Louvre Museum, Paris",
+      "alt": "Visitors gather beneath the Louvre’s glass pyramid structure.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/fff5c1d9796556d5784d.jpg",
+      "thumbnail": "images/travel/fff5c1d9796556d5784d-thumb.jpg",
+      "place_id": "fff5c1d9796556d5784d"
+    },
+    {
+      "id": "7a3b4d2fca3f11f2ae46",
+      "date": "2025-08-08",
+      "coordinates": [
+        48.861489,
+        2.335681
+      ],
+      "place": "Louvre Museum, Paris",
+      "alt": "The glass Louvre Pyramid stands in the museum courtyard.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/7a3b4d2fca3f11f2ae46.jpg",
+      "thumbnail": "images/travel/7a3b4d2fca3f11f2ae46-thumb.jpg",
+      "place_id": "fff5c1d9796556d5784d"
+    },
+    {
+      "id": "52a536dcc661bd19e0e1",
+      "date": "2025-08-08",
+      "coordinates": [
+        48.860267,
+        2.33605
+      ],
+      "place": "Louvre Museum, Paris",
+      "alt": "The Winged Victory of Samothrace stands above a crowd in the museum.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/52a536dcc661bd19e0e1.jpg",
+      "thumbnail": "images/travel/52a536dcc661bd19e0e1-thumb.jpg",
+      "place_id": "fff5c1d9796556d5784d"
+    },
+    {
+      "id": "ab037f6a33e1d3c49006",
+      "date": "2025-08-08",
+      "coordinates": [
+        48.860564,
+        2.29275
+      ],
+      "place": "Eiffel Tower, Paris",
+      "alt": "The Eiffel Tower shines at night beside the Seine.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/ab037f6a33e1d3c49006.jpg",
+      "thumbnail": "images/travel/ab037f6a33e1d3c49006-thumb.jpg",
+      "place_id": "ab037f6a33e1d3c49006"
+    },
+    {
+      "id": "d6dedc0d8aef99208e2c",
+      "date": "2025-08-09",
+      "coordinates": [
+        48.805528,
+        2.120453
+      ],
+      "place": "Palace of Versailles, France",
+      "alt": "Visitors fill an ornate gilded hall inside the palace.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/d6dedc0d8aef99208e2c.jpg",
+      "thumbnail": "images/travel/d6dedc0d8aef99208e2c-thumb.jpg",
+      "place_id": "d6dedc0d8aef99208e2c"
+    },
+    {
+      "id": "8052e6c33c3c84bd3d43",
+      "date": "2025-08-09",
+      "coordinates": [
+        48.836853,
+        2.381589
+      ],
+      "place": "Paris, France",
+      "alt": "A curved modern cinema building rises above its entrance.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/8052e6c33c3c84bd3d43.jpg",
+      "thumbnail": "images/travel/8052e6c33c3c84bd3d43-thumb.jpg",
+      "place_id": "8052e6c33c3c84bd3d43"
+    },
+    {
+      "id": "f6f895a5c3ba1c4163e3",
+      "date": "2025-08-10",
+      "coordinates": [
+        48.853578,
+        2.348011
+      ],
+      "place": "Notre-Dame de Paris",
+      "alt": "The cathedral’s twin towers and sculpted central portal face the square.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/f6f895a5c3ba1c4163e3.jpg",
+      "thumbnail": "images/travel/f6f895a5c3ba1c4163e3-thumb.jpg",
+      "place_id": "f6f895a5c3ba1c4163e3"
+    },
+    {
+      "id": "fd2b73be3103d6c8e5c6",
+      "date": "2025-08-11",
+      "coordinates": [
+        48.886303,
+        2.342819
+      ],
+      "place": "Montmartre, Paris",
+      "alt": "The domes and stone towers of Sacré-Cœur rise above the surrounding rooftops.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/fd2b73be3103d6c8e5c6.jpg",
+      "thumbnail": "images/travel/fd2b73be3103d6c8e5c6-thumb.jpg",
+      "place_id": "fd2b73be3103d6c8e5c6"
+    },
+    {
+      "id": "d515bddfcd64057aba03",
+      "date": "2025-09-07",
+      "coordinates": [
+        25.198192,
+        55.272717
+      ],
+      "place": "Dubai, UAE",
+      "alt": "The Burj Khalifa rises above the surrounding city buildings.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/d515bddfcd64057aba03.jpg",
+      "thumbnail": "images/travel/d515bddfcd64057aba03-thumb.jpg",
+      "place_id": "d515bddfcd64057aba03"
+    },
+    {
+      "id": "30b161ae12b5f88d3c31",
+      "date": "2025-09-08",
+      "coordinates": [
+        47.555636,
+        10.746881
+      ],
+      "place": "Neuschwanstein, Bavaria",
+      "alt": "A castle sits among forested Alpine foothills beside a mountain lake.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/30b161ae12b5f88d3c31.jpg",
+      "thumbnail": "images/travel/30b161ae12b5f88d3c31-thumb.jpg",
+      "place_id": "30b161ae12b5f88d3c31"
+    },
+    {
+      "id": "4fc1d2cb4aa5f3a0fdc4",
+      "date": "2025-09-08",
+      "coordinates": [
+        47.571197,
+        10.741114
+      ],
+      "place": "Neuschwanstein, Bavaria",
+      "alt": "Neuschwanstein Castle stands above a forested valley.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/4fc1d2cb4aa5f3a0fdc4.jpg",
+      "thumbnail": "images/travel/4fc1d2cb4aa5f3a0fdc4-thumb.jpg",
+      "place_id": "4fc1d2cb4aa5f3a0fdc4"
+    },
+    {
+      "id": "ed0cd5e01b464c2c1bcb",
+      "date": "2025-09-11",
+      "coordinates": [
+        48.141528,
+        11.560158
+      ],
+      "place": "Munich, Germany",
+      "alt": "Munich rooftops and the twin towers of the Frauenkirche are seen at sunset.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/ed0cd5e01b464c2c1bcb.jpg",
+      "thumbnail": "images/travel/ed0cd5e01b464c2c1bcb-thumb.jpg",
+      "place_id": "ed0cd5e01b464c2c1bcb"
+    },
+    {
+      "id": "8e06b71fd56024c8e199",
+      "date": "2025-09-12",
+      "coordinates": [
+        52.375983,
+        4.897033
+      ],
+      "place": "Amsterdam, Netherlands",
+      "alt": "Canal houses and moored boats reflect in a narrow Amsterdam canal.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/8e06b71fd56024c8e199.jpg",
+      "thumbnail": "images/travel/8e06b71fd56024c8e199-thumb.jpg",
+      "place_id": "8e06b71fd56024c8e199"
+    },
+    {
+      "id": "2fb7e95bb08455d5fc98",
+      "date": "2025-10-03",
+      "coordinates": [
+        26.123144,
+        105.875467
+      ],
+      "place": "Anshun, Guizhou, China",
+      "alt": "A still pool reflects clouds and warm evening light between grassy banks.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/2fb7e95bb08455d5fc98.jpg",
+      "thumbnail": "images/travel/2fb7e95bb08455d5fc98-thumb.jpg",
+      "place_id": "2fb7e95bb08455d5fc98"
+    },
+    {
+      "id": "9c7109dc0d52e0f206fa",
+      "date": "2025-12-05",
+      "coordinates": [
+        37.550839,
+        126.923081
+      ],
+      "place": "Seoul, South Korea",
+      "alt": "A narrow commercial street is lined with storefronts and overhead signs.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/9c7109dc0d52e0f206fa.jpg",
+      "thumbnail": "images/travel/9c7109dc0d52e0f206fa-thumb.jpg",
+      "place_id": "9c7109dc0d52e0f206fa"
+    },
+    {
+      "id": "bca4200162bae2b98182",
+      "date": "2025-12-06",
+      "coordinates": [
+        37.427497,
+        -122.168586
+      ],
+      "place": "Stanford University, California",
+      "alt": "A long arcade frames a view through a sequence of stone arches.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/bca4200162bae2b98182.jpg",
+      "thumbnail": "images/travel/bca4200162bae2b98182-thumb.jpg",
+      "place_id": "bca4200162bae2b98182"
+    },
+    {
+      "id": "c93a929aaab65eaeae34",
+      "date": "2025-12-09",
+      "coordinates": [
+        37.808669,
+        -122.475464
+      ],
+      "place": "Golden Gate Bridge, San Francisco",
+      "alt": "The Golden Gate Bridge spans the bay, with its red towers and suspension cables visible.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/c93a929aaab65eaeae34.jpg",
+      "thumbnail": "images/travel/c93a929aaab65eaeae34-thumb.jpg",
+      "place_id": "c93a929aaab65eaeae34"
+    },
+    {
+      "id": "acf0c67d64f42c44c81f",
+      "date": "2025-12-09",
+      "coordinates": [
+        37.806686,
+        -122.475472
+      ],
+      "place": "Golden Gate Bridge, San Francisco",
+      "alt": "The bridge’s red tower rises beyond a roadway and toll structures.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/acf0c67d64f42c44c81f.jpg",
+      "thumbnail": "images/travel/acf0c67d64f42c44c81f-thumb.jpg",
+      "place_id": "c93a929aaab65eaeae34"
+    },
+    {
+      "id": "d8395e76bb33f858f318",
+      "date": "2026-02-16",
+      "coordinates": [
+        20.844006,
+        107.090675
+      ],
+      "place": "Hạ Long Bay, Vietnam",
+      "alt": "Boats travel between steep limestone islands in a calm bay.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/d8395e76bb33f858f318.jpg",
+      "thumbnail": "images/travel/d8395e76bb33f858f318-thumb.jpg",
+      "place_id": "d8395e76bb33f858f318"
+    },
+    {
+      "id": "e1be0556ce2ee67785bc",
+      "date": "2026-07-16",
+      "coordinates": [
+        41.243361,
+        115.093422
+      ],
+      "place": "Hebei, China",
+      "alt": "Green ridges and wind turbines extend across a broad rural landscape.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/e1be0556ce2ee67785bc.jpg",
+      "thumbnail": "images/travel/e1be0556ce2ee67785bc-thumb.jpg",
+      "place_id": "e1be0556ce2ee67785bc"
+    },
+    {
+      "id": "e027d83e56c3c2952d98",
+      "date": "2026-07-26",
+      "coordinates": [
+        34.008514,
+        -118.498589
+      ],
+      "place": "Santa Monica, California",
+      "alt": "Waves roll toward the shore beneath a pastel sunset sky.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/e027d83e56c3c2952d98.jpg",
+      "thumbnail": "images/travel/e027d83e56c3c2952d98-thumb.jpg",
+      "place_id": "e027d83e56c3c2952d98"
+    },
+    {
+      "id": "0329404784bb83772b2b",
+      "date": "2026-07-26",
+      "coordinates": [
+        34.008311,
+        -118.498558
+      ],
+      "place": "Santa Monica Pier, California",
+      "alt": "The pier and its Ferris wheel extend over the water at dusk.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/0329404784bb83772b2b.jpg",
+      "thumbnail": "images/travel/0329404784bb83772b2b-thumb.jpg",
+      "place_id": "e027d83e56c3c2952d98"
+    },
+    {
+      "id": "ae8caa3532e9374ff200",
+      "date": "2026-07-29",
+      "coordinates": [
+        34.118053,
+        -118.300172
+      ],
+      "place": "Griffith Park, Los Angeles",
+      "alt": "A person takes a selfie with a hazy cityscape and tree-covered hills in the background.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/ae8caa3532e9374ff200.jpg",
+      "thumbnail": "images/travel/ae8caa3532e9374ff200-thumb.jpg",
+      "place_id": "ae8caa3532e9374ff200"
+    },
+    {
+      "id": "58112834e9cf853a3906",
+      "date": "2026-07-31",
+      "coordinates": [
+        35.667617,
+        139.701675
+      ],
+      "place": "Tokyo, Japan",
+      "alt": "Contemporary high-rise buildings rise beyond a tree-lined urban walkway.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/58112834e9cf853a3906.jpg",
+      "thumbnail": "images/travel/58112834e9cf853a3906-thumb.jpg",
+      "place_id": "58112834e9cf853a3906"
+    },
+    {
+      "id": "d3f4f0c63f61069b78fa",
+      "date": "2026-07-31",
+      "coordinates": [
+        35.664658,
+        139.725875
+      ],
+      "place": "Tokyo, Japan",
+      "alt": "A multi-level glass atrium curves around balconies and a central open space.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/d3f4f0c63f61069b78fa.jpg",
+      "thumbnail": "images/travel/d3f4f0c63f61069b78fa-thumb.jpg",
+      "place_id": "d3f4f0c63f61069b78fa"
+    },
+    {
+      "id": "98bf53553cd00cd68467",
+      "date": "2026-08-24",
+      "coordinates": [
+        51.523328,
+        -0.114636
+      ],
+      "place": "London, England",
+      "alt": "A block of brick-and-stone offices stands beside a city street.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/98bf53553cd00cd68467.jpg",
+      "thumbnail": "images/travel/98bf53553cd00cd68467-thumb.jpg",
+      "place_id": "98bf53553cd00cd68467"
+    },
+    {
+      "id": "4c4ab23d63bfe7783bce",
+      "date": "2026-08-31",
+      "coordinates": [
+        51.280814,
+        1.079214
+      ],
+      "place": "Canterbury, England",
+      "alt": "A leafy garden and narrow stream sit among old brick buildings.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/4c4ab23d63bfe7783bce.jpg",
+      "thumbnail": "images/travel/4c4ab23d63bfe7783bce-thumb.jpg",
+      "place_id": "4c4ab23d63bfe7783bce"
+    },
+    {
+      "id": "3de06ce760bf2fa0509a",
+      "date": "2026-08-31",
+      "coordinates": [
+        51.280789,
+        1.078894
+      ],
+      "place": "Canterbury, England",
+      "alt": "Canterbury Cathedral’s towers rise above the surrounding historic streets.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/3de06ce760bf2fa0509a.jpg",
+      "thumbnail": "images/travel/3de06ce760bf2fa0509a-thumb.jpg",
+      "place_id": "4c4ab23d63bfe7783bce"
+    },
+    {
+      "id": "ede659cba71d42d7d260",
+      "date": "2026-09-06",
+      "coordinates": [
+        43.270111,
+        -2.936647
+      ],
+      "place": "Bilbao, Spain",
+      "alt": "The Guggenheim Museum’s sculptural façade stands beside the river.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/ede659cba71d42d7d260.jpg",
+      "thumbnail": "images/travel/ede659cba71d42d7d260-thumb.jpg",
+      "place_id": "ede659cba71d42d7d260"
+    },
+    {
+      "id": "e62ed4669a6d241c3c18",
+      "date": "2026-09-07",
+      "coordinates": [
+        39.566881,
+        2.647942
+      ],
+      "place": "Palma de Mallorca, Spain",
+      "alt": "People sit beside a warm-colored stone tower overlooking the waterfront.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/e62ed4669a6d241c3c18.jpg",
+      "thumbnail": "images/travel/e62ed4669a6d241c3c18-thumb.jpg",
+      "place_id": "e62ed4669a6d241c3c18"
+    },
+    {
+      "id": "ad092306a3268a8347bd",
+      "date": "2026-09-10",
+      "coordinates": [
+        39.313339,
+        3.119106
+      ],
+      "place": "Mallorca · coast",
+      "alt": "Turquoise water beside the rocky coast of Mallorca",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/ad092306a3268a8347bd.jpg",
+      "thumbnail": "images/travel/ad092306a3268a8347bd-thumb.jpg",
+      "place_id": "ad092306a3268a8347bd"
+    },
+    {
+      "id": "67bb427151529b4cc213",
+      "date": "2026-09-10",
+      "coordinates": [
+        39.313214,
+        3.118186
+      ],
+      "place": "Mallorca, Spain",
+      "alt": "Swimmers wade through clear water in a rocky coastal inlet.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/67bb427151529b4cc213.jpg",
+      "thumbnail": "images/travel/67bb427151529b4cc213-thumb.jpg",
+      "place_id": "ad092306a3268a8347bd"
+    },
+    {
+      "id": "f413eac8bce0371f0740",
+      "date": "2026-09-10",
+      "coordinates": [
+        39.312767,
+        3.118292
+      ],
+      "place": "Mallorca, Spain",
+      "alt": "Swimmers stand among rocks in a clear turquoise cove.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/f413eac8bce0371f0740.jpg",
+      "thumbnail": "images/travel/f413eac8bce0371f0740-thumb.jpg",
+      "place_id": "ad092306a3268a8347bd"
+    },
+    {
+      "id": "ac14785b929ef0965504",
+      "date": "2026-09-10",
+      "coordinates": [
+        39.312806,
+        3.118347
+      ],
+      "place": "Mallorca · coast",
+      "alt": "People resting on rocks beside a clear blue cove in Mallorca",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/ac14785b929ef0965504.jpg",
+      "thumbnail": "images/travel/ac14785b929ef0965504-thumb.jpg",
+      "place_id": "ad092306a3268a8347bd"
+    },
+    {
+      "id": "1a50779dbe5f6a703cd5",
+      "date": "2026-09-10",
+      "coordinates": [
+        39.312778,
+        3.118358
+      ],
+      "place": "Mallorca · coast",
+      "alt": "Stone boathouses and a rocky headland above turquoise water",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/1a50779dbe5f6a703cd5.jpg",
+      "thumbnail": "images/travel/1a50779dbe5f6a703cd5-thumb.jpg",
+      "place_id": "ad092306a3268a8347bd"
+    },
+    {
+      "id": "aff3674270393411fa74",
+      "date": "2026-09-11",
+      "coordinates": [
+        41.402794,
+        2.174053
+      ],
+      "place": "Barcelona · Sagrada Família",
+      "alt": "Decorated towers of the Sagrada Família beneath a construction crane",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/aff3674270393411fa74.jpg",
+      "thumbnail": "images/travel/aff3674270393411fa74-thumb.jpg",
+      "place_id": "aff3674270393411fa74"
+    },
+    {
+      "id": "f43bca86beebe3b46bfd",
+      "date": "2026-09-11",
+      "coordinates": [
+        41.395264,
+        2.161722
+      ],
+      "place": "Barcelona · Casa Milà",
+      "alt": "Sculptural chimney stacks on the rooftop of Casa Milà",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/f43bca86beebe3b46bfd.jpg",
+      "thumbnail": "images/travel/f43bca86beebe3b46bfd-thumb.jpg",
+      "place_id": "f43bca86beebe3b46bfd"
+    },
+    {
+      "id": "eff7ed255367946baf73",
+      "date": "2026-09-11",
+      "coordinates": [
+        41.395369,
+        2.162019
+      ],
+      "place": "Barcelona · Casa Milà",
+      "alt": "The Sagrada Família seen across Barcelona from the rooftop of Casa Milà",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/eff7ed255367946baf73.jpg",
+      "thumbnail": "images/travel/eff7ed255367946baf73-thumb.jpg",
+      "place_id": "f43bca86beebe3b46bfd"
+    },
+    {
+      "id": "3fbf054422366806300d",
+      "date": null,
+      "coordinates": null,
+      "place": "Location not recorded",
+      "alt": "A bright modern indoor concourse has a sculpted ceiling and shopfronts.",
+      "width": 1920,
+      "height": 1080,
+      "image": "images/travel/3fbf054422366806300d.jpg",
+      "thumbnail": "images/travel/3fbf054422366806300d-thumb.jpg",
+      "place_id": null
+    },
+    {
+      "id": "5fb1db9e4a3f5af57111",
+      "date": null,
+      "coordinates": null,
+      "place": "Location not recorded",
+      "alt": "A layered modern building façade rises beside trees.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/5fb1db9e4a3f5af57111.jpg",
+      "thumbnail": "images/travel/5fb1db9e4a3f5af57111-thumb.jpg",
+      "place_id": null
+    },
+    {
+      "id": "7c16614c8049d4367d30",
+      "date": null,
+      "coordinates": null,
+      "place": "Location not recorded",
+      "alt": "Audience members sit in a dim auditorium beneath a high wall crossed by diagonal bands of light and shadow.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/7c16614c8049d4367d30.jpg",
+      "thumbnail": "images/travel/7c16614c8049d4367d30-thumb.jpg",
+      "place_id": null
+    }
+  ],
+  "places": [
+    {
+      "id": "c8329113bf08559d5cba",
+      "name": "Changsha, China",
+      "coordinates": [
+        28.170931,
+        112.95555
+      ],
+      "count": 1
+    },
+    {
+      "id": "1932e487e0530ae6466c",
+      "name": "Xiamen, China",
+      "coordinates": [
+        24.444689,
+        118.092636
+      ],
+      "count": 1
+    },
+    {
+      "id": "8bfd04d9b81be21349c6",
+      "name": "London, England",
+      "coordinates": [
+        51.505222,
+        -0.104467
+      ],
+      "count": 1
+    },
+    {
+      "id": "1647679a843f05c4cb95",
+      "name": "London, England",
+      "coordinates": [
+        51.508636,
+        -0.104669
+      ],
+      "count": 1
+    },
+    {
+      "id": "dc2575fcaa954cf80f3b",
+      "name": "Calton Hill, Edinburgh",
+      "coordinates": [
+        55.9549,
+        -3.183075
+      ],
+      "count": 2
+    },
+    {
+      "id": "a6680cc5941eb0852750",
+      "name": "Edinburgh, Scotland",
+      "coordinates": [
+        55.949703,
+        -3.183467
+      ],
+      "count": 1
+    },
+    {
+      "id": "80c807040407be8958a5",
+      "name": "Scottish Highlands",
+      "coordinates": [
+        57.324619,
+        -4.441594
+      ],
+      "count": 1
+    },
+    {
+      "id": "006fc81521df283809f4",
+      "name": "Isle of Skye, Scotland",
+      "coordinates": [
+        57.565853,
+        -6.152167
+      ],
+      "count": 1
+    },
+    {
+      "id": "8fd0835648289114bd90",
+      "name": "Scottish Highlands",
+      "coordinates": [
+        57.233906,
+        -5.424064
+      ],
+      "count": 1
+    },
+    {
+      "id": "81d4db6593c11b620e77",
+      "name": "London, England",
+      "coordinates": [
+        51.509425,
+        -0.09855
+      ],
+      "count": 1
+    },
+    {
+      "id": "170cef29829042f8148e",
+      "name": "Barbican, London",
+      "coordinates": [
+        51.51965,
+        -0.095253
+      ],
+      "count": 1
+    },
+    {
+      "id": "9e21376bd7253d1ef91f",
+      "name": "London, England",
+      "coordinates": [
+        51.502075,
+        -0.115975
+      ],
+      "count": 1
+    },
+    {
+      "id": "d9a186d6d88c7394eaa4",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.696281,
+        139.570314
+      ],
+      "count": 1
+    },
+    {
+      "id": "da82bdbe2abedf0445f0",
+      "name": "Wuhan, China",
+      "coordinates": [
+        30.550342,
+        114.296967
+      ],
+      "count": 1
+    },
+    {
+      "id": "2aa8d3a2d6d9fe3bbc0f",
+      "name": "Wuhan, China",
+      "coordinates": [
+        30.588422,
+        114.281219
+      ],
+      "count": 1
+    },
+    {
+      "id": "f6d6bc40b82973ae9329",
+      "name": "London, England",
+      "coordinates": [
+        51.513686,
+        -0.081414
+      ],
+      "count": 1
+    },
+    {
+      "id": "495b8ff7e95e5d4991f2",
+      "name": "Beijing, China",
+      "coordinates": [
+        39.993856,
+        116.304717
+      ],
+      "count": 1
+    },
+    {
+      "id": "cc3895d5014728ee49ff",
+      "name": "Battersea, London",
+      "coordinates": [
+        51.483508,
+        -0.146119
+      ],
+      "count": 1
+    },
+    {
+      "id": "db76a4b3a7a37522697a",
+      "name": "Edinburgh, Scotland",
+      "coordinates": [
+        55.952903,
+        -3.192231
+      ],
+      "count": 1
+    },
+    {
+      "id": "fff5c1d9796556d5784d",
+      "name": "Louvre Museum, Paris",
+      "coordinates": [
+        48.861194,
+        2.335508
+      ],
+      "count": 3
+    },
+    {
+      "id": "ab037f6a33e1d3c49006",
+      "name": "Eiffel Tower, Paris",
+      "coordinates": [
+        48.860564,
+        2.29275
+      ],
+      "count": 1
+    },
+    {
+      "id": "d6dedc0d8aef99208e2c",
+      "name": "Palace of Versailles, France",
+      "coordinates": [
+        48.805528,
+        2.120453
+      ],
+      "count": 1
+    },
+    {
+      "id": "8052e6c33c3c84bd3d43",
+      "name": "Paris, France",
+      "coordinates": [
+        48.836853,
+        2.381589
+      ],
+      "count": 1
+    },
+    {
+      "id": "f6f895a5c3ba1c4163e3",
+      "name": "Notre-Dame de Paris",
+      "coordinates": [
+        48.853578,
+        2.348011
+      ],
+      "count": 1
+    },
+    {
+      "id": "fd2b73be3103d6c8e5c6",
+      "name": "Montmartre, Paris",
+      "coordinates": [
+        48.886303,
+        2.342819
+      ],
+      "count": 1
+    },
+    {
+      "id": "d515bddfcd64057aba03",
+      "name": "Dubai, UAE",
+      "coordinates": [
+        25.198192,
+        55.272717
+      ],
+      "count": 1
+    },
+    {
+      "id": "30b161ae12b5f88d3c31",
+      "name": "Neuschwanstein, Bavaria",
+      "coordinates": [
+        47.555636,
+        10.746881
+      ],
+      "count": 1
+    },
+    {
+      "id": "4fc1d2cb4aa5f3a0fdc4",
+      "name": "Neuschwanstein, Bavaria",
+      "coordinates": [
+        47.571197,
+        10.741114
+      ],
+      "count": 1
+    },
+    {
+      "id": "ed0cd5e01b464c2c1bcb",
+      "name": "Munich, Germany",
+      "coordinates": [
+        48.141528,
+        11.560158
+      ],
+      "count": 1
+    },
+    {
+      "id": "8e06b71fd56024c8e199",
+      "name": "Amsterdam, Netherlands",
+      "coordinates": [
+        52.375983,
+        4.897033
+      ],
+      "count": 1
+    },
+    {
+      "id": "2fb7e95bb08455d5fc98",
+      "name": "Anshun, Guizhou, China",
+      "coordinates": [
+        26.123144,
+        105.875467
+      ],
+      "count": 1
+    },
+    {
+      "id": "9c7109dc0d52e0f206fa",
+      "name": "Seoul, South Korea",
+      "coordinates": [
+        37.550839,
+        126.923081
+      ],
+      "count": 1
+    },
+    {
+      "id": "bca4200162bae2b98182",
+      "name": "Stanford University, California",
+      "coordinates": [
+        37.427497,
+        -122.168586
+      ],
+      "count": 1
+    },
+    {
+      "id": "c93a929aaab65eaeae34",
+      "name": "Golden Gate Bridge, San Francisco",
+      "coordinates": [
+        37.808669,
+        -122.475464
+      ],
+      "count": 2
+    },
+    {
+      "id": "d8395e76bb33f858f318",
+      "name": "Hạ Long Bay, Vietnam",
+      "coordinates": [
+        20.844006,
+        107.090675
+      ],
+      "count": 1
+    },
+    {
+      "id": "e1be0556ce2ee67785bc",
+      "name": "Hebei, China",
+      "coordinates": [
+        41.243361,
+        115.093422
+      ],
+      "count": 1
+    },
+    {
+      "id": "e027d83e56c3c2952d98",
+      "name": "Santa Monica, California",
+      "coordinates": [
+        34.008514,
+        -118.498589
+      ],
+      "count": 2
+    },
+    {
+      "id": "ae8caa3532e9374ff200",
+      "name": "Griffith Park, Los Angeles",
+      "coordinates": [
+        34.118053,
+        -118.300172
+      ],
+      "count": 1
+    },
+    {
+      "id": "58112834e9cf853a3906",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.667617,
+        139.701675
+      ],
+      "count": 1
+    },
+    {
+      "id": "d3f4f0c63f61069b78fa",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.664658,
+        139.725875
+      ],
+      "count": 1
+    },
+    {
+      "id": "98bf53553cd00cd68467",
+      "name": "London, England",
+      "coordinates": [
+        51.523328,
+        -0.114636
+      ],
+      "count": 1
+    },
+    {
+      "id": "4c4ab23d63bfe7783bce",
+      "name": "Canterbury, England",
+      "coordinates": [
+        51.280814,
+        1.079214
+      ],
+      "count": 2
+    },
+    {
+      "id": "ede659cba71d42d7d260",
+      "name": "Bilbao, Spain",
+      "coordinates": [
+        43.270111,
+        -2.936647
+      ],
+      "count": 1
+    },
+    {
+      "id": "e62ed4669a6d241c3c18",
+      "name": "Palma de Mallorca, Spain",
+      "coordinates": [
+        39.566881,
+        2.647942
+      ],
+      "count": 1
+    },
+    {
+      "id": "ad092306a3268a8347bd",
+      "name": "Mallorca · coast",
+      "coordinates": [
+        39.313339,
+        3.119106
+      ],
+      "count": 5
+    },
+    {
+      "id": "aff3674270393411fa74",
+      "name": "Barcelona · Sagrada Família",
+      "coordinates": [
+        41.402794,
+        2.174053
+      ],
+      "count": 1
+    },
+    {
+      "id": "f43bca86beebe3b46bfd",
+      "name": "Barcelona · Casa Milà",
+      "coordinates": [
+        41.395264,
+        2.161722
+      ],
+      "count": 2
+    }
+  ]
+}

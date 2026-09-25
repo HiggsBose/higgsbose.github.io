@@ -1,0 +1,3 @@
+# Only needed when importing new travel photos; not needed by the site build.
+Pillow==12.1.1
+pillow-heif==1.3.0

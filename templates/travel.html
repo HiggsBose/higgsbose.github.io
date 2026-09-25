@@ -1,0 +1,28 @@
+<section class="travel-project" aria-labelledby="travel-title">
+  <div class="travel-heading">
+    <div><p class="eyebrow">01 / TRAVEL JOURNAL</p><h2 id="travel-title">Somewhere along the way<span class="heading-dot">.</span></h2><div class="travel-intro">{{ content | safe }}</div></div>
+    <div class="travel-totals"><span><b>{{ travel.photos | length }}</b> PHOTOGRAPHS</span><span><b>{{ travel.places | length }}</b> PLACES</span></div>
+  </div>
+  {% if travel.photos %}
+  <div class="travel-atlas">
+    <aside class="travel-places" aria-label="Photographed places">
+      <p class="eyebrow">THE PLACES</p>
+      <button class="travel-place is-active" type="button" data-place="all" aria-pressed="true" disabled><span><b>All photographs</b><small>The whole collection</small></span><span>{{ travel.photos | length }}</span></button>
+      {% for place in travel.places %}<button class="travel-place" type="button" data-place="{{ place.id }}" aria-pressed="false" disabled><span><b>{{ place.name }}</b><small>{{ '%.3f' | format(place.coordinates[0]) }}°, {{ '%.3f' | format(place.coordinates[1]) }}°</small></span><span>{{ place.count }}</span></button>{% endfor %}
+      <p class="travel-place-note">A few coordinates.<br>A lot to remember.</p>
+    </aside>
+    <div class="travel-map-panel">
+      <div class="travel-map-toolbar"><span class="eyebrow">A WORLD OF SMALL MOMENTS</span><div><button type="button" id="travel-world" disabled>World view ↗</button><button type="button" id="travel-fit" disabled>My places ↗</button></div></div>
+      <div id="travel-map" aria-label="World map of travel photographs"><p class="travel-map-fallback">The interactive map needs JavaScript. All photographs are available below.</p></div>
+      <div class="travel-map-caption"><span><i aria-hidden="true"></i> Select a pin to explore</span><span>Zoom in to separate nearby places</span></div>
+      <p id="travel-map-status" class="travel-map-status" role="status" hidden></p>
+    </div>
+  </div>
+  <div class="travel-gallery-heading"><div><p class="eyebrow">THE CONTACT SHEET</p><h3 id="travel-selection">All photographs</h3><p id="travel-count" role="status">{{ travel.photos | length }} photographs</p></div><label class="travel-radius" for="travel-radius">Nearby radius <select id="travel-radius" disabled><option value="250">250 m</option><option value="1000">1 km</option><option value="5000">5 km</option></select></label></div>
+  <div class="travel-gallery" aria-labelledby="travel-selection">
+    {% for photo in travel.photos %}<figure class="travel-photo" data-photo-id="{{ photo.id }}"><a href="{{ url(photo.image) }}" class="travel-photo-link" aria-label="Enlarge: {{ photo.alt }}"><img src="{{ url(photo.thumbnail) }}" alt="{{ photo.alt }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy"><span class="travel-enlarge" aria-hidden="true">↗</span></a><figcaption><span>{{ photo.place }}</span>{% if photo.date %}<time datetime="{{ photo.date }}">{{ photo.date | replace('-', '.') }}</time>{% endif %}</figcaption></figure>{% endfor %}
+  </div>
+  <p class="travel-empty" id="travel-empty" hidden>No photographs in this area yet. Try a larger radius or explore another pin.</p>
+  <script id="travel-data" type="application/json">{{ travel | tojson }}</script>
+  {% else %}<p class="travel-empty">The first journey is on its way.</p>{% endif %}
+</section>

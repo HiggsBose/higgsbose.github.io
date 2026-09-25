@@ -1,6 +1,7 @@
 """Integration checks for published files, navigation, and Markdown migration."""
 from html.parser import HTMLParser
 from pathlib import Path
+import json
 import runpy
 import unittest
 from urllib.parse import unquote, urljoin, urlparse
@@ -100,7 +101,7 @@ class SiteIntegrationTests(unittest.TestCase):
         stale.write_text('old output', encoding='utf-8')
         build()
         self.assertFalse(stale.exists())
-        for excluded in ('content', 'templates', 'scripts', 'Gemfile', 'assets/js/main.min.js', 'images/redketchup.zip'):
+        for excluded in ('content', 'templates', 'scripts', 'local-photos', 'Gemfile', 'assets/js/main.min.js', 'images/redketchup.zip'):
             self.assertFalse((OUTPUT / excluded).exists())
         self.assertTrue((OUTPUT / '.nojekyll').exists())
         self.assertTrue((OUTPUT / '404.html').exists())
@@ -113,7 +114,15 @@ class SiteIntegrationTests(unittest.TestCase):
             self.assertIn(route, Document(html).links)
         life = (OUTPUT / 'life/index.html').read_text(encoding='utf-8')
         self.assertIn('Life beyond the lab', life)
-        self.assertIn('First stories coming soon', life)
+        self.assertIn('TRAVEL JOURNAL', life)
+        self.assertIn('id="travel-map"', life)
+        manifest = json.loads((ROOT / 'content/travel.json').read_text(encoding='utf-8'))
+        self.assertEqual(life.count('class="travel-photo"'), len(manifest['photos']))
+        self.assertIn('OpenStreetMap', (OUTPUT / 'assets/js/travel.js').read_text(encoding='utf-8'))
+        self.assertFalse(list(OUTPUT.rglob('*.HEIC')))
+        for photo in manifest['photos']:
+            self.assertTrue((OUTPUT / photo['image']).is_file())
+            self.assertTrue((OUTPUT / photo['thumbnail']).is_file())
         self.assertIn('https://higgsbose.github.io/life/', (OUTPUT / 'sitemap.xml').read_text())
 
     def test_project_site_prefix(self):

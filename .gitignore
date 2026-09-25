@@ -4,3 +4,6 @@ push.sh
 __pycache__/
 *.pyc
 .preview/
+
+# Local photo originals
+/local-photos/

@@ -54,24 +54,28 @@ conda activate personal_page
 
 ## 添加日常生活内容
 
-`Life` 已有独立路由 `/life/`，目前展示等待第一篇内容的占位页。
-发布第一篇内容时，删除 `content/life.md` 中的 `life-placeholder` 区块，按以下格式添加真实记录；图片放在 `images/`，使用原始尺寸比例即可。
+`Life` 的第一个项目是旅行地图：世界地图按缩放聚合拍摄点，点击标记或地点列表查看附近照片，支持 250 米 / 1 公里 / 5 公里范围和大图浏览。无 JavaScript 或底图加载失败时仍可阅读照片；地图底图需要联网。
 
-```html
-<article class="life-entry" markdown="1">
+添加或更新照片：
 
-<time datetime="YYYY-MM-DD">YYYY.MM.DD</time>
+1. 将带定位的 HEIC / HEIF / JPG 原片放入 `local-photos/travel-originals/`，支持子目录。该目录已被 Git 忽略，构建也不会复制它。
+2. 首次导入前，在 `personal_page` 环境安装照片处理依赖。
+3. 运行导入脚本，再构建或预览。
 
-## 记录标题
-
-在这里写下当天的故事。
-
-<img src="images/your-photo.jpg" alt="对这张照片的具体描述" loading="lazy">
-
-</article>
+```powershell
+conda activate personal_page
+python -m pip install -r requirements-photos.txt
+python scripts/import_travel.py
+python scripts/site.py serve
 ```
 
-每篇使用一个 `article`，新内容放在上方，然后重新构建即可。
+脚本从原片读取 GPS 和拍摄日期，修正横竖方向并生成 sRGB JPEG 展示图及缩略图，输出 `images/travel/` 和 `content/travel.json`。相同文件自动去重；无定位照片只进入相册，不猜测拍摄地点。原片不修改。重新导入以当前文件夹内容为准，会移除不再使用的生成图片；请在文件夹中保留仍需展示的照片。空文件夹会报错，避免误清空相册。
+
+地名和图片描述在 `content/travel-labels.json` 中维护，键为相对原片目录的文件名（子目录用 `/`）。这批照片的名称根据坐标和画面整理；新增照片若无名称，先显示经纬度，脚本不调用外部地理编码服务。`content/life.md` 编辑旅行项目介绍，`templates/travel.html` 编辑展示结构。
+
+发布时提交生成的图片、清单和网页代码即可，CI 无需 HEIC 依赖。展示图移除了 EXIF，但网页地图清单仍包含实际拍摄坐标。原片保留在本地。
+
+地图使用本地存放的 Leaflet 1.9.4、MapLibre GL 5.6.1 和 Leaflet 适配器 0.1.0（许可证见 `assets/vendor/`），底图为 [OpenFreeMap Liberty](https://openfreemap.org/quick_start/)。矢量样式隐藏海上边界线，保留陆地、道路、地名及地图署名。底图需联网且需要浏览器支持 WebGL；不可用时仍可用地点列表浏览照片。普通页面的脚本和字体仍不依赖 CDN。
 
 ## GitHub Pages
 

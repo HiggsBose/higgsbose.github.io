@@ -39,16 +39,20 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
     env.globals["asset_url"] = lambda path: f"{base_path}/{path}?v={hashlib.sha256((ROOT / path).read_bytes()).hexdigest()[:12]}"
     profile = json.loads((ROOT / "content/profile.json").read_text(encoding="utf-8"))
     background = json.loads((ROOT / "content/background.json").read_text(encoding="utf-8"))
+    travel_path = ROOT / "content/travel.json"
+    travel = json.loads(travel_path.read_text(encoding="utf-8")) if travel_path.exists() else {"photos": [], "places": []}
     # Never delete a symlink target or a directory outside this repository.
     if OUTPUT.resolve() != ROOT / "_site" or OUTPUT.is_symlink():
         raise ValueError("Refusing to replace an output directory outside the repository")
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
     OUTPUT.mkdir()
-    for name in ("css/site.css", "js/site.js", "images/paper.svg"):
+    for name in ("css/site.css", "css/travel.css", "js/site.js", "js/travel.js", "images/paper.svg"):
         target = OUTPUT / "assets" / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / "assets" / name, target)
+    shutil.copytree(ROOT / "assets/vendor/leaflet", OUTPUT / "assets/vendor/leaflet")
+    shutil.copytree(ROOT / "assets/vendor/maplibre", OUTPUT / "assets/vendor/maplibre")
     shutil.copytree(ROOT / "images", OUTPUT / "images", ignore=shutil.ignore_patterns("*.zip"))
     (OUTPUT / "docs").mkdir(exist_ok=True)
     for name in ("潘泽伦_简历.pdf", "PanZelun_Resume.docx"):
@@ -63,7 +67,7 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
         destination = OUTPUT / route
         destination.mkdir(exist_ok=True)
         canonical = f"{site_url.rstrip('/')}{base_path}/{route}"
-        html = env.get_template("page.html").render(page=page, pages=PAGES, profile=profile, background=background, content=content, canonical=canonical)
+        html = env.get_template("page.html").render(page=page, pages=PAGES, profile=profile, background=background, travel=travel, content=content, canonical=canonical)
         (destination / "index.html").write_text(html, encoding="utf-8")
     for alias in ("about/index.html", "about.html"):
         target = OUTPUT / alias
