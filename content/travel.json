@@ -17,21 +17,28 @@
       "thumbnail": "images/travel/c8329113bf08559d5cba-thumb.jpg",
       "place_id": "c8329113bf08559d5cba",
       "country": "China",
-      "city": "Changsha"
+      "city": "Changsha",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "52fc7bc1318e72521502",
       "date": "2023-01-21",
-      "coordinates": null,
+      "coordinates": [
+        30.55013,
+        114.30323
+      ],
       "place": "Liangdao Street alley, Wuhan",
       "alt": "A multi-tiered Chinese tower stands at the end of a street, framed by buildings and overhead cables.",
       "width": 1333,
       "height": 2000,
       "image": "images/travel/52fc7bc1318e72521502.jpg",
       "thumbnail": "images/travel/52fc7bc1318e72521502-thumb.jpg",
-      "place_id": null,
+      "place_id": "52fc7bc1318e72521502",
       "country": "China",
-      "city": "Wuhan"
+      "city": "Wuhan",
+      "location_source": "manual",
+      "location_note": "Manually placed near Liangdao Street; exact alley position unknown."
     },
     {
       "id": "1932e487e0530ae6466c",
@@ -48,7 +55,9 @@
       "thumbnail": "images/travel/1932e487e0530ae6466c-thumb.jpg",
       "place_id": "1932e487e0530ae6466c",
       "country": "China",
-      "city": "Xiamen"
+      "city": "Xiamen",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "8bfd04d9b81be21349c6",
@@ -65,7 +74,9 @@
       "thumbnail": "images/travel/8bfd04d9b81be21349c6-thumb.jpg",
       "place_id": "8bfd04d9b81be21349c6",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "1647679a843f05c4cb95",
@@ -82,7 +93,9 @@
       "thumbnail": "images/travel/1647679a843f05c4cb95-thumb.jpg",
       "place_id": "1647679a843f05c4cb95",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "dc2575fcaa954cf80f3b",
@@ -99,7 +112,9 @@
       "thumbnail": "images/travel/dc2575fcaa954cf80f3b-thumb.jpg",
       "place_id": "dc2575fcaa954cf80f3b",
       "country": "United Kingdom",
-      "city": "Edinburgh"
+      "city": "Edinburgh",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "5f56dcda4e0bfd6bd240",
@@ -116,7 +131,9 @@
       "thumbnail": "images/travel/5f56dcda4e0bfd6bd240-thumb.jpg",
       "place_id": "dc2575fcaa954cf80f3b",
       "country": "United Kingdom",
-      "city": "Edinburgh"
+      "city": "Edinburgh",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "a6680cc5941eb0852750",
@@ -133,7 +150,9 @@
       "thumbnail": "images/travel/a6680cc5941eb0852750-thumb.jpg",
       "place_id": "a6680cc5941eb0852750",
       "country": "United Kingdom",
-      "city": "Edinburgh"
+      "city": "Edinburgh",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "80c807040407be8958a5",
@@ -150,7 +169,9 @@
       "thumbnail": "images/travel/80c807040407be8958a5-thumb.jpg",
       "place_id": "80c807040407be8958a5",
       "country": "United Kingdom",
-      "city": "Scottish Highlands"
+      "city": "Scottish Highlands",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "006fc81521df283809f4",
@@ -167,7 +188,9 @@
       "thumbnail": "images/travel/006fc81521df283809f4-thumb.jpg",
       "place_id": "006fc81521df283809f4",
       "country": "United Kingdom",
-      "city": "Isle of Skye"
+      "city": "Isle of Skye",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "8fd0835648289114bd90",
@@ -184,7 +207,9 @@
       "thumbnail": "images/travel/8fd0835648289114bd90-thumb.jpg",
       "place_id": "8fd0835648289114bd90",
       "country": "United Kingdom",
-      "city": "Scottish Highlands"
+      "city": "Scottish Highlands",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "81d4db6593c11b620e77",
@@ -201,7 +226,9 @@
       "thumbnail": "images/travel/81d4db6593c11b620e77-thumb.jpg",
       "place_id": "81d4db6593c11b620e77",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "170cef29829042f8148e",
@@ -218,7 +245,9 @@
       "thumbnail": "images/travel/170cef29829042f8148e-thumb.jpg",
       "place_id": "170cef29829042f8148e",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "9e21376bd7253d1ef91f",
@@ -235,7 +264,9 @@
       "thumbnail": "images/travel/9e21376bd7253d1ef91f-thumb.jpg",
       "place_id": "9e21376bd7253d1ef91f",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "d9a186d6d88c7394eaa4",
@@ -252,7 +283,9 @@
       "thumbnail": "images/travel/d9a186d6d88c7394eaa4-thumb.jpg",
       "place_id": "d9a186d6d88c7394eaa4",
       "country": "Japan",
-      "city": "Tokyo"
+      "city": "Tokyo",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "da82bdbe2abedf0445f0",
@@ -269,7 +302,9 @@
       "thumbnail": "images/travel/da82bdbe2abedf0445f0-thumb.jpg",
       "place_id": "da82bdbe2abedf0445f0",
       "country": "China",
-      "city": "Wuhan"
+      "city": "Wuhan",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "2aa8d3a2d6d9fe3bbc0f",
@@ -286,7 +321,9 @@
       "thumbnail": "images/travel/2aa8d3a2d6d9fe3bbc0f-thumb.jpg",
       "place_id": "2aa8d3a2d6d9fe3bbc0f",
       "country": "China",
-      "city": "Wuhan"
+      "city": "Wuhan",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "f6d6bc40b82973ae9329",
@@ -303,7 +340,9 @@
       "thumbnail": "images/travel/f6d6bc40b82973ae9329-thumb.jpg",
       "place_id": "f6d6bc40b82973ae9329",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "495b8ff7e95e5d4991f2",
@@ -320,7 +359,9 @@
       "thumbnail": "images/travel/495b8ff7e95e5d4991f2-thumb.jpg",
       "place_id": "495b8ff7e95e5d4991f2",
       "country": "China",
-      "city": "Beijing"
+      "city": "Beijing",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "cc3895d5014728ee49ff",
@@ -337,7 +378,9 @@
       "thumbnail": "images/travel/cc3895d5014728ee49ff-thumb.jpg",
       "place_id": "cc3895d5014728ee49ff",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "db76a4b3a7a37522697a",
@@ -354,7 +397,9 @@
       "thumbnail": "images/travel/db76a4b3a7a37522697a-thumb.jpg",
       "place_id": "db76a4b3a7a37522697a",
       "country": "United Kingdom",
-      "city": "Edinburgh"
+      "city": "Edinburgh",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "fff5c1d9796556d5784d",
@@ -371,7 +416,9 @@
       "thumbnail": "images/travel/fff5c1d9796556d5784d-thumb.jpg",
       "place_id": "fff5c1d9796556d5784d",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "7a3b4d2fca3f11f2ae46",
@@ -388,7 +435,9 @@
       "thumbnail": "images/travel/7a3b4d2fca3f11f2ae46-thumb.jpg",
       "place_id": "fff5c1d9796556d5784d",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "52a536dcc661bd19e0e1",
@@ -405,7 +454,9 @@
       "thumbnail": "images/travel/52a536dcc661bd19e0e1-thumb.jpg",
       "place_id": "fff5c1d9796556d5784d",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "ab037f6a33e1d3c49006",
@@ -422,7 +473,9 @@
       "thumbnail": "images/travel/ab037f6a33e1d3c49006-thumb.jpg",
       "place_id": "ab037f6a33e1d3c49006",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "d6dedc0d8aef99208e2c",
@@ -439,7 +492,9 @@
       "thumbnail": "images/travel/d6dedc0d8aef99208e2c-thumb.jpg",
       "place_id": "d6dedc0d8aef99208e2c",
       "country": "France",
-      "city": "Versailles"
+      "city": "Versailles",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "8052e6c33c3c84bd3d43",
@@ -456,7 +511,9 @@
       "thumbnail": "images/travel/8052e6c33c3c84bd3d43-thumb.jpg",
       "place_id": "8052e6c33c3c84bd3d43",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "f6f895a5c3ba1c4163e3",
@@ -473,7 +530,9 @@
       "thumbnail": "images/travel/f6f895a5c3ba1c4163e3-thumb.jpg",
       "place_id": "f6f895a5c3ba1c4163e3",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "fd2b73be3103d6c8e5c6",
@@ -490,7 +549,9 @@
       "thumbnail": "images/travel/fd2b73be3103d6c8e5c6-thumb.jpg",
       "place_id": "fd2b73be3103d6c8e5c6",
       "country": "France",
-      "city": "Paris"
+      "city": "Paris",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "d515bddfcd64057aba03",
@@ -507,7 +568,9 @@
       "thumbnail": "images/travel/d515bddfcd64057aba03-thumb.jpg",
       "place_id": "d515bddfcd64057aba03",
       "country": "United Arab Emirates",
-      "city": "Dubai"
+      "city": "Dubai",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "30b161ae12b5f88d3c31",
@@ -524,7 +587,9 @@
       "thumbnail": "images/travel/30b161ae12b5f88d3c31-thumb.jpg",
       "place_id": "30b161ae12b5f88d3c31",
       "country": "Germany",
-      "city": "Schwangau"
+      "city": "Schwangau",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "4fc1d2cb4aa5f3a0fdc4",
@@ -541,7 +606,9 @@
       "thumbnail": "images/travel/4fc1d2cb4aa5f3a0fdc4-thumb.jpg",
       "place_id": "4fc1d2cb4aa5f3a0fdc4",
       "country": "Germany",
-      "city": "Schwangau"
+      "city": "Schwangau",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "ed0cd5e01b464c2c1bcb",
@@ -558,7 +625,9 @@
       "thumbnail": "images/travel/ed0cd5e01b464c2c1bcb-thumb.jpg",
       "place_id": "ed0cd5e01b464c2c1bcb",
       "country": "Germany",
-      "city": "Munich"
+      "city": "Munich",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "8e06b71fd56024c8e199",
@@ -575,7 +644,9 @@
       "thumbnail": "images/travel/8e06b71fd56024c8e199-thumb.jpg",
       "place_id": "8e06b71fd56024c8e199",
       "country": "Netherlands",
-      "city": "Amsterdam"
+      "city": "Amsterdam",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "2fb7e95bb08455d5fc98",
@@ -592,7 +663,9 @@
       "thumbnail": "images/travel/2fb7e95bb08455d5fc98-thumb.jpg",
       "place_id": "2fb7e95bb08455d5fc98",
       "country": "China",
-      "city": "Anshun"
+      "city": "Anshun",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "9c7109dc0d52e0f206fa",
@@ -609,7 +682,9 @@
       "thumbnail": "images/travel/9c7109dc0d52e0f206fa-thumb.jpg",
       "place_id": "9c7109dc0d52e0f206fa",
       "country": "South Korea",
-      "city": "Seoul"
+      "city": "Seoul",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "bca4200162bae2b98182",
@@ -626,7 +701,9 @@
       "thumbnail": "images/travel/bca4200162bae2b98182-thumb.jpg",
       "place_id": "bca4200162bae2b98182",
       "country": "United States",
-      "city": "Stanford"
+      "city": "Stanford",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "c93a929aaab65eaeae34",
@@ -643,7 +720,9 @@
       "thumbnail": "images/travel/c93a929aaab65eaeae34-thumb.jpg",
       "place_id": "c93a929aaab65eaeae34",
       "country": "United States",
-      "city": "San Francisco"
+      "city": "San Francisco",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "acf0c67d64f42c44c81f",
@@ -660,7 +739,9 @@
       "thumbnail": "images/travel/acf0c67d64f42c44c81f-thumb.jpg",
       "place_id": "c93a929aaab65eaeae34",
       "country": "United States",
-      "city": "San Francisco"
+      "city": "San Francisco",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "d8395e76bb33f858f318",
@@ -677,7 +758,9 @@
       "thumbnail": "images/travel/d8395e76bb33f858f318-thumb.jpg",
       "place_id": "d8395e76bb33f858f318",
       "country": "Vietnam",
-      "city": "Hạ Long"
+      "city": "Hạ Long",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "e1be0556ce2ee67785bc",
@@ -694,7 +777,9 @@
       "thumbnail": "images/travel/e1be0556ce2ee67785bc-thumb.jpg",
       "place_id": "e1be0556ce2ee67785bc",
       "country": "China",
-      "city": "Hebei"
+      "city": "Hebei",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "e027d83e56c3c2952d98",
@@ -711,7 +796,9 @@
       "thumbnail": "images/travel/e027d83e56c3c2952d98-thumb.jpg",
       "place_id": "e027d83e56c3c2952d98",
       "country": "United States",
-      "city": "Santa Monica"
+      "city": "Santa Monica",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "0329404784bb83772b2b",
@@ -728,7 +815,9 @@
       "thumbnail": "images/travel/0329404784bb83772b2b-thumb.jpg",
       "place_id": "e027d83e56c3c2952d98",
       "country": "United States",
-      "city": "Santa Monica"
+      "city": "Santa Monica",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "ae8caa3532e9374ff200",
@@ -745,7 +834,9 @@
       "thumbnail": "images/travel/ae8caa3532e9374ff200-thumb.jpg",
       "place_id": "ae8caa3532e9374ff200",
       "country": "United States",
-      "city": "Los Angeles"
+      "city": "Los Angeles",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "58112834e9cf853a3906",
@@ -762,7 +853,9 @@
       "thumbnail": "images/travel/58112834e9cf853a3906-thumb.jpg",
       "place_id": "58112834e9cf853a3906",
       "country": "Japan",
-      "city": "Tokyo"
+      "city": "Tokyo",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "d3f4f0c63f61069b78fa",
@@ -779,7 +872,9 @@
       "thumbnail": "images/travel/d3f4f0c63f61069b78fa-thumb.jpg",
       "place_id": "d3f4f0c63f61069b78fa",
       "country": "Japan",
-      "city": "Tokyo"
+      "city": "Tokyo",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "98bf53553cd00cd68467",
@@ -796,7 +891,9 @@
       "thumbnail": "images/travel/98bf53553cd00cd68467-thumb.jpg",
       "place_id": "98bf53553cd00cd68467",
       "country": "United Kingdom",
-      "city": "London"
+      "city": "London",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "4c4ab23d63bfe7783bce",
@@ -813,7 +910,9 @@
       "thumbnail": "images/travel/4c4ab23d63bfe7783bce-thumb.jpg",
       "place_id": "4c4ab23d63bfe7783bce",
       "country": "United Kingdom",
-      "city": "Canterbury"
+      "city": "Canterbury",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "3de06ce760bf2fa0509a",
@@ -830,7 +929,9 @@
       "thumbnail": "images/travel/3de06ce760bf2fa0509a-thumb.jpg",
       "place_id": "4c4ab23d63bfe7783bce",
       "country": "United Kingdom",
-      "city": "Canterbury"
+      "city": "Canterbury",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "ede659cba71d42d7d260",
@@ -847,7 +948,9 @@
       "thumbnail": "images/travel/ede659cba71d42d7d260-thumb.jpg",
       "place_id": "ede659cba71d42d7d260",
       "country": "Spain",
-      "city": "Bilbao"
+      "city": "Bilbao",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "e62ed4669a6d241c3c18",
@@ -864,7 +967,9 @@
       "thumbnail": "images/travel/e62ed4669a6d241c3c18-thumb.jpg",
       "place_id": "e62ed4669a6d241c3c18",
       "country": "Spain",
-      "city": "Palma"
+      "city": "Palma",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "ad092306a3268a8347bd",
@@ -881,7 +986,9 @@
       "thumbnail": "images/travel/ad092306a3268a8347bd-thumb.jpg",
       "place_id": "ad092306a3268a8347bd",
       "country": "Spain",
-      "city": "Santanyí"
+      "city": "Santanyí",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "67bb427151529b4cc213",
@@ -898,7 +1005,9 @@
       "thumbnail": "images/travel/67bb427151529b4cc213-thumb.jpg",
       "place_id": "ad092306a3268a8347bd",
       "country": "Spain",
-      "city": "Santanyí"
+      "city": "Santanyí",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "f413eac8bce0371f0740",
@@ -915,7 +1024,9 @@
       "thumbnail": "images/travel/f413eac8bce0371f0740-thumb.jpg",
       "place_id": "ad092306a3268a8347bd",
       "country": "Spain",
-      "city": "Santanyí"
+      "city": "Santanyí",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "ac14785b929ef0965504",
@@ -932,7 +1043,9 @@
       "thumbnail": "images/travel/ac14785b929ef0965504-thumb.jpg",
       "place_id": "ad092306a3268a8347bd",
       "country": "Spain",
-      "city": "Santanyí"
+      "city": "Santanyí",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "1a50779dbe5f6a703cd5",
@@ -949,7 +1062,9 @@
       "thumbnail": "images/travel/1a50779dbe5f6a703cd5-thumb.jpg",
       "place_id": "ad092306a3268a8347bd",
       "country": "Spain",
-      "city": "Santanyí"
+      "city": "Santanyí",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "aff3674270393411fa74",
@@ -966,7 +1081,9 @@
       "thumbnail": "images/travel/aff3674270393411fa74-thumb.jpg",
       "place_id": "aff3674270393411fa74",
       "country": "Spain",
-      "city": "Barcelona"
+      "city": "Barcelona",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "f43bca86beebe3b46bfd",
@@ -983,7 +1100,9 @@
       "thumbnail": "images/travel/f43bca86beebe3b46bfd-thumb.jpg",
       "place_id": "f43bca86beebe3b46bfd",
       "country": "Spain",
-      "city": "Barcelona"
+      "city": "Barcelona",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "eff7ed255367946baf73",
@@ -1000,49 +1119,66 @@
       "thumbnail": "images/travel/eff7ed255367946baf73-thumb.jpg",
       "place_id": "f43bca86beebe3b46bfd",
       "country": "Spain",
-      "city": "Barcelona"
+      "city": "Barcelona",
+      "location_source": "exif",
+      "location_note": null
     },
     {
       "id": "3fbf054422366806300d",
       "date": null,
-      "coordinates": null,
+      "coordinates": [
+        39.511944,
+        116.410556
+      ],
       "place": "Beijing Daxing International Airport",
       "alt": "A bright modern indoor concourse has a sculpted ceiling and shopfronts.",
       "width": 1920,
       "height": 1080,
       "image": "images/travel/3fbf054422366806300d.jpg",
       "thumbnail": "images/travel/3fbf054422366806300d-thumb.jpg",
-      "place_id": null,
+      "place_id": "3fbf054422366806300d",
       "country": "China",
-      "city": "Beijing"
+      "city": "Beijing",
+      "location_source": "manual",
+      "location_note": "Manually placed at Beijing Daxing Airport; not the original camera GPS."
     },
     {
       "id": "5fb1db9e4a3f5af57111",
       "date": null,
-      "coordinates": null,
+      "coordinates": [
+        31.00373,
+        104.21618
+      ],
       "place": "Sanxingdui Museum, Guanghan",
       "alt": "A layered modern building façade rises beside trees.",
       "width": 2000,
       "height": 1333,
       "image": "images/travel/5fb1db9e4a3f5af57111.jpg",
       "thumbnail": "images/travel/5fb1db9e4a3f5af57111-thumb.jpg",
-      "place_id": null,
+      "place_id": "5fb1db9e4a3f5af57111",
       "country": "China",
-      "city": "Guanghan"
+      "city": "Guanghan",
+      "location_source": "manual",
+      "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS."
     },
     {
       "id": "7c16614c8049d4367d30",
       "date": null,
-      "coordinates": null,
+      "coordinates": [
+        31.00373,
+        104.21618
+      ],
       "place": "Sanxingdui Museum, Guanghan",
       "alt": "Audience members sit in a dim auditorium beneath a high wall crossed by diagonal bands of light and shadow.",
       "width": 2000,
       "height": 1333,
       "image": "images/travel/7c16614c8049d4367d30.jpg",
       "thumbnail": "images/travel/7c16614c8049d4367d30-thumb.jpg",
-      "place_id": null,
+      "place_id": "5fb1db9e4a3f5af57111",
       "country": "China",
-      "city": "Guanghan"
+      "city": "Guanghan",
+      "location_source": "manual",
+      "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS."
     }
   ],
   "places": [
@@ -1052,6 +1188,15 @@
       "coordinates": [
         28.170931,
         112.95555
+      ],
+      "count": 1
+    },
+    {
+      "id": "52fc7bc1318e72521502",
+      "name": "Liangdao Street alley, Wuhan",
+      "coordinates": [
+        30.55013,
+        114.30323
       ],
       "count": 1
     },
@@ -1466,6 +1611,24 @@
       "coordinates": [
         41.395264,
         2.161722
+      ],
+      "count": 2
+    },
+    {
+      "id": "3fbf054422366806300d",
+      "name": "Beijing Daxing International Airport",
+      "coordinates": [
+        39.511944,
+        116.410556
+      ],
+      "count": 1
+    },
+    {
+      "id": "5fb1db9e4a3f5af57111",
+      "name": "Sanxingdui Museum, Guanghan",
+      "coordinates": [
+        31.00373,
+        104.21618
       ],
       "count": 2
     }

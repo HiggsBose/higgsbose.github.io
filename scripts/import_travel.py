@@ -48,6 +48,20 @@ def distance(a, b):
     return 6371000 * 2 * math.asin(math.sqrt(min(1, max(0, h))))
 
 
+def resolve_location(gps_location, label):
+    """Keep camera GPS when available; otherwise accept a validated editorial pin."""
+    if gps_location is not None:
+        return gps_location, "exif"
+    point = label.get("coordinates")
+    if point is None:
+        return None, None
+    if (not isinstance(point, list) or len(point) != 2
+            or any(isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v) for v in point)
+            or abs(point[0]) > 90 or abs(point[1]) > 180):
+        raise ValueError("Manual coordinates must be [latitude, longitude] in WGS84.")
+    return point, "manual"
+
+
 def group_places(photos, radius=250):
     """Group within a fixed anchor radius, avoiding unbounded chain merging."""
     groups = []
@@ -81,7 +95,7 @@ def import_photos(source, image_dir, manifest_path, labels):
         label = labels.get(path.relative_to(source).as_posix(), {})
         with Image.open(path) as original:
             exif = original.getexif()
-            location = coordinates(exif.get_ifd(34853))
+            location, location_source = resolve_location(coordinates(exif.get_ifd(34853)), label)
             raw_date = exif.get_ifd(34665).get(36867) or exif.get(306)
             try:
                 taken = datetime.strptime(raw_date, "%Y:%m:%d %H:%M:%S").date().isoformat()
@@ -104,11 +118,12 @@ def import_photos(source, image_dir, manifest_path, labels):
             clean.thumbnail((640, 640), Image.Resampling.LANCZOS)
             clean.save(image_dir / f"{digest}-thumb.jpg", quality=82, optimize=True)
         photos.append({"id": digest, "date": taken, "coordinates": location,
+                       "location_source": location_source, "location_note": label.get("location_note") if location_source == "manual" else None,
                        "country": label.get("country"), "city": label.get("city"),
                        "place": place, "alt": alt, "width": width, "height": height,
                        "_sort_time": raw_date or "9999",
                        "image": f"images/travel/{digest}.jpg", "thumbnail": f"images/travel/{digest}-thumb.jpg"})
-        print(f"{path.name}: {taken or 'no date'} / {'GPS OK' if location else 'no GPS (gallery only)'}")
+        print(f"{path.name}: {taken or 'no date'} / {location_source or 'no GPS (gallery only)'}")
     photos.sort(key=lambda p: (p["_sort_time"], p["id"]))
     for photo in photos:
         del photo["_sort_time"]

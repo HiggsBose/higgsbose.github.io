@@ -14,6 +14,15 @@ if HAS_PHOTO_DEPS:
 
 @unittest.skipUnless(HAS_PHOTO_DEPS, 'Install requirements-photos.txt to test photo importing')
 class TravelImportTests(unittest.TestCase):
+    def test_manual_pin_fallback_and_gps_priority(self):
+        resolve = importer['resolve_location']
+        self.assertEqual(resolve(None, {'coordinates': [0, 0]}), ([0, 0], 'manual'))
+        self.assertEqual(resolve([1, 2], {'coordinates': [3, 4]}), ([1, 2], 'exif'))
+        self.assertEqual(resolve(None, {}), (None, None))
+        for point in ([91, 0], [0, 181], [float('nan'), 1], [True, 0], '1,2', [1]):
+            with self.assertRaises(ValueError):
+                resolve(None, {'coordinates': point})
+
     def test_gps_hemispheres_zero_and_missing(self):
         coordinates = importer['coordinates']
         self.assertEqual(coordinates({1: 'S', 2: (33, 30, 0), 3: 'W', 4: (70, 15, 0)}), [-33.5, -70.25])

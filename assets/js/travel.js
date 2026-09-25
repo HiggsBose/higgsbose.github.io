@@ -79,7 +79,7 @@
       const preview = dialog.querySelector("img");
       preview.src = cards.get(photo.id).querySelector("a").href;
       preview.alt = photo.alt;
-      dialog.querySelector(".travel-lightbox-caption").textContent = `${photo.place} — ${photo.alt}`;
+      dialog.querySelector(".travel-lightbox-caption").textContent = `${photo.place} — ${photo.alt}${photo.location_note ? ` · ${photo.location_note}` : ""}`;
       const date = dialog.querySelector("time");
       date.textContent = photo.date || "";
       date.dateTime = photo.date || "";
@@ -160,7 +160,7 @@
       const icon = L.divIcon({ className: `travel-pin${active ? " is-selected" : ""}`, html: `<span>${group.photos.length}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] });
       const marker = L.marker(first.coordinates, { icon, title: label, keyboard: true }).addTo(markers);
       const tooltip = document.createElement("span");
-      tooltip.textContent = label;
+      tooltip.textContent = label + (group.photos.some(photo => photo.location_source === "manual") ? " · Includes manually located photographs" : "");
       marker.bindTooltip(tooltip, { direction: "top" });
       const element = marker.getElement();
       element?.setAttribute("aria-label", label);

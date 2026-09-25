@@ -45,7 +45,13 @@
     "place": "Sanxingdui Museum, Guanghan",
     "alt": "Audience members sit in a dim auditorium beneath a high wall crossed by diagonal bands of light and shadow.",
     "country": "China",
-    "city": "Guanghan"
+    "city": "Guanghan",
+    "coordinates": [
+      31.00373,
+      104.21618
+    ],
+    "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS.",
+    "coordinate_reference": "https://mapcarta.com/W418286614"
   },
   "PhotoExport/IMG_1448.HEIC": {
     "place": "Changsha, China",
@@ -57,7 +63,13 @@
     "place": "Liangdao Street alley, Wuhan",
     "alt": "A multi-tiered Chinese tower stands at the end of a street, framed by buildings and overhead cables.",
     "country": "China",
-    "city": "Wuhan"
+    "city": "Wuhan",
+    "coordinates": [
+      30.55013,
+      114.30323
+    ],
+    "location_note": "Manually placed near Liangdao Street; exact alley position unknown.",
+    "coordinate_reference": "https://mapcarta.com/N1214506601"
   },
   "PhotoExport/IMG_1595.HEIC": {
     "place": "Xiamen, China",
@@ -171,7 +183,13 @@
     "place": "Beijing Daxing International Airport",
     "alt": "A bright modern indoor concourse has a sculpted ceiling and shopfronts.",
     "country": "China",
-    "city": "Beijing"
+    "city": "Beijing",
+    "coordinates": [
+      39.511944,
+      116.410556
+    ],
+    "location_note": "Manually placed at Beijing Daxing Airport; not the original camera GPS.",
+    "coordinate_reference": "https://www.wikidata.org/wiki/Q1139574"
   },
   "PhotoExport/IMG_4562.HEIC": {
     "place": "Battersea, London",
@@ -375,6 +393,12 @@
     "place": "Sanxingdui Museum, Guanghan",
     "alt": "A layered modern building façade rises beside trees.",
     "country": "China",
-    "city": "Guanghan"
+    "city": "Guanghan",
+    "coordinates": [
+      31.00373,
+      104.21618
+    ],
+    "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS.",
+    "coordinate_reference": "https://mapcarta.com/W418286614"
   }
 }

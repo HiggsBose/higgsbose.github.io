@@ -75,6 +75,8 @@ python scripts/site.py serve
 
 每张照片另用 `country`、`city` 维护国家和城市索引，`place` 保留具体拍摄地点，`alt` 保留画面描述。侧栏按国家展开城市，点击国家或城市展示该分类的全部照片；地图图钉仍按距离聚合。自然风景使用岛屿或地区名，尚未确认城市的照片暂保留省级地区，避免猜测。已补充地名但没有 GPS 的照片也能通过索引查看，不会凭空生成精确地图坐标。
 
+无 GPS 的照片可以在标签中添加 `coordinates: [纬度, 经度]`（WGS84）、`location_note`（定位说明）和 `coordinate_reference`（查证来源）。导入优先保留原片 GPS，否则使用手动坐标；手动标记表示地点或附近区域，不代表原始拍摄机位。地图提示和照片预览会显示手动定位说明。
+
 发布时提交生成的图片、清单和网页代码即可，CI 无需 HEIC 依赖。展示图移除了 EXIF，但网页地图清单仍包含实际拍摄坐标。原片保留在本地。
 
 地图使用本地存放的 Leaflet 1.9.4、MapLibre GL 5.6.1 和 Leaflet 适配器 0.1.0（许可证见 `assets/vendor/`），底图为 [OpenFreeMap Liberty](https://openfreemap.org/quick_start/)。矢量样式隐藏海上边界线，保留陆地、道路、地名及地图署名。底图需联网且需要浏览器支持 WebGL；不可用时仍可用地点列表浏览照片。普通页面的脚本和字体仍不依赖 CDN。
