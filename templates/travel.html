@@ -5,10 +5,15 @@
   </div>
   {% if travel.photos %}
   <div class="travel-atlas">
-    <aside class="travel-places" aria-label="Photographed places">
-      <p class="eyebrow">THE PLACES</p>
+    <aside class="travel-places" aria-label="Browse by country and city">
+      <p class="eyebrow">COUNTRIES & CITIES</p>
       <button class="travel-place is-active" type="button" data-place="all" aria-pressed="true" disabled><span><b>All photographs</b><small>The whole collection</small></span><span>{{ travel.photos | length }}</span></button>
-      {% for place in travel.places %}<button class="travel-place" type="button" data-place="{{ place.id }}" aria-pressed="false" disabled><span><b>{{ place.name }}</b><small>{{ '%.3f' | format(place.coordinates[0]) }}°, {{ '%.3f' | format(place.coordinates[1]) }}°</small></span><span>{{ place.count }}</span></button>{% endfor %}
+      {% for country in travel.countries %}
+      <details class="travel-country"><summary><span>{{ country.name }}</span><span class="travel-country-count">{{ country.photo_ids | length }}</span></summary>
+        <button class="travel-place travel-country-all" type="button" data-place="{{ country.id }}" aria-pressed="false" disabled><span><b>All in {{ country.name }}</b></span><span>{{ country.photo_ids | length }}</span></button>
+        {% for city in country.cities %}<button class="travel-place travel-city" type="button" data-place="{{ city.id }}" aria-pressed="false" disabled><span><b>{{ city.name }}</b></span><span>{{ city.photo_ids | length }}</span></button>{% endfor %}
+      </details>{% endfor %}
+      {% if travel.unindexed_count %}<button class="travel-place" type="button" data-place="unindexed" aria-pressed="false" disabled><span><b>Location to add</b></span><span>{{ travel.unindexed_count }}</span></button>{% endif %}
       <p class="travel-place-note">A few coordinates.<br>A lot to remember.</p>
     </aside>
     <div class="travel-map-panel">

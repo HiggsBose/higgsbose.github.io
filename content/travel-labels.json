@@ -1,254 +1,380 @@
 {
   "IMG_7568.HEIC": {
     "place": "Mallorca · coast",
-    "alt": "Turquoise water beside the rocky coast of Mallorca"
+    "alt": "Turquoise water beside the rocky coast of Mallorca",
+    "country": "Spain",
+    "city": "Santanyí"
   },
   "IMG_7569.HEIC": {
     "place": "Mallorca, Spain",
-    "alt": "Swimmers wade through clear water in a rocky coastal inlet."
+    "alt": "Swimmers wade through clear water in a rocky coastal inlet.",
+    "country": "Spain",
+    "city": "Santanyí"
   },
   "IMG_7573.HEIC": {
     "place": "Mallorca · coast",
-    "alt": "People resting on rocks beside a clear blue cove in Mallorca"
+    "alt": "People resting on rocks beside a clear blue cove in Mallorca",
+    "country": "Spain",
+    "city": "Santanyí"
   },
   "IMG_7574.HEIC": {
     "place": "Mallorca · coast",
-    "alt": "Stone boathouses and a rocky headland above turquoise water"
+    "alt": "Stone boathouses and a rocky headland above turquoise water",
+    "country": "Spain",
+    "city": "Santanyí"
   },
   "IMG_7680.HEIC": {
     "place": "Barcelona · Sagrada Família",
-    "alt": "Decorated towers of the Sagrada Família beneath a construction crane"
+    "alt": "Decorated towers of the Sagrada Família beneath a construction crane",
+    "country": "Spain",
+    "city": "Barcelona"
   },
   "IMG_7708.HEIC": {
     "place": "Barcelona · Casa Milà",
-    "alt": "Sculptural chimney stacks on the rooftop of Casa Milà"
+    "alt": "Sculptural chimney stacks on the rooftop of Casa Milà",
+    "country": "Spain",
+    "city": "Barcelona"
   },
   "IMG_7711.HEIC": {
     "place": "Barcelona · Casa Milà",
-    "alt": "The Sagrada Família seen across Barcelona from the rooftop of Casa Milà"
+    "alt": "The Sagrada Família seen across Barcelona from the rooftop of Casa Milà",
+    "country": "Spain",
+    "city": "Barcelona"
   },
   "PhotoExport/4600fc09ac1654e6f73bf6dd10d8e41b.PNG": {
-    "place": "Location not recorded",
-    "alt": "Audience members sit in a dim auditorium beneath a high wall crossed by diagonal bands of light and shadow."
+    "place": "Sanxingdui Museum, Guanghan",
+    "alt": "Audience members sit in a dim auditorium beneath a high wall crossed by diagonal bands of light and shadow.",
+    "country": "China",
+    "city": "Guanghan"
   },
   "PhotoExport/IMG_1448.HEIC": {
     "place": "Changsha, China",
-    "alt": "A monumental stone face rises above dense green trees."
+    "alt": "A monumental stone face rises above dense green trees.",
+    "country": "China",
+    "city": "Changsha"
   },
   "PhotoExport/IMG_1512.JPG": {
-    "place": "Location not recorded",
-    "alt": "A multi-tiered Chinese tower stands at the end of a street, framed by buildings and overhead cables."
+    "place": "Liangdao Street alley, Wuhan",
+    "alt": "A multi-tiered Chinese tower stands at the end of a street, framed by buildings and overhead cables.",
+    "country": "China",
+    "city": "Wuhan"
   },
   "PhotoExport/IMG_1595.HEIC": {
     "place": "Xiamen, China",
-    "alt": "Traditional roofed pavilions stand above a stone waterfront embankment."
+    "alt": "Traditional roofed pavilions stand above a stone waterfront embankment.",
+    "country": "China",
+    "city": "Xiamen"
   },
   "PhotoExport/IMG_2193.HEIC": {
     "place": "London, England",
-    "alt": "A glass office building rises above a tree-lined street."
+    "alt": "A glass office building rises above a tree-lined street.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_2195.HEIC": {
     "place": "London, England",
-    "alt": "A construction crane and riverside buildings are seen across the Thames."
+    "alt": "A construction crane and riverside buildings are seen across the Thames.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_2267.HEIC": {
     "place": "Calton Hill, Edinburgh",
-    "alt": "Visitors stand beneath the columns of the National Monument."
+    "alt": "Visitors stand beneath the columns of the National Monument.",
+    "country": "United Kingdom",
+    "city": "Edinburgh"
   },
   "PhotoExport/IMG_2297.HEIC": {
     "place": "Edinburgh, Scotland",
-    "alt": "A clock tower rises above Edinburgh rooftops, with distant spires visible beneath a cloudy sky."
+    "alt": "A clock tower rises above Edinburgh rooftops, with distant spires visible beneath a cloudy sky.",
+    "country": "United Kingdom",
+    "city": "Edinburgh"
   },
   "PhotoExport/IMG_2303.HEIC": {
     "place": "Edinburgh, Scotland",
-    "alt": "A city street curves between tall stone buildings in the evening light."
+    "alt": "A city street curves between tall stone buildings in the evening light.",
+    "country": "United Kingdom",
+    "city": "Edinburgh"
   },
   "PhotoExport/IMG_2378.HEIC": {
     "place": "Scottish Highlands",
-    "alt": "Autumn-colored woodland covers a hillside above a calm loch."
+    "alt": "Autumn-colored woodland covers a hillside above a calm loch.",
+    "country": "United Kingdom",
+    "city": "Scottish Highlands"
   },
   "PhotoExport/IMG_2425.HEIC": {
     "place": "Isle of Skye, Scotland",
-    "alt": "A stream runs through a green rocky gorge toward distant mountains."
+    "alt": "A stream runs through a green rocky gorge toward distant mountains.",
+    "country": "United Kingdom",
+    "city": "Isle of Skye"
   },
   "PhotoExport/IMG_2473.HEIC": {
     "place": "Scottish Highlands",
-    "alt": "A mountain range and a small settlement sit beneath a band of evening cloud."
+    "alt": "A mountain range and a small settlement sit beneath a band of evening cloud.",
+    "country": "United Kingdom",
+    "city": "Scottish Highlands"
   },
   "PhotoExport/IMG_2549.HEIC": {
     "place": "London, England",
-    "alt": "St Paul’s Cathedral is illuminated beyond pedestrians on a riverside walkway."
+    "alt": "St Paul’s Cathedral is illuminated beyond pedestrians on a riverside walkway.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_2632.HEIC": {
     "place": "Barbican, London",
-    "alt": "People stand on a raised walkway beside the Barbican’s concrete residential blocks."
+    "alt": "People stand on a raised walkway beside the Barbican’s concrete residential blocks.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_2681.HEIC": {
     "place": "London, England",
-    "alt": "Graffiti covers the walls of a pedestrian tunnel beneath a brightly lit ceiling."
+    "alt": "Graffiti covers the walls of a pedestrian tunnel beneath a brightly lit ceiling.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_2885.HEIC": {
     "place": "Mallorca, Spain",
-    "alt": "Swimmers stand among rocks in a clear turquoise cove."
+    "alt": "Swimmers stand among rocks in a clear turquoise cove.",
+    "country": "Spain",
+    "city": "Santanyí"
   },
   "PhotoExport/IMG_2954.HEIC": {
     "place": "Tokyo, Japan",
-    "alt": "A dark metal human-shaped sculpture stands among trees in a park."
+    "alt": "A dark metal human-shaped sculpture stands among trees in a park.",
+    "country": "Japan",
+    "city": "Tokyo"
   },
   "PhotoExport/IMG_3292.HEIC": {
     "place": "Wuhan, China",
-    "alt": "A multi-tiered pagoda glows with warm lights against the night sky."
+    "alt": "A multi-tiered pagoda glows with warm lights against the night sky.",
+    "country": "China",
+    "city": "Wuhan"
   },
   "PhotoExport/IMG_3348.HEIC": {
     "place": "Wuhan, China",
-    "alt": "Modern buildings frame a vivid orange sunset over the city."
+    "alt": "Modern buildings frame a vivid orange sunset over the city.",
+    "country": "China",
+    "city": "Wuhan"
   },
   "PhotoExport/IMG_3977.HEIC": {
     "place": "London, England",
-    "alt": "A tall modern office tower rises between older city buildings."
+    "alt": "A tall modern office tower rises between older city buildings.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_4452.HEIC": {
     "place": "Beijing, China",
-    "alt": "A wooded lakeside park and low buildings reflect in still water."
+    "alt": "A wooded lakeside park and low buildings reflect in still water.",
+    "country": "China",
+    "city": "Beijing"
   },
   "PhotoExport/IMG_4549.JPG": {
-    "place": "Location not recorded",
-    "alt": "A bright modern indoor concourse has a sculpted ceiling and shopfronts."
+    "place": "Beijing Daxing International Airport",
+    "alt": "A bright modern indoor concourse has a sculpted ceiling and shopfronts.",
+    "country": "China",
+    "city": "Beijing"
   },
   "PhotoExport/IMG_4562.HEIC": {
     "place": "Battersea, London",
-    "alt": "Battersea Power Station’s brick façade and chimneys face a public plaza."
+    "alt": "Battersea Power Station’s brick façade and chimneys face a public plaza.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_4599.HEIC": {
     "place": "Edinburgh, Scotland",
-    "alt": "A red sightseeing bus passes historic stone buildings on a city street."
+    "alt": "A red sightseeing bus passes historic stone buildings on a city street.",
+    "country": "United Kingdom",
+    "city": "Edinburgh"
   },
   "PhotoExport/IMG_4685.HEIC": {
     "place": "Louvre Museum, Paris",
-    "alt": "Visitors gather beneath the Louvre’s glass pyramid structure."
+    "alt": "Visitors gather beneath the Louvre’s glass pyramid structure.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_4686.HEIC": {
     "place": "Louvre Museum, Paris",
-    "alt": "The glass Louvre Pyramid stands in the museum courtyard."
+    "alt": "The glass Louvre Pyramid stands in the museum courtyard.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_4719.HEIC": {
     "place": "Louvre Museum, Paris",
-    "alt": "The Winged Victory of Samothrace stands above a crowd in the museum."
+    "alt": "The Winged Victory of Samothrace stands above a crowd in the museum.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_4800.HEIC": {
     "place": "Eiffel Tower, Paris",
-    "alt": "The Eiffel Tower shines at night beside the Seine."
+    "alt": "The Eiffel Tower shines at night beside the Seine.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_4814.HEIC": {
     "place": "Palace of Versailles, France",
-    "alt": "Visitors fill an ornate gilded hall inside the palace."
+    "alt": "Visitors fill an ornate gilded hall inside the palace.",
+    "country": "France",
+    "city": "Versailles"
   },
   "PhotoExport/IMG_4835.HEIC": {
     "place": "Paris, France",
-    "alt": "A curved modern cinema building rises above its entrance."
+    "alt": "A curved modern cinema building rises above its entrance.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_4884.HEIC": {
     "place": "Notre-Dame de Paris",
-    "alt": "The cathedral’s twin towers and sculpted central portal face the square."
+    "alt": "The cathedral’s twin towers and sculpted central portal face the square.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_4898.HEIC": {
     "place": "Montmartre, Paris",
-    "alt": "The domes and stone towers of Sacré-Cœur rise above the surrounding rooftops."
+    "alt": "The domes and stone towers of Sacré-Cœur rise above the surrounding rooftops.",
+    "country": "France",
+    "city": "Paris"
   },
   "PhotoExport/IMG_5171.HEIC": {
     "place": "Dubai, UAE",
-    "alt": "The Burj Khalifa rises above the surrounding city buildings."
+    "alt": "The Burj Khalifa rises above the surrounding city buildings.",
+    "country": "United Arab Emirates",
+    "city": "Dubai"
   },
   "PhotoExport/IMG_5245.HEIC": {
     "place": "Neuschwanstein, Bavaria",
-    "alt": "A castle sits among forested Alpine foothills beside a mountain lake."
+    "alt": "A castle sits among forested Alpine foothills beside a mountain lake.",
+    "country": "Germany",
+    "city": "Schwangau"
   },
   "PhotoExport/IMG_5249.HEIC": {
     "place": "Neuschwanstein, Bavaria",
-    "alt": "Neuschwanstein Castle stands above a forested valley."
+    "alt": "Neuschwanstein Castle stands above a forested valley.",
+    "country": "Germany",
+    "city": "Schwangau"
   },
   "PhotoExport/IMG_5437.HEIC": {
     "place": "Munich, Germany",
-    "alt": "Munich rooftops and the twin towers of the Frauenkirche are seen at sunset."
+    "alt": "Munich rooftops and the twin towers of the Frauenkirche are seen at sunset.",
+    "country": "Germany",
+    "city": "Munich"
   },
   "PhotoExport/IMG_5593.HEIC": {
     "place": "Amsterdam, Netherlands",
-    "alt": "Canal houses and moored boats reflect in a narrow Amsterdam canal."
+    "alt": "Canal houses and moored boats reflect in a narrow Amsterdam canal.",
+    "country": "Netherlands",
+    "city": "Amsterdam"
   },
   "PhotoExport/IMG_5666.HEIC": {
     "place": "Anshun, Guizhou, China",
-    "alt": "A still pool reflects clouds and warm evening light between grassy banks."
+    "alt": "A still pool reflects clouds and warm evening light between grassy banks.",
+    "country": "China",
+    "city": "Anshun"
   },
   "PhotoExport/IMG_5847.HEIC": {
     "place": "Seoul, South Korea",
-    "alt": "A narrow commercial street is lined with storefronts and overhead signs."
+    "alt": "A narrow commercial street is lined with storefronts and overhead signs.",
+    "country": "South Korea",
+    "city": "Seoul"
   },
   "PhotoExport/IMG_5900.HEIC": {
     "place": "Stanford University, California",
-    "alt": "A long arcade frames a view through a sequence of stone arches."
+    "alt": "A long arcade frames a view through a sequence of stone arches.",
+    "country": "United States",
+    "city": "Stanford"
   },
   "PhotoExport/IMG_6032.HEIC": {
     "place": "Golden Gate Bridge, San Francisco",
-    "alt": "The Golden Gate Bridge spans the bay, with its red towers and suspension cables visible."
+    "alt": "The Golden Gate Bridge spans the bay, with its red towers and suspension cables visible.",
+    "country": "United States",
+    "city": "San Francisco"
   },
   "PhotoExport/IMG_6051.HEIC": {
     "place": "Golden Gate Bridge, San Francisco",
-    "alt": "The bridge’s red tower rises beyond a roadway and toll structures."
+    "alt": "The bridge’s red tower rises beyond a roadway and toll structures.",
+    "country": "United States",
+    "city": "San Francisco"
   },
   "PhotoExport/IMG_6295.HEIC": {
     "place": "Hạ Long Bay, Vietnam",
-    "alt": "Boats travel between steep limestone islands in a calm bay."
+    "alt": "Boats travel between steep limestone islands in a calm bay.",
+    "country": "Vietnam",
+    "city": "Hạ Long"
   },
   "PhotoExport/IMG_6763.HEIC": {
     "place": "Hebei, China",
-    "alt": "Green ridges and wind turbines extend across a broad rural landscape."
+    "alt": "Green ridges and wind turbines extend across a broad rural landscape.",
+    "country": "China",
+    "city": "Hebei"
   },
   "PhotoExport/IMG_6891.HEIC": {
     "place": "Santa Monica, California",
-    "alt": "Waves roll toward the shore beneath a pastel sunset sky."
+    "alt": "Waves roll toward the shore beneath a pastel sunset sky.",
+    "country": "United States",
+    "city": "Santa Monica"
   },
   "PhotoExport/IMG_6901.HEIC": {
     "place": "Santa Monica Pier, California",
-    "alt": "The pier and its Ferris wheel extend over the water at dusk."
+    "alt": "The pier and its Ferris wheel extend over the water at dusk.",
+    "country": "United States",
+    "city": "Santa Monica"
   },
   "PhotoExport/IMG_7063.HEIC": {
     "place": "Griffith Park, Los Angeles",
-    "alt": "A person takes a selfie with a hazy cityscape and tree-covered hills in the background."
+    "alt": "A person takes a selfie with a hazy cityscape and tree-covered hills in the background.",
+    "country": "United States",
+    "city": "Los Angeles"
   },
   "PhotoExport/IMG_7119.HEIC": {
     "place": "Tokyo, Japan",
-    "alt": "Contemporary high-rise buildings rise beyond a tree-lined urban walkway."
+    "alt": "Contemporary high-rise buildings rise beyond a tree-lined urban walkway.",
+    "country": "Japan",
+    "city": "Tokyo"
   },
   "PhotoExport/IMG_7148.HEIC": {
     "place": "Tokyo, Japan",
-    "alt": "A multi-level glass atrium curves around balconies and a central open space."
+    "alt": "A multi-level glass atrium curves around balconies and a central open space.",
+    "country": "Japan",
+    "city": "Tokyo"
   },
   "PhotoExport/IMG_7309.HEIC": {
     "place": "London, England",
-    "alt": "A block of brick-and-stone offices stands beside a city street."
+    "alt": "A block of brick-and-stone offices stands beside a city street.",
+    "country": "United Kingdom",
+    "city": "London"
   },
   "PhotoExport/IMG_7341.HEIC": {
     "place": "Canterbury, England",
-    "alt": "A leafy garden and narrow stream sit among old brick buildings."
+    "alt": "A leafy garden and narrow stream sit among old brick buildings.",
+    "country": "United Kingdom",
+    "city": "Canterbury"
   },
   "PhotoExport/IMG_7342.HEIC": {
     "place": "Canterbury, England",
-    "alt": "Canterbury Cathedral’s towers rise above the surrounding historic streets."
+    "alt": "Canterbury Cathedral’s towers rise above the surrounding historic streets.",
+    "country": "United Kingdom",
+    "city": "Canterbury"
   },
   "PhotoExport/IMG_7459.HEIC": {
     "place": "Bilbao, Spain",
-    "alt": "The Guggenheim Museum’s sculptural façade stands beside the river."
+    "alt": "The Guggenheim Museum’s sculptural façade stands beside the river.",
+    "country": "Spain",
+    "city": "Bilbao"
   },
   "PhotoExport/IMG_7512.HEIC": {
     "place": "Palma de Mallorca, Spain",
-    "alt": "People sit beside a warm-colored stone tower overlooking the waterfront."
+    "alt": "People sit beside a warm-colored stone tower overlooking the waterfront.",
+    "country": "Spain",
+    "city": "Palma"
   },
   "PhotoExport/IMG_7569.HEIC": {
     "place": "Mallorca, Spain",
-    "alt": "Swimmers wade through clear water in a rocky coastal inlet."
+    "alt": "Swimmers wade through clear water in a rocky coastal inlet.",
+    "country": "Spain",
+    "city": "Santanyí"
   },
   "PhotoExport/a66c6ed4bbc54ce30e9421a3e4987350.PNG": {
-    "place": "Location not recorded",
-    "alt": "A layered modern building façade rises beside trees."
+    "place": "Sanxingdui Museum, Guanghan",
+    "alt": "A layered modern building façade rises beside trees.",
+    "country": "China",
+    "city": "Guanghan"
   }
 }

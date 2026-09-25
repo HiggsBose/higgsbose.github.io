@@ -2,7 +2,8 @@
 (() => {
   const dataNode = document.getElementById("travel-data");
   if (!dataNode) return;
-  const { photos, places } = JSON.parse(dataNode.textContent);
+  const { photos, countries = [] } = JSON.parse(dataNode.textContent);
+  const indexEntries = new Map(countries.flatMap(country => [country, ...country.cities.map(city => ({ ...city, name: `${city.name}, ${country.name}` }))]).map(entry => [entry.id, entry]));
   const cards = new Map([...document.querySelectorAll(".travel-photo")].map(card => [card.dataset.photoId, card]));
   const placeButtons = [...document.querySelectorAll(".travel-place")];
   const radius = document.getElementById("travel-radius");
@@ -21,6 +22,7 @@
     selection.textContent = title;
     count.textContent = `${items.length} photograph${items.length === 1 ? "" : "s"}`;
     document.getElementById("travel-empty").hidden = items.length > 0;
+    radius.disabled = !anchor || !map;
     placeButtons.forEach(button => {
       const active = button.dataset.place === activePlace;
       button.classList.toggle("is-active", active);
@@ -52,15 +54,14 @@
         showPhotos(photos, "All photographs", "all");
         return;
       }
-      const place = places.find(item => item.id === button.dataset.place);
-      if (!place) return;
-      if (map) {
-        anchor = { coordinates: place.coordinates, name: place.name, placeId: place.id };
-        showNearby();
-        map.setView(place.coordinates, 15, { animate: !reducedMotion });
-      } else {
-        showPhotos(photos.filter(photo => photo.place_id === place.id), place.name, place.id);
-      }
+      const entry = indexEntries.get(button.dataset.place);
+      const ids = new Set(entry?.photo_ids || []);
+      const items = button.dataset.place === "unindexed"
+        ? photos.filter(photo => !photo.country || !photo.city)
+        : photos.filter(photo => ids.has(photo.id));
+      showPhotos(items, entry?.name || "Location to add", button.dataset.place);
+      const points = items.filter(photo => photo.coordinates).map(photo => photo.coordinates);
+      if (map && points.length) map.fitBounds(points, { padding: [45, 45], maxZoom: 12, animate: !reducedMotion });
     });
   });
 
@@ -181,7 +182,7 @@
   const world = () => map.setView([24, 10], document.getElementById("travel-map").clientWidth < 550 ? 1 : 2, { animate: !reducedMotion });
   world();
   renderMarkers();
-  radius.disabled = false;
+  radius.disabled = true;
   radius.addEventListener("change", showNearby);
   const worldButton = document.getElementById("travel-world");
   const fitButton = document.getElementById("travel-fit");

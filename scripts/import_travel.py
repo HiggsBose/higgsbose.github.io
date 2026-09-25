@@ -104,6 +104,7 @@ def import_photos(source, image_dir, manifest_path, labels):
             clean.thumbnail((640, 640), Image.Resampling.LANCZOS)
             clean.save(image_dir / f"{digest}-thumb.jpg", quality=82, optimize=True)
         photos.append({"id": digest, "date": taken, "coordinates": location,
+                       "country": label.get("country"), "city": label.get("city"),
                        "place": place, "alt": alt, "width": width, "height": height,
                        "_sort_time": raw_date or "9999",
                        "image": f"images/travel/{digest}.jpg", "thumbnail": f"images/travel/{digest}-thumb.jpg"})

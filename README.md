@@ -73,6 +73,8 @@ python scripts/site.py serve
 
 地名和图片描述在 `content/travel-labels.json` 中维护，键为相对原片目录的文件名（子目录用 `/`）。这批照片的名称根据坐标和画面整理；新增照片若无名称，先显示经纬度，脚本不调用外部地理编码服务。`content/life.md` 编辑旅行项目介绍，`templates/travel.html` 编辑展示结构。
 
+每张照片另用 `country`、`city` 维护国家和城市索引，`place` 保留具体拍摄地点，`alt` 保留画面描述。侧栏按国家展开城市，点击国家或城市展示该分类的全部照片；地图图钉仍按距离聚合。自然风景使用岛屿或地区名，尚未确认城市的照片暂保留省级地区，避免猜测。已补充地名但没有 GPS 的照片也能通过索引查看，不会凭空生成精确地图坐标。
+
 发布时提交生成的图片、清单和网页代码即可，CI 无需 HEIC 依赖。展示图移除了 EXIF，但网页地图清单仍包含实际拍摄坐标。原片保留在本地。
 
 地图使用本地存放的 Leaflet 1.9.4、MapLibre GL 5.6.1 和 Leaflet 适配器 0.1.0（许可证见 `assets/vendor/`），底图为 [OpenFreeMap Liberty](https://openfreemap.org/quick_start/)。矢量样式隐藏海上边界线，保留陆地、道路、地名及地图署名。底图需联网且需要浏览器支持 WebGL；不可用时仍可用地点列表浏览照片。普通页面的脚本和字体仍不依赖 CDN。

@@ -17,6 +17,15 @@
 .travel-place.is-active { box-shadow: inset 3px 0 var(--red); }
 .travel-place.is-active b { color: var(--red); }
 .travel-place-note { margin: 28px 10px 0; color: var(--muted); font: italic 17px/1.6 Georgia, serif; }
+.travel-country { border-bottom: 1px solid var(--line); }
+.travel-country summary { display: flex; align-items: center; gap: 9px; padding: 18px 10px; cursor: pointer; font-size: 14px; list-style: none; }
+.travel-country summary::-webkit-details-marker { display: none; }
+.travel-country summary::before { content: "+"; color: var(--red); font: 16px var(--mono); }
+.travel-country[open] summary::before { content: "−"; }
+.travel-country summary:focus-visible { outline: 3px solid var(--red); outline-offset: -3px; }
+.travel-country-count { margin-left: auto; color: var(--muted); font: 11px var(--mono); }
+.travel-country .travel-place { padding: 12px 10px 12px 28px; border-bottom: 0; }
+.travel-country .travel-country-all b { font-size: 11px; color: var(--muted); }
 .travel-map-panel { min-width: 0; }
 .travel-map-toolbar { min-height: 61px; display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; gap: 12px; border-bottom: 1px solid var(--line); }
 .travel-map-toolbar .eyebrow { font-size: 9px; margin: 0; }

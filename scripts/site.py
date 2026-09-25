@@ -27,6 +27,23 @@ PAGES = [
 ]
 
 
+def travel_index(photos):
+    """Group editorial country/city labels independently of GPS proximity."""
+    grouped = {}
+    for photo in photos:
+        country, city = photo.get("country"), photo.get("city")
+        if country and city:
+            grouped.setdefault(country, {}).setdefault(city, []).append(photo["id"])
+    countries = []
+    for country, cities in sorted(grouped.items()):
+        entries = [{"id": "city-" + hashlib.sha256(f"{country}/{city}".encode()).hexdigest()[:12],
+                    "name": city, "photo_ids": ids} for city, ids in sorted(cities.items())]
+        countries.append({"id": "country-" + hashlib.sha256(country.encode()).hexdigest()[:12],
+                          "name": country, "cities": entries,
+                          "photo_ids": [pid for city in entries for pid in city["photo_ids"]]})
+    return countries
+
+
 def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") -> None:
     base_path = "/" + base_path.strip("/") if base_path.strip("/") else ""
     parsed = urlparse(site_url)
@@ -41,6 +58,8 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
     background = json.loads((ROOT / "content/background.json").read_text(encoding="utf-8"))
     travel_path = ROOT / "content/travel.json"
     travel = json.loads(travel_path.read_text(encoding="utf-8")) if travel_path.exists() else {"photos": [], "places": []}
+    travel["countries"] = travel_index(travel["photos"])
+    travel["unindexed_count"] = sum(not (p.get("country") and p.get("city")) for p in travel["photos"])
     # Never delete a symlink target or a directory outside this repository.
     if OUTPUT.resolve() != ROOT / "_site" or OUTPUT.is_symlink():
         raise ValueError("Refusing to replace an output directory outside the repository")

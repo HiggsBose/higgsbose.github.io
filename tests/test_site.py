@@ -47,6 +47,18 @@ class Document(HTMLParser):
 
 
 class SiteIntegrationTests(unittest.TestCase):
+    def test_country_city_index_uses_labels_without_requiring_gps(self):
+        photos = [
+            {'id': 'a', 'country': 'A', 'city': 'Shared', 'coordinates': None},
+            {'id': 'b', 'country': 'A', 'city': 'Shared', 'coordinates': [1, 2]},
+            {'id': 'c', 'country': 'B', 'city': 'Shared', 'coordinates': [3, 4]},
+            {'id': 'd', 'country': None, 'city': None},
+        ]
+        countries = SITE['travel_index'](photos)
+        self.assertEqual([c['photo_ids'] for c in countries], [['a', 'b'], ['c']])
+        self.assertEqual(countries[0]['cities'][0]['photo_ids'], ['a', 'b'])
+        self.assertNotEqual(countries[0]['cities'][0]['id'], countries[1]['cities'][0]['id'])
+
     @classmethod
     def setUpClass(cls):
         build()
