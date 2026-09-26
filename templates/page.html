@@ -50,6 +50,13 @@
 
 {% if page.slug == 'life' %}
 {% include "travel.html" %}
+<aside class="life-notice" aria-labelledby="life-next-title">
+  <p class="eyebrow">THE EVERYDAY COLLECTION</p>
+  <h2 id="life-next-title">A few moments to keep.</h2>
+  <p>A space for the interesting little things beyond research. Photos, stories, and everyday discoveries will find a home here.</p>
+  <p class="life-notice-status">More stories coming soon</p>
+</aside>
+<p class="life-map-note"><small>The map uses freely available, open-source map data and services. Place names and boundaries follow the source and are shown only to help locate these memories; they do not imply a personal view on territorial status.</small></p>
 {% else %}
 <div class="content-layout"><aside class="page-aside"><span class="eyebrow">{{ page.label | upper }}</span><p>{% if page.slug == 'publications' %}From individual contributions to shared discoveries.{% elif page.slug == 'news' %}The research journey,<br>one update at a time.{% elif page.slug == 'talks' %}Conference talks<br>& oral presentations.{% elif page.slug == 'projects' %}Code, experiments,<br>and side projects.{% else %}Education, recognition,<br>and academic service.{% endif %}</p><span class="aside-mark" aria-hidden="true">↘</span></aside><div class="prose content-body {{ page.slug }}-content">{{ content | safe }}</div></div>
 {% endif %}

@@ -10,12 +10,15 @@
   const selection = document.getElementById("travel-selection");
   const count = document.getElementById("travel-count");
   const status = document.getElementById("travel-map-status");
+  const results = document.getElementById("travel-results");
+  const collapse = document.getElementById("travel-collapse");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let visible = photos;
+  let visible = [];
   let anchor = null;
   let map, markers, radiusCircle;
 
   function showPhotos(items, title, activePlace = null) {
+    results.hidden = false;
     visible = items;
     const ids = new Set(items.map(photo => photo.id));
     cards.forEach((card, id) => { card.hidden = !ids.has(id); });
@@ -46,12 +49,31 @@
     radiusCircle = null;
   }
 
+  function hidePhotos() {
+    clearRadius();
+    visible = [];
+    results.hidden = true;
+    cards.forEach(card => { card.hidden = true; });
+    radius.disabled = true;
+    placeButtons.forEach(button => {
+      const active = button.dataset.place === "overview";
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    if (map) renderMarkers();
+  }
+
+  collapse.addEventListener("click", () => {
+    hidePhotos();
+    placeButtons.find(button => button.dataset.place === "overview").focus({ preventScroll: true });
+  });
+
   placeButtons.forEach(button => {
     button.disabled = false;
     button.addEventListener("click", () => {
       clearRadius();
-      if (button.dataset.place === "all") {
-        showPhotos(photos, "All photographs", "all");
+      if (button.dataset.place === "overview") {
+        hidePhotos();
         return;
       }
       const entry = indexEntries.get(button.dataset.place);
@@ -108,7 +130,7 @@
   }
 
   if (typeof L === "undefined") {
-    document.querySelector(".travel-map-fallback").textContent = "The map could not load. Choose a place or browse the photographs below.";
+    document.querySelector(".travel-map-fallback").textContent = "The map could not load. Choose a country or city from the list to explore its photographs.";
     return;
   }
   document.querySelector(".travel-map-fallback").remove();
@@ -156,7 +178,7 @@
     groups.forEach(group => {
       const first = group.photos[0];
       const label = group.photos.length === 1 ? first.place : `${group.photos.length} photographs · click to explore`;
-      const active = visible.length !== photos.length && group.photos.some(photo => selectedIds.has(photo.id));
+      const active = !results.hidden && group.photos.some(photo => selectedIds.has(photo.id));
       const icon = L.divIcon({ className: `travel-pin${active ? " is-selected" : ""}`, html: `<span>${group.photos.length}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] });
       const marker = L.marker(first.coordinates, { icon, title: label, keyboard: true }).addTo(markers);
       const tooltip = document.createElement("span");
