@@ -1,7 +1,7 @@
 <section class="travel-project" aria-labelledby="travel-title">
   <div class="travel-heading">
     <div><p class="eyebrow">01 / TRAVEL JOURNAL</p><h2 id="travel-title">Somewhere along the way<span class="heading-dot">.</span></h2><div class="travel-intro">{{ content | safe }}</div></div>
-    <div class="travel-totals"><span><b>{{ travel.photos | length }}</b> PHOTOGRAPHS</span><span><b>{{ travel.places | length }}</b> PLACES</span></div>
+    <div class="travel-totals"><span><b>{{ travel.photos | length }}</b> PHOTOGRAPHS</span><span><b>{{ travel.countries | length }}</b> COUNTRIES</span><span><b>{{ travel.places | length }}</b> PLACES</span></div>
   </div>
   {% if travel.photos %}
   <div class="travel-atlas">

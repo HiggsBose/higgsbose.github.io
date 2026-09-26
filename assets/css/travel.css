@@ -91,7 +91,7 @@
 @media (max-width: 700px) {
   .travel-heading { flex-direction: column; }
   .travel-totals { gap: 35px; }
-  .travel-totals b { display: inline; font-size: 25px; margin-right: 6px; }
+  .travel-totals b { display: block; font-size: 25px; }
   .travel-atlas { display: flex; flex-direction: column; }
   .travel-map-panel { order: -1; }
   #travel-map { height: 320px; }
