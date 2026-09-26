@@ -673,6 +673,46 @@
       "destination": "Paris & surroundings"
     },
     {
+      "id": "a35f7a45b58bd4d32270",
+      "date": "2025-08-09",
+      "coordinates": [
+        48.811028,
+        2.115125
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Versailles",
+      "destination": "Paris & surroundings",
+      "place": "Versailles · park",
+      "alt": "A tall tree stands in sunlit grass in the park at Versailles.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/a35f7a45b58bd4d32270.jpg",
+      "thumbnail": "images/travel/a35f7a45b58bd4d32270-thumb.jpg",
+      "place_id": "a35f7a45b58bd4d32270"
+    },
+    {
+      "id": "a427ecfb505a6751d0c8",
+      "date": "2025-08-09",
+      "coordinates": [
+        48.836692,
+        2.382514
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
+      "destination": "Paris & surroundings",
+      "place": "Paris · streets",
+      "alt": "Planted balconies and external staircases line a modern residential building in Paris.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/a427ecfb505a6751d0c8.jpg",
+      "thumbnail": "images/travel/a427ecfb505a6751d0c8-thumb.jpg",
+      "place_id": "a427ecfb505a6751d0c8"
+    },
+    {
       "id": "8052e6c33c3c84bd3d43",
       "date": "2025-08-09",
       "coordinates": [
@@ -689,8 +729,48 @@
       "height": 2000,
       "image": "images/travel/8052e6c33c3c84bd3d43.jpg",
       "thumbnail": "images/travel/8052e6c33c3c84bd3d43-thumb.jpg",
-      "place_id": "8052e6c33c3c84bd3d43",
+      "place_id": "a427ecfb505a6751d0c8",
       "destination": "Paris & surroundings"
+    },
+    {
+      "id": "befa49a599b9b2240055",
+      "date": "2025-08-10",
+      "coordinates": [
+        48.846536,
+        2.344581
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
+      "destination": "Paris & surroundings",
+      "place": "Paris · Latin Quarter",
+      "alt": "Historic stone buildings and a chapel frame a street in the Latin Quarter.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/befa49a599b9b2240055.jpg",
+      "thumbnail": "images/travel/befa49a599b9b2240055-thumb.jpg",
+      "place_id": "befa49a599b9b2240055"
+    },
+    {
+      "id": "80f0b56bb5bd0e40f577",
+      "date": "2025-08-10",
+      "coordinates": [
+        48.860222,
+        2.350944
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
+      "destination": "Paris & surroundings",
+      "place": "Paris · Centre Pompidou",
+      "alt": "The exposed steel structure and red escalator of the Centre Pompidou face a sunny square.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/80f0b56bb5bd0e40f577.jpg",
+      "thumbnail": "images/travel/80f0b56bb5bd0e40f577-thumb.jpg",
+      "place_id": "80f0b56bb5bd0e40f577"
     },
     {
       "id": "f6f895a5c3ba1c4163e3",
@@ -731,6 +811,106 @@
       "thumbnail": "images/travel/fd2b73be3103d6c8e5c6-thumb.jpg",
       "place_id": "fd2b73be3103d6c8e5c6",
       "destination": "Paris & surroundings"
+    },
+    {
+      "id": "815fe2a886b09395662b",
+      "date": "2025-08-16",
+      "coordinates": [
+        24.412528,
+        54.475886
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "destination": "Abu Dhabi",
+      "place": "Abu Dhabi · Sheikh Zayed Grand Mosque",
+      "alt": "White domes and minarets are framed by a pointed arch at Sheikh Zayed Grand Mosque.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/815fe2a886b09395662b.jpg",
+      "thumbnail": "images/travel/815fe2a886b09395662b-thumb.jpg",
+      "place_id": "815fe2a886b09395662b"
+    },
+    {
+      "id": "1d944cc4ecce61fe677b",
+      "date": "2025-08-16",
+      "coordinates": [
+        24.523528,
+        54.405186
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "destination": "Abu Dhabi",
+      "place": "Abu Dhabi · Zayed National Museum",
+      "alt": "The falcon-wing-shaped towers of Zayed National Museum rise above Saadiyat Island.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/1d944cc4ecce61fe677b.jpg",
+      "thumbnail": "images/travel/1d944cc4ecce61fe677b-thumb.jpg",
+      "place_id": "1d944cc4ecce61fe677b"
+    },
+    {
+      "id": "10aa3647ea832baca415",
+      "date": "2025-08-16",
+      "coordinates": [
+        24.532689,
+        54.400678
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "destination": "Abu Dhabi",
+      "place": "Abu Dhabi · Saadiyat Cultural District",
+      "alt": "Palm trees frame angular museum buildings under construction on Saadiyat Island.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/10aa3647ea832baca415.jpg",
+      "thumbnail": "images/travel/10aa3647ea832baca415-thumb.jpg",
+      "place_id": "10aa3647ea832baca415"
+    },
+    {
+      "id": "da88a600f6baae15ee4d",
+      "date": "2025-08-16",
+      "coordinates": [
+        24.533922,
+        54.398769
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "destination": "Abu Dhabi",
+      "place": "Abu Dhabi · Saadiyat Cultural District",
+      "alt": "Cranes stand above sculptural museum buildings under construction near the waterfront.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/da88a600f6baae15ee4d.jpg",
+      "thumbnail": "images/travel/da88a600f6baae15ee4d-thumb.jpg",
+      "place_id": "10aa3647ea832baca415"
+    },
+    {
+      "id": "b22048f4e6694e8ba967",
+      "date": "2025-08-16",
+      "coordinates": [
+        24.533761,
+        54.398608
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "destination": "Abu Dhabi",
+      "place": "Abu Dhabi · Louvre Abu Dhabi",
+      "alt": "The patterned dome of Louvre Abu Dhabi shades terraces overlooking the water.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/b22048f4e6694e8ba967.jpg",
+      "thumbnail": "images/travel/b22048f4e6694e8ba967-thumb.jpg",
+      "place_id": "10aa3647ea832baca415"
     },
     {
       "id": "d515bddfcd64057aba03",
@@ -926,6 +1106,26 @@
       "destination": "San Francisco Bay Area"
     },
     {
+      "id": "c2a50aa5433190c6f5df",
+      "date": "2026-02-15",
+      "coordinates": [
+        21.4854,
+        108.037797
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Vietnam",
+      "city": "Móng Cái",
+      "destination": "Móng Cái",
+      "place": "Móng Cái · Trà Cổ Church",
+      "alt": "Twin Gothic-style towers rise above the entrance of Tra Co Church beneath a blue sky.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/c2a50aa5433190c6f5df.jpg",
+      "thumbnail": "images/travel/c2a50aa5433190c6f5df-thumb.jpg",
+      "place_id": "c2a50aa5433190c6f5df"
+    },
+    {
       "id": "d8395e76bb33f858f318",
       "date": "2026-02-16",
       "coordinates": [
@@ -943,6 +1143,66 @@
       "image": "images/travel/d8395e76bb33f858f318.jpg",
       "thumbnail": "images/travel/d8395e76bb33f858f318-thumb.jpg",
       "place_id": "d8395e76bb33f858f318"
+    },
+    {
+      "id": "83727b035d77388424cd",
+      "date": "2026-02-17",
+      "coordinates": [
+        21.036103,
+        105.835189
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "destination": "Hanoi",
+      "place": "Hanoi · Ho Chi Minh Mausoleum",
+      "alt": "Visitors cross the square in front of Ho Chi Minh Mausoleum, lined with flowers and flags.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/83727b035d77388424cd.jpg",
+      "thumbnail": "images/travel/83727b035d77388424cd-thumb.jpg",
+      "place_id": "83727b035d77388424cd"
+    },
+    {
+      "id": "fa15f6bbf3c0681bfd2c",
+      "date": "2026-02-17",
+      "coordinates": [
+        21.035733,
+        105.833581
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "destination": "Hanoi",
+      "place": "Hanoi · One Pillar Pagoda",
+      "alt": "Red lanterns hang around the One Pillar Pagoda above a pond in Hanoi.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/fa15f6bbf3c0681bfd2c.jpg",
+      "thumbnail": "images/travel/fa15f6bbf3c0681bfd2c-thumb.jpg",
+      "place_id": "83727b035d77388424cd"
+    },
+    {
+      "id": "8ac8ff5716cd23ec526c",
+      "date": "2026-02-19",
+      "coordinates": [
+        21.425364,
+        109.121772
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Beihai",
+      "destination": "Beihai",
+      "place": "Beihai · evening market",
+      "alt": "Crowds walk between food stalls and illuminated shop signs at an evening market in Beihai.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/8ac8ff5716cd23ec526c.jpg",
+      "thumbnail": "images/travel/8ac8ff5716cd23ec526c-thumb.jpg",
+      "place_id": "8ac8ff5716cd23ec526c"
     },
     {
       "id": "e1be0556ce2ee67785bc",
@@ -1617,11 +1877,38 @@
       "count": 1
     },
     {
-      "id": "8052e6c33c3c84bd3d43",
-      "name": "Paris, France",
+      "id": "a35f7a45b58bd4d32270",
+      "name": "Versailles · park",
       "coordinates": [
-        48.836853,
-        2.381589
+        48.811028,
+        2.115125
+      ],
+      "count": 1
+    },
+    {
+      "id": "a427ecfb505a6751d0c8",
+      "name": "Paris · streets",
+      "coordinates": [
+        48.836692,
+        2.382514
+      ],
+      "count": 2
+    },
+    {
+      "id": "befa49a599b9b2240055",
+      "name": "Paris · Latin Quarter",
+      "coordinates": [
+        48.846536,
+        2.344581
+      ],
+      "count": 1
+    },
+    {
+      "id": "80f0b56bb5bd0e40f577",
+      "name": "Paris · Centre Pompidou",
+      "coordinates": [
+        48.860222,
+        2.350944
       ],
       "count": 1
     },
@@ -1642,6 +1929,33 @@
         2.342819
       ],
       "count": 1
+    },
+    {
+      "id": "815fe2a886b09395662b",
+      "name": "Abu Dhabi · Sheikh Zayed Grand Mosque",
+      "coordinates": [
+        24.412528,
+        54.475886
+      ],
+      "count": 1
+    },
+    {
+      "id": "1d944cc4ecce61fe677b",
+      "name": "Abu Dhabi · Zayed National Museum",
+      "coordinates": [
+        24.523528,
+        54.405186
+      ],
+      "count": 1
+    },
+    {
+      "id": "10aa3647ea832baca415",
+      "name": "Abu Dhabi · Saadiyat Cultural District",
+      "coordinates": [
+        24.532689,
+        54.400678
+      ],
+      "count": 3
     },
     {
       "id": "d515bddfcd64057aba03",
@@ -1725,11 +2039,38 @@
       "count": 2
     },
     {
+      "id": "c2a50aa5433190c6f5df",
+      "name": "Móng Cái · Trà Cổ Church",
+      "coordinates": [
+        21.4854,
+        108.037797
+      ],
+      "count": 1
+    },
+    {
       "id": "d8395e76bb33f858f318",
       "name": "Hạ Long Bay, Vietnam",
       "coordinates": [
         20.844006,
         107.090675
+      ],
+      "count": 1
+    },
+    {
+      "id": "83727b035d77388424cd",
+      "name": "Hanoi · Ho Chi Minh Mausoleum",
+      "coordinates": [
+        21.036103,
+        105.835189
+      ],
+      "count": 2
+    },
+    {
+      "id": "8ac8ff5716cd23ec526c",
+      "name": "Beihai · evening market",
+      "coordinates": [
+        21.425364,
+        109.121772
       ],
       "count": 1
     },
