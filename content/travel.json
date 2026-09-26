@@ -3,23 +3,194 @@
   "group_radius_m": 250,
   "photos": [
     {
+      "id": "7a318f7749602c061b34",
+      "date": "2016-02-11",
+      "coordinates": [
+        6.028589,
+        80.216578
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Galle",
+      "place": "Galle Fort · coast",
+      "alt": "Stone ramparts and grassy terraces overlook the rocky coastline at Galle Fort.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/7a318f7749602c061b34.jpg",
+      "thumbnail": "images/travel/7a318f7749602c061b34-thumb.jpg",
+      "place_id": "7a318f7749602c061b34"
+    },
+    {
+      "id": "6dd8ccf93fee3e81e388",
+      "date": "2016-02-11",
+      "coordinates": [
+        6.028589,
+        80.216578
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Galle",
+      "place": "Galle Fort · ramparts",
+      "alt": "Grassy fort ramparts frame a road and the harbour beyond.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/6dd8ccf93fee3e81e388.jpg",
+      "thumbnail": "images/travel/6dd8ccf93fee3e81e388-thumb.jpg",
+      "place_id": "7a318f7749602c061b34"
+    },
+    {
+      "id": "36057b9de2f3d2efe377",
+      "date": "2016-02-11",
+      "coordinates": [
+        6.028589,
+        80.216578
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Galle",
+      "place": "Galle Fort · ocean view",
+      "alt": "Sunlight reflects across the Indian Ocean beyond the stone walls of Galle Fort.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/36057b9de2f3d2efe377.jpg",
+      "thumbnail": "images/travel/36057b9de2f3d2efe377-thumb.jpg",
+      "place_id": "7a318f7749602c061b34"
+    },
+    {
+      "id": "cbe10d36f792c0d3bed2",
+      "date": "2016-02-11",
+      "coordinates": [
+        6.028589,
+        80.216578
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Galle",
+      "place": "Galle · rocky coast",
+      "alt": "Waves roll past offshore rocks along the coast of Galle.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/cbe10d36f792c0d3bed2.jpg",
+      "thumbnail": "images/travel/cbe10d36f792c0d3bed2-thumb.jpg",
+      "place_id": "7a318f7749602c061b34"
+    },
+    {
+      "id": "d4e70ca12923ee109437",
+      "date": "2016-02-11",
+      "coordinates": [
+        6.026806,
+        80.218817
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Galle",
+      "place": "Galle Fort · historic streets",
+      "alt": "A tiled-roof building stands beside a large tree in the old town of Galle.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/d4e70ca12923ee109437.jpg",
+      "thumbnail": "images/travel/d4e70ca12923ee109437-thumb.jpg",
+      "place_id": "d4e70ca12923ee109437"
+    },
+    {
+      "id": "9ef72d9d4a5c0078ec15",
+      "date": "2016-02-11",
+      "coordinates": [
+        6.026806,
+        80.218817
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Galle",
+      "place": "Galle Fort · courtyard",
+      "alt": "A spreading tree shades a paved courtyard and a small tiled-roof pavilion.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/9ef72d9d4a5c0078ec15.jpg",
+      "thumbnail": "images/travel/9ef72d9d4a5c0078ec15-thumb.jpg",
+      "place_id": "d4e70ca12923ee109437"
+    },
+    {
+      "id": "2f11ecb3607857e9afbc",
+      "date": "2016-02-13",
+      "coordinates": [
+        7.270733,
+        80.596308
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Peradeniya",
+      "place": "Peradeniya · Royal Botanic Gardens",
+      "alt": "Tall tropical trees rise above a sunlit lawn in the Royal Botanic Gardens.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/2f11ecb3607857e9afbc.jpg",
+      "thumbnail": "images/travel/2f11ecb3607857e9afbc-thumb.jpg",
+      "place_id": "2f11ecb3607857e9afbc"
+    },
+    {
+      "id": "921ca8279c56b7ece3d9",
+      "date": "2016-02-14",
+      "coordinates": [
+        7.957069,
+        80.759531
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Sigiriya",
+      "place": "Sigiriya · Lion Rock",
+      "alt": "Visitors approach the towering rock fortress of Sigiriya along a path through the gardens.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/921ca8279c56b7ece3d9.jpg",
+      "thumbnail": "images/travel/921ca8279c56b7ece3d9-thumb.jpg",
+      "place_id": "921ca8279c56b7ece3d9"
+    },
+    {
+      "id": "5e01a2dbd95fd2601f35",
+      "date": "2016-02-14",
+      "coordinates": [
+        7.957069,
+        80.759531
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Sri Lanka",
+      "city": "Sigiriya",
+      "place": "Sigiriya · landscape",
+      "alt": "Hazy hills, forest and water stretch toward the horizon in the warm evening light.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/5e01a2dbd95fd2601f35.jpg",
+      "thumbnail": "images/travel/5e01a2dbd95fd2601f35-thumb.jpg",
+      "place_id": "921ca8279c56b7ece3d9"
+    },
+    {
       "id": "c8329113bf08559d5cba",
       "date": "2023-01-01",
       "coordinates": [
         28.170931,
         112.95555
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Changsha",
       "place": "Changsha, China",
       "alt": "A monumental stone face rises above dense green trees.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/c8329113bf08559d5cba.jpg",
       "thumbnail": "images/travel/c8329113bf08559d5cba-thumb.jpg",
-      "place_id": "c8329113bf08559d5cba",
-      "country": "China",
-      "city": "Changsha",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "c8329113bf08559d5cba"
     },
     {
       "id": "52fc7bc1318e72521502",
@@ -28,17 +199,17 @@
         30.55013,
         114.30323
       ],
+      "location_source": "manual",
+      "location_note": "Manually placed near Liangdao Street; exact alley position unknown.",
+      "country": "China",
+      "city": "Wuhan",
       "place": "Liangdao Street alley, Wuhan",
       "alt": "A multi-tiered Chinese tower stands at the end of a street, framed by buildings and overhead cables.",
       "width": 1333,
       "height": 2000,
       "image": "images/travel/52fc7bc1318e72521502.jpg",
       "thumbnail": "images/travel/52fc7bc1318e72521502-thumb.jpg",
-      "place_id": "52fc7bc1318e72521502",
-      "country": "China",
-      "city": "Wuhan",
-      "location_source": "manual",
-      "location_note": "Manually placed near Liangdao Street; exact alley position unknown."
+      "place_id": "52fc7bc1318e72521502"
     },
     {
       "id": "1932e487e0530ae6466c",
@@ -47,17 +218,17 @@
         24.444689,
         118.092636
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Xiamen",
       "place": "Xiamen, China",
       "alt": "Traditional roofed pavilions stand above a stone waterfront embankment.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/1932e487e0530ae6466c.jpg",
       "thumbnail": "images/travel/1932e487e0530ae6466c-thumb.jpg",
-      "place_id": "1932e487e0530ae6466c",
-      "country": "China",
-      "city": "Xiamen",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "1932e487e0530ae6466c"
     },
     {
       "id": "8bfd04d9b81be21349c6",
@@ -66,17 +237,17 @@
         51.505222,
         -0.104467
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "London, England",
       "alt": "A glass office building rises above a tree-lined street.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/8bfd04d9b81be21349c6.jpg",
       "thumbnail": "images/travel/8bfd04d9b81be21349c6-thumb.jpg",
-      "place_id": "8bfd04d9b81be21349c6",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "8bfd04d9b81be21349c6"
     },
     {
       "id": "1647679a843f05c4cb95",
@@ -85,17 +256,17 @@
         51.508636,
         -0.104669
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "London, England",
       "alt": "A construction crane and riverside buildings are seen across the Thames.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/1647679a843f05c4cb95.jpg",
       "thumbnail": "images/travel/1647679a843f05c4cb95-thumb.jpg",
-      "place_id": "1647679a843f05c4cb95",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "1647679a843f05c4cb95"
     },
     {
       "id": "dc2575fcaa954cf80f3b",
@@ -104,17 +275,17 @@
         55.9549,
         -3.183075
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Edinburgh",
       "place": "Calton Hill, Edinburgh",
       "alt": "Visitors stand beneath the columns of the National Monument.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/dc2575fcaa954cf80f3b.jpg",
       "thumbnail": "images/travel/dc2575fcaa954cf80f3b-thumb.jpg",
-      "place_id": "dc2575fcaa954cf80f3b",
-      "country": "United Kingdom",
-      "city": "Edinburgh",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "dc2575fcaa954cf80f3b"
     },
     {
       "id": "5f56dcda4e0bfd6bd240",
@@ -123,17 +294,17 @@
         55.954494,
         -3.182861
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Edinburgh",
       "place": "Edinburgh, Scotland",
       "alt": "A clock tower rises above Edinburgh rooftops, with distant spires visible beneath a cloudy sky.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/5f56dcda4e0bfd6bd240.jpg",
       "thumbnail": "images/travel/5f56dcda4e0bfd6bd240-thumb.jpg",
-      "place_id": "dc2575fcaa954cf80f3b",
-      "country": "United Kingdom",
-      "city": "Edinburgh",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "dc2575fcaa954cf80f3b"
     },
     {
       "id": "a6680cc5941eb0852750",
@@ -142,17 +313,17 @@
         55.949703,
         -3.183467
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Edinburgh",
       "place": "Edinburgh, Scotland",
       "alt": "A city street curves between tall stone buildings in the evening light.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/a6680cc5941eb0852750.jpg",
       "thumbnail": "images/travel/a6680cc5941eb0852750-thumb.jpg",
-      "place_id": "a6680cc5941eb0852750",
-      "country": "United Kingdom",
-      "city": "Edinburgh",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "a6680cc5941eb0852750"
     },
     {
       "id": "80c807040407be8958a5",
@@ -161,17 +332,17 @@
         57.324619,
         -4.441594
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Scottish Highlands",
       "place": "Scottish Highlands",
       "alt": "Autumn-colored woodland covers a hillside above a calm loch.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/80c807040407be8958a5.jpg",
       "thumbnail": "images/travel/80c807040407be8958a5-thumb.jpg",
-      "place_id": "80c807040407be8958a5",
-      "country": "United Kingdom",
-      "city": "Scottish Highlands",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "80c807040407be8958a5"
     },
     {
       "id": "006fc81521df283809f4",
@@ -180,17 +351,17 @@
         57.565853,
         -6.152167
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Isle of Skye",
       "place": "Isle of Skye, Scotland",
       "alt": "A stream runs through a green rocky gorge toward distant mountains.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/006fc81521df283809f4.jpg",
       "thumbnail": "images/travel/006fc81521df283809f4-thumb.jpg",
-      "place_id": "006fc81521df283809f4",
-      "country": "United Kingdom",
-      "city": "Isle of Skye",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "006fc81521df283809f4"
     },
     {
       "id": "8fd0835648289114bd90",
@@ -199,17 +370,17 @@
         57.233906,
         -5.424064
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Scottish Highlands",
       "place": "Scottish Highlands",
       "alt": "A mountain range and a small settlement sit beneath a band of evening cloud.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/8fd0835648289114bd90.jpg",
       "thumbnail": "images/travel/8fd0835648289114bd90-thumb.jpg",
-      "place_id": "8fd0835648289114bd90",
-      "country": "United Kingdom",
-      "city": "Scottish Highlands",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "8fd0835648289114bd90"
     },
     {
       "id": "81d4db6593c11b620e77",
@@ -218,17 +389,17 @@
         51.509425,
         -0.09855
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "London, England",
       "alt": "St Paul’s Cathedral is illuminated beyond pedestrians on a riverside walkway.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/81d4db6593c11b620e77.jpg",
       "thumbnail": "images/travel/81d4db6593c11b620e77-thumb.jpg",
-      "place_id": "81d4db6593c11b620e77",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "81d4db6593c11b620e77"
     },
     {
       "id": "170cef29829042f8148e",
@@ -237,17 +408,17 @@
         51.51965,
         -0.095253
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "Barbican, London",
       "alt": "People stand on a raised walkway beside the Barbican’s concrete residential blocks.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/170cef29829042f8148e.jpg",
       "thumbnail": "images/travel/170cef29829042f8148e-thumb.jpg",
-      "place_id": "170cef29829042f8148e",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "170cef29829042f8148e"
     },
     {
       "id": "9e21376bd7253d1ef91f",
@@ -256,17 +427,17 @@
         51.502075,
         -0.115975
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "London, England",
       "alt": "Graffiti covers the walls of a pedestrian tunnel beneath a brightly lit ceiling.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/9e21376bd7253d1ef91f.jpg",
       "thumbnail": "images/travel/9e21376bd7253d1ef91f-thumb.jpg",
-      "place_id": "9e21376bd7253d1ef91f",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "9e21376bd7253d1ef91f"
     },
     {
       "id": "d9a186d6d88c7394eaa4",
@@ -275,17 +446,17 @@
         35.696281,
         139.570314
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
       "place": "Tokyo, Japan",
       "alt": "A dark metal human-shaped sculpture stands among trees in a park.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/d9a186d6d88c7394eaa4.jpg",
       "thumbnail": "images/travel/d9a186d6d88c7394eaa4-thumb.jpg",
-      "place_id": "d9a186d6d88c7394eaa4",
-      "country": "Japan",
-      "city": "Tokyo",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "d9a186d6d88c7394eaa4"
     },
     {
       "id": "da82bdbe2abedf0445f0",
@@ -294,17 +465,17 @@
         30.550342,
         114.296967
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Wuhan",
       "place": "Wuhan, China",
       "alt": "A multi-tiered pagoda glows with warm lights against the night sky.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/da82bdbe2abedf0445f0.jpg",
       "thumbnail": "images/travel/da82bdbe2abedf0445f0-thumb.jpg",
-      "place_id": "da82bdbe2abedf0445f0",
-      "country": "China",
-      "city": "Wuhan",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "da82bdbe2abedf0445f0"
     },
     {
       "id": "2aa8d3a2d6d9fe3bbc0f",
@@ -313,17 +484,17 @@
         30.588422,
         114.281219
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Wuhan",
       "place": "Wuhan, China",
       "alt": "Modern buildings frame a vivid orange sunset over the city.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/2aa8d3a2d6d9fe3bbc0f.jpg",
       "thumbnail": "images/travel/2aa8d3a2d6d9fe3bbc0f-thumb.jpg",
-      "place_id": "2aa8d3a2d6d9fe3bbc0f",
-      "country": "China",
-      "city": "Wuhan",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "2aa8d3a2d6d9fe3bbc0f"
     },
     {
       "id": "f6d6bc40b82973ae9329",
@@ -332,17 +503,17 @@
         51.513686,
         -0.081414
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "London, England",
       "alt": "A tall modern office tower rises between older city buildings.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/f6d6bc40b82973ae9329.jpg",
       "thumbnail": "images/travel/f6d6bc40b82973ae9329-thumb.jpg",
-      "place_id": "f6d6bc40b82973ae9329",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "f6d6bc40b82973ae9329"
     },
     {
       "id": "495b8ff7e95e5d4991f2",
@@ -351,17 +522,17 @@
         39.993856,
         116.304717
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Beijing",
       "place": "Beijing, China",
       "alt": "A wooded lakeside park and low buildings reflect in still water.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/495b8ff7e95e5d4991f2.jpg",
       "thumbnail": "images/travel/495b8ff7e95e5d4991f2-thumb.jpg",
-      "place_id": "495b8ff7e95e5d4991f2",
-      "country": "China",
-      "city": "Beijing",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "495b8ff7e95e5d4991f2"
     },
     {
       "id": "cc3895d5014728ee49ff",
@@ -370,17 +541,17 @@
         51.483508,
         -0.146119
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "Battersea, London",
       "alt": "Battersea Power Station’s brick façade and chimneys face a public plaza.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/cc3895d5014728ee49ff.jpg",
       "thumbnail": "images/travel/cc3895d5014728ee49ff-thumb.jpg",
-      "place_id": "cc3895d5014728ee49ff",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "cc3895d5014728ee49ff"
     },
     {
       "id": "db76a4b3a7a37522697a",
@@ -389,17 +560,17 @@
         55.952903,
         -3.192231
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Edinburgh",
       "place": "Edinburgh, Scotland",
       "alt": "A red sightseeing bus passes historic stone buildings on a city street.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/db76a4b3a7a37522697a.jpg",
       "thumbnail": "images/travel/db76a4b3a7a37522697a-thumb.jpg",
-      "place_id": "db76a4b3a7a37522697a",
-      "country": "United Kingdom",
-      "city": "Edinburgh",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "db76a4b3a7a37522697a"
     },
     {
       "id": "fff5c1d9796556d5784d",
@@ -408,17 +579,17 @@
         48.861194,
         2.335508
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Louvre Museum, Paris",
       "alt": "Visitors gather beneath the Louvre’s glass pyramid structure.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/fff5c1d9796556d5784d.jpg",
       "thumbnail": "images/travel/fff5c1d9796556d5784d-thumb.jpg",
-      "place_id": "fff5c1d9796556d5784d",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "fff5c1d9796556d5784d"
     },
     {
       "id": "7a3b4d2fca3f11f2ae46",
@@ -427,17 +598,17 @@
         48.861489,
         2.335681
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Louvre Museum, Paris",
       "alt": "The glass Louvre Pyramid stands in the museum courtyard.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/7a3b4d2fca3f11f2ae46.jpg",
       "thumbnail": "images/travel/7a3b4d2fca3f11f2ae46-thumb.jpg",
-      "place_id": "fff5c1d9796556d5784d",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "fff5c1d9796556d5784d"
     },
     {
       "id": "52a536dcc661bd19e0e1",
@@ -446,17 +617,17 @@
         48.860267,
         2.33605
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Louvre Museum, Paris",
       "alt": "The Winged Victory of Samothrace stands above a crowd in the museum.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/52a536dcc661bd19e0e1.jpg",
       "thumbnail": "images/travel/52a536dcc661bd19e0e1-thumb.jpg",
-      "place_id": "fff5c1d9796556d5784d",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "fff5c1d9796556d5784d"
     },
     {
       "id": "ab037f6a33e1d3c49006",
@@ -465,17 +636,17 @@
         48.860564,
         2.29275
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Eiffel Tower, Paris",
       "alt": "The Eiffel Tower shines at night beside the Seine.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/ab037f6a33e1d3c49006.jpg",
       "thumbnail": "images/travel/ab037f6a33e1d3c49006-thumb.jpg",
-      "place_id": "ab037f6a33e1d3c49006",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ab037f6a33e1d3c49006"
     },
     {
       "id": "d6dedc0d8aef99208e2c",
@@ -484,17 +655,17 @@
         48.805528,
         2.120453
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Versailles",
       "place": "Palace of Versailles, France",
       "alt": "Visitors fill an ornate gilded hall inside the palace.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/d6dedc0d8aef99208e2c.jpg",
       "thumbnail": "images/travel/d6dedc0d8aef99208e2c-thumb.jpg",
-      "place_id": "d6dedc0d8aef99208e2c",
-      "country": "France",
-      "city": "Versailles",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "d6dedc0d8aef99208e2c"
     },
     {
       "id": "8052e6c33c3c84bd3d43",
@@ -503,17 +674,17 @@
         48.836853,
         2.381589
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Paris, France",
       "alt": "A curved modern cinema building rises above its entrance.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/8052e6c33c3c84bd3d43.jpg",
       "thumbnail": "images/travel/8052e6c33c3c84bd3d43-thumb.jpg",
-      "place_id": "8052e6c33c3c84bd3d43",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "8052e6c33c3c84bd3d43"
     },
     {
       "id": "f6f895a5c3ba1c4163e3",
@@ -522,17 +693,17 @@
         48.853578,
         2.348011
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Notre-Dame de Paris",
       "alt": "The cathedral’s twin towers and sculpted central portal face the square.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/f6f895a5c3ba1c4163e3.jpg",
       "thumbnail": "images/travel/f6f895a5c3ba1c4163e3-thumb.jpg",
-      "place_id": "f6f895a5c3ba1c4163e3",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "f6f895a5c3ba1c4163e3"
     },
     {
       "id": "fd2b73be3103d6c8e5c6",
@@ -541,17 +712,17 @@
         48.886303,
         2.342819
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "France",
+      "city": "Paris",
       "place": "Montmartre, Paris",
       "alt": "The domes and stone towers of Sacré-Cœur rise above the surrounding rooftops.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/fd2b73be3103d6c8e5c6.jpg",
       "thumbnail": "images/travel/fd2b73be3103d6c8e5c6-thumb.jpg",
-      "place_id": "fd2b73be3103d6c8e5c6",
-      "country": "France",
-      "city": "Paris",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "fd2b73be3103d6c8e5c6"
     },
     {
       "id": "d515bddfcd64057aba03",
@@ -560,17 +731,17 @@
         25.198192,
         55.272717
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Arab Emirates",
+      "city": "Dubai",
       "place": "Dubai, UAE",
       "alt": "The Burj Khalifa rises above the surrounding city buildings.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/d515bddfcd64057aba03.jpg",
       "thumbnail": "images/travel/d515bddfcd64057aba03-thumb.jpg",
-      "place_id": "d515bddfcd64057aba03",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "d515bddfcd64057aba03"
     },
     {
       "id": "30b161ae12b5f88d3c31",
@@ -579,17 +750,17 @@
         47.555636,
         10.746881
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Germany",
+      "city": "Schwangau",
       "place": "Neuschwanstein, Bavaria",
       "alt": "A castle sits among forested Alpine foothills beside a mountain lake.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/30b161ae12b5f88d3c31.jpg",
       "thumbnail": "images/travel/30b161ae12b5f88d3c31-thumb.jpg",
-      "place_id": "30b161ae12b5f88d3c31",
-      "country": "Germany",
-      "city": "Schwangau",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "30b161ae12b5f88d3c31"
     },
     {
       "id": "4fc1d2cb4aa5f3a0fdc4",
@@ -598,17 +769,17 @@
         47.571197,
         10.741114
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Germany",
+      "city": "Schwangau",
       "place": "Neuschwanstein, Bavaria",
       "alt": "Neuschwanstein Castle stands above a forested valley.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/4fc1d2cb4aa5f3a0fdc4.jpg",
       "thumbnail": "images/travel/4fc1d2cb4aa5f3a0fdc4-thumb.jpg",
-      "place_id": "4fc1d2cb4aa5f3a0fdc4",
-      "country": "Germany",
-      "city": "Schwangau",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "4fc1d2cb4aa5f3a0fdc4"
     },
     {
       "id": "ed0cd5e01b464c2c1bcb",
@@ -617,17 +788,17 @@
         48.141528,
         11.560158
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Germany",
+      "city": "Munich",
       "place": "Munich, Germany",
       "alt": "Munich rooftops and the twin towers of the Frauenkirche are seen at sunset.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/ed0cd5e01b464c2c1bcb.jpg",
       "thumbnail": "images/travel/ed0cd5e01b464c2c1bcb-thumb.jpg",
-      "place_id": "ed0cd5e01b464c2c1bcb",
-      "country": "Germany",
-      "city": "Munich",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ed0cd5e01b464c2c1bcb"
     },
     {
       "id": "8e06b71fd56024c8e199",
@@ -636,17 +807,17 @@
         52.375983,
         4.897033
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Netherlands",
+      "city": "Amsterdam",
       "place": "Amsterdam, Netherlands",
       "alt": "Canal houses and moored boats reflect in a narrow Amsterdam canal.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/8e06b71fd56024c8e199.jpg",
       "thumbnail": "images/travel/8e06b71fd56024c8e199-thumb.jpg",
-      "place_id": "8e06b71fd56024c8e199",
-      "country": "Netherlands",
-      "city": "Amsterdam",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "8e06b71fd56024c8e199"
     },
     {
       "id": "2fb7e95bb08455d5fc98",
@@ -655,17 +826,17 @@
         26.123144,
         105.875467
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Anshun",
       "place": "Anshun, Guizhou, China",
       "alt": "A still pool reflects clouds and warm evening light between grassy banks.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/2fb7e95bb08455d5fc98.jpg",
       "thumbnail": "images/travel/2fb7e95bb08455d5fc98-thumb.jpg",
-      "place_id": "2fb7e95bb08455d5fc98",
-      "country": "China",
-      "city": "Anshun",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "2fb7e95bb08455d5fc98"
     },
     {
       "id": "9c7109dc0d52e0f206fa",
@@ -674,17 +845,17 @@
         37.550839,
         126.923081
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "South Korea",
+      "city": "Seoul",
       "place": "Seoul, South Korea",
       "alt": "A narrow commercial street is lined with storefronts and overhead signs.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/9c7109dc0d52e0f206fa.jpg",
       "thumbnail": "images/travel/9c7109dc0d52e0f206fa-thumb.jpg",
-      "place_id": "9c7109dc0d52e0f206fa",
-      "country": "South Korea",
-      "city": "Seoul",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "9c7109dc0d52e0f206fa"
     },
     {
       "id": "bca4200162bae2b98182",
@@ -693,17 +864,17 @@
         37.427497,
         -122.168586
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "Stanford",
       "place": "Stanford University, California",
       "alt": "A long arcade frames a view through a sequence of stone arches.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/bca4200162bae2b98182.jpg",
       "thumbnail": "images/travel/bca4200162bae2b98182-thumb.jpg",
-      "place_id": "bca4200162bae2b98182",
-      "country": "United States",
-      "city": "Stanford",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "bca4200162bae2b98182"
     },
     {
       "id": "c93a929aaab65eaeae34",
@@ -712,17 +883,17 @@
         37.808669,
         -122.475464
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "San Francisco",
       "place": "Golden Gate Bridge, San Francisco",
       "alt": "The Golden Gate Bridge spans the bay, with its red towers and suspension cables visible.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/c93a929aaab65eaeae34.jpg",
       "thumbnail": "images/travel/c93a929aaab65eaeae34-thumb.jpg",
-      "place_id": "c93a929aaab65eaeae34",
-      "country": "United States",
-      "city": "San Francisco",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "c93a929aaab65eaeae34"
     },
     {
       "id": "acf0c67d64f42c44c81f",
@@ -731,17 +902,17 @@
         37.806686,
         -122.475472
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "San Francisco",
       "place": "Golden Gate Bridge, San Francisco",
       "alt": "The bridge’s red tower rises beyond a roadway and toll structures.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/acf0c67d64f42c44c81f.jpg",
       "thumbnail": "images/travel/acf0c67d64f42c44c81f-thumb.jpg",
-      "place_id": "c93a929aaab65eaeae34",
-      "country": "United States",
-      "city": "San Francisco",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "c93a929aaab65eaeae34"
     },
     {
       "id": "d8395e76bb33f858f318",
@@ -750,17 +921,17 @@
         20.844006,
         107.090675
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Vietnam",
+      "city": "Hạ Long",
       "place": "Hạ Long Bay, Vietnam",
       "alt": "Boats travel between steep limestone islands in a calm bay.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/d8395e76bb33f858f318.jpg",
       "thumbnail": "images/travel/d8395e76bb33f858f318-thumb.jpg",
-      "place_id": "d8395e76bb33f858f318",
-      "country": "Vietnam",
-      "city": "Hạ Long",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "d8395e76bb33f858f318"
     },
     {
       "id": "e1be0556ce2ee67785bc",
@@ -769,17 +940,17 @@
         41.243361,
         115.093422
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "China",
+      "city": "Hebei",
       "place": "Hebei, China",
       "alt": "Green ridges and wind turbines extend across a broad rural landscape.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/e1be0556ce2ee67785bc.jpg",
       "thumbnail": "images/travel/e1be0556ce2ee67785bc-thumb.jpg",
-      "place_id": "e1be0556ce2ee67785bc",
-      "country": "China",
-      "city": "Hebei",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "e1be0556ce2ee67785bc"
     },
     {
       "id": "e027d83e56c3c2952d98",
@@ -788,17 +959,17 @@
         34.008514,
         -118.498589
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "Santa Monica",
       "place": "Santa Monica, California",
       "alt": "Waves roll toward the shore beneath a pastel sunset sky.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/e027d83e56c3c2952d98.jpg",
       "thumbnail": "images/travel/e027d83e56c3c2952d98-thumb.jpg",
-      "place_id": "e027d83e56c3c2952d98",
-      "country": "United States",
-      "city": "Santa Monica",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "e027d83e56c3c2952d98"
     },
     {
       "id": "0329404784bb83772b2b",
@@ -807,17 +978,17 @@
         34.008311,
         -118.498558
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "Santa Monica",
       "place": "Santa Monica Pier, California",
       "alt": "The pier and its Ferris wheel extend over the water at dusk.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/0329404784bb83772b2b.jpg",
       "thumbnail": "images/travel/0329404784bb83772b2b-thumb.jpg",
-      "place_id": "e027d83e56c3c2952d98",
-      "country": "United States",
-      "city": "Santa Monica",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "e027d83e56c3c2952d98"
     },
     {
       "id": "ae8caa3532e9374ff200",
@@ -826,17 +997,17 @@
         34.118053,
         -118.300172
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "Los Angeles",
       "place": "Griffith Park, Los Angeles",
       "alt": "A person takes a selfie with a hazy cityscape and tree-covered hills in the background.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/ae8caa3532e9374ff200.jpg",
       "thumbnail": "images/travel/ae8caa3532e9374ff200-thumb.jpg",
-      "place_id": "ae8caa3532e9374ff200",
-      "country": "United States",
-      "city": "Los Angeles",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ae8caa3532e9374ff200"
     },
     {
       "id": "58112834e9cf853a3906",
@@ -845,17 +1016,17 @@
         35.667617,
         139.701675
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
       "place": "Tokyo, Japan",
       "alt": "Contemporary high-rise buildings rise beyond a tree-lined urban walkway.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/58112834e9cf853a3906.jpg",
       "thumbnail": "images/travel/58112834e9cf853a3906-thumb.jpg",
-      "place_id": "58112834e9cf853a3906",
-      "country": "Japan",
-      "city": "Tokyo",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "58112834e9cf853a3906"
     },
     {
       "id": "d3f4f0c63f61069b78fa",
@@ -864,17 +1035,17 @@
         35.664658,
         139.725875
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
       "place": "Tokyo, Japan",
       "alt": "A multi-level glass atrium curves around balconies and a central open space.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/d3f4f0c63f61069b78fa.jpg",
       "thumbnail": "images/travel/d3f4f0c63f61069b78fa-thumb.jpg",
-      "place_id": "d3f4f0c63f61069b78fa",
-      "country": "Japan",
-      "city": "Tokyo",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "d3f4f0c63f61069b78fa"
     },
     {
       "id": "98bf53553cd00cd68467",
@@ -883,17 +1054,17 @@
         51.523328,
         -0.114636
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "London",
       "place": "London, England",
       "alt": "A block of brick-and-stone offices stands beside a city street.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/98bf53553cd00cd68467.jpg",
       "thumbnail": "images/travel/98bf53553cd00cd68467-thumb.jpg",
-      "place_id": "98bf53553cd00cd68467",
-      "country": "United Kingdom",
-      "city": "London",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "98bf53553cd00cd68467"
     },
     {
       "id": "4c4ab23d63bfe7783bce",
@@ -902,17 +1073,17 @@
         51.280814,
         1.079214
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Canterbury",
       "place": "Canterbury, England",
       "alt": "A leafy garden and narrow stream sit among old brick buildings.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/4c4ab23d63bfe7783bce.jpg",
       "thumbnail": "images/travel/4c4ab23d63bfe7783bce-thumb.jpg",
-      "place_id": "4c4ab23d63bfe7783bce",
-      "country": "United Kingdom",
-      "city": "Canterbury",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "4c4ab23d63bfe7783bce"
     },
     {
       "id": "3de06ce760bf2fa0509a",
@@ -921,17 +1092,17 @@
         51.280789,
         1.078894
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United Kingdom",
+      "city": "Canterbury",
       "place": "Canterbury, England",
       "alt": "Canterbury Cathedral’s towers rise above the surrounding historic streets.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/3de06ce760bf2fa0509a.jpg",
       "thumbnail": "images/travel/3de06ce760bf2fa0509a-thumb.jpg",
-      "place_id": "4c4ab23d63bfe7783bce",
-      "country": "United Kingdom",
-      "city": "Canterbury",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "4c4ab23d63bfe7783bce"
     },
     {
       "id": "ede659cba71d42d7d260",
@@ -940,17 +1111,17 @@
         43.270111,
         -2.936647
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Bilbao",
       "place": "Bilbao, Spain",
       "alt": "The Guggenheim Museum’s sculptural façade stands beside the river.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/ede659cba71d42d7d260.jpg",
       "thumbnail": "images/travel/ede659cba71d42d7d260-thumb.jpg",
-      "place_id": "ede659cba71d42d7d260",
-      "country": "Spain",
-      "city": "Bilbao",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ede659cba71d42d7d260"
     },
     {
       "id": "e62ed4669a6d241c3c18",
@@ -959,17 +1130,17 @@
         39.566881,
         2.647942
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Palma",
       "place": "Palma de Mallorca, Spain",
       "alt": "People sit beside a warm-colored stone tower overlooking the waterfront.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/e62ed4669a6d241c3c18.jpg",
       "thumbnail": "images/travel/e62ed4669a6d241c3c18-thumb.jpg",
-      "place_id": "e62ed4669a6d241c3c18",
-      "country": "Spain",
-      "city": "Palma",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "e62ed4669a6d241c3c18"
     },
     {
       "id": "ad092306a3268a8347bd",
@@ -978,17 +1149,17 @@
         39.313339,
         3.119106
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Santanyí",
       "place": "Mallorca · coast",
       "alt": "Turquoise water beside the rocky coast of Mallorca",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/ad092306a3268a8347bd.jpg",
       "thumbnail": "images/travel/ad092306a3268a8347bd-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd",
-      "country": "Spain",
-      "city": "Santanyí",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ad092306a3268a8347bd"
     },
     {
       "id": "67bb427151529b4cc213",
@@ -997,17 +1168,17 @@
         39.313214,
         3.118186
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Santanyí",
       "place": "Mallorca, Spain",
       "alt": "Swimmers wade through clear water in a rocky coastal inlet.",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/67bb427151529b4cc213.jpg",
       "thumbnail": "images/travel/67bb427151529b4cc213-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd",
-      "country": "Spain",
-      "city": "Santanyí",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ad092306a3268a8347bd"
     },
     {
       "id": "f413eac8bce0371f0740",
@@ -1016,17 +1187,17 @@
         39.312767,
         3.118292
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Santanyí",
       "place": "Mallorca, Spain",
       "alt": "Swimmers stand among rocks in a clear turquoise cove.",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/f413eac8bce0371f0740.jpg",
       "thumbnail": "images/travel/f413eac8bce0371f0740-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd",
-      "country": "Spain",
-      "city": "Santanyí",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ad092306a3268a8347bd"
     },
     {
       "id": "ac14785b929ef0965504",
@@ -1035,17 +1206,17 @@
         39.312806,
         3.118347
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Santanyí",
       "place": "Mallorca · coast",
       "alt": "People resting on rocks beside a clear blue cove in Mallorca",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/ac14785b929ef0965504.jpg",
       "thumbnail": "images/travel/ac14785b929ef0965504-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd",
-      "country": "Spain",
-      "city": "Santanyí",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ad092306a3268a8347bd"
     },
     {
       "id": "1a50779dbe5f6a703cd5",
@@ -1054,17 +1225,17 @@
         39.312778,
         3.118358
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Santanyí",
       "place": "Mallorca · coast",
       "alt": "Stone boathouses and a rocky headland above turquoise water",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/1a50779dbe5f6a703cd5.jpg",
       "thumbnail": "images/travel/1a50779dbe5f6a703cd5-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd",
-      "country": "Spain",
-      "city": "Santanyí",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "ad092306a3268a8347bd"
     },
     {
       "id": "aff3674270393411fa74",
@@ -1073,17 +1244,17 @@
         41.402794,
         2.174053
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Barcelona",
       "place": "Barcelona · Sagrada Família",
       "alt": "Decorated towers of the Sagrada Família beneath a construction crane",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/aff3674270393411fa74.jpg",
       "thumbnail": "images/travel/aff3674270393411fa74-thumb.jpg",
-      "place_id": "aff3674270393411fa74",
-      "country": "Spain",
-      "city": "Barcelona",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "aff3674270393411fa74"
     },
     {
       "id": "f43bca86beebe3b46bfd",
@@ -1092,17 +1263,17 @@
         41.395264,
         2.161722
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Barcelona",
       "place": "Barcelona · Casa Milà",
       "alt": "Sculptural chimney stacks on the rooftop of Casa Milà",
       "width": 2000,
       "height": 1500,
       "image": "images/travel/f43bca86beebe3b46bfd.jpg",
       "thumbnail": "images/travel/f43bca86beebe3b46bfd-thumb.jpg",
-      "place_id": "f43bca86beebe3b46bfd",
-      "country": "Spain",
-      "city": "Barcelona",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "f43bca86beebe3b46bfd"
     },
     {
       "id": "eff7ed255367946baf73",
@@ -1111,17 +1282,17 @@
         41.395369,
         2.162019
       ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Spain",
+      "city": "Barcelona",
       "place": "Barcelona · Casa Milà",
       "alt": "The Sagrada Família seen across Barcelona from the rooftop of Casa Milà",
       "width": 1500,
       "height": 2000,
       "image": "images/travel/eff7ed255367946baf73.jpg",
       "thumbnail": "images/travel/eff7ed255367946baf73-thumb.jpg",
-      "place_id": "f43bca86beebe3b46bfd",
-      "country": "Spain",
-      "city": "Barcelona",
-      "location_source": "exif",
-      "location_note": null
+      "place_id": "f43bca86beebe3b46bfd"
     },
     {
       "id": "3fbf054422366806300d",
@@ -1130,17 +1301,17 @@
         39.511944,
         116.410556
       ],
+      "location_source": "manual",
+      "location_note": "Manually placed at Beijing Daxing Airport; not the original camera GPS.",
+      "country": "China",
+      "city": "Beijing",
       "place": "Beijing Daxing International Airport",
       "alt": "A bright modern indoor concourse has a sculpted ceiling and shopfronts.",
       "width": 1920,
       "height": 1080,
       "image": "images/travel/3fbf054422366806300d.jpg",
       "thumbnail": "images/travel/3fbf054422366806300d-thumb.jpg",
-      "place_id": "3fbf054422366806300d",
-      "country": "China",
-      "city": "Beijing",
-      "location_source": "manual",
-      "location_note": "Manually placed at Beijing Daxing Airport; not the original camera GPS."
+      "place_id": "3fbf054422366806300d"
     },
     {
       "id": "5fb1db9e4a3f5af57111",
@@ -1149,17 +1320,17 @@
         31.00373,
         104.21618
       ],
+      "location_source": "manual",
+      "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS.",
+      "country": "China",
+      "city": "Guanghan",
       "place": "Sanxingdui Museum, Guanghan",
       "alt": "A layered modern building façade rises beside trees.",
       "width": 2000,
       "height": 1333,
       "image": "images/travel/5fb1db9e4a3f5af57111.jpg",
       "thumbnail": "images/travel/5fb1db9e4a3f5af57111-thumb.jpg",
-      "place_id": "5fb1db9e4a3f5af57111",
-      "country": "China",
-      "city": "Guanghan",
-      "location_source": "manual",
-      "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS."
+      "place_id": "5fb1db9e4a3f5af57111"
     },
     {
       "id": "7c16614c8049d4367d30",
@@ -1168,20 +1339,56 @@
         31.00373,
         104.21618
       ],
+      "location_source": "manual",
+      "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS.",
+      "country": "China",
+      "city": "Guanghan",
       "place": "Sanxingdui Museum, Guanghan",
       "alt": "Audience members sit in a dim auditorium beneath a high wall crossed by diagonal bands of light and shadow.",
       "width": 2000,
       "height": 1333,
       "image": "images/travel/7c16614c8049d4367d30.jpg",
       "thumbnail": "images/travel/7c16614c8049d4367d30-thumb.jpg",
-      "place_id": "5fb1db9e4a3f5af57111",
-      "country": "China",
-      "city": "Guanghan",
-      "location_source": "manual",
-      "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS."
+      "place_id": "5fb1db9e4a3f5af57111"
     }
   ],
   "places": [
+    {
+      "id": "7a318f7749602c061b34",
+      "name": "Galle Fort · coast",
+      "coordinates": [
+        6.028589,
+        80.216578
+      ],
+      "count": 4
+    },
+    {
+      "id": "d4e70ca12923ee109437",
+      "name": "Galle Fort · historic streets",
+      "coordinates": [
+        6.026806,
+        80.218817
+      ],
+      "count": 2
+    },
+    {
+      "id": "2f11ecb3607857e9afbc",
+      "name": "Peradeniya · Royal Botanic Gardens",
+      "coordinates": [
+        7.270733,
+        80.596308
+      ],
+      "count": 1
+    },
+    {
+      "id": "921ca8279c56b7ece3d9",
+      "name": "Sigiriya · Lion Rock",
+      "coordinates": [
+        7.957069,
+        80.759531
+      ],
+      "count": 2
+    },
     {
       "id": "c8329113bf08559d5cba",
       "name": "Changsha, China",

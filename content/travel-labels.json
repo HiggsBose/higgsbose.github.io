@@ -400,5 +400,59 @@
     ],
     "location_note": "Manually placed at Sanxingdui Museum; not the original camera GPS.",
     "coordinate_reference": "https://mapcarta.com/W418286614"
+  },
+  "Sri Lanka/204.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Galle",
+    "place": "Galle Fort · coast",
+    "alt": "Stone ramparts and grassy terraces overlook the rocky coastline at Galle Fort."
+  },
+  "Sri Lanka/209.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Galle",
+    "place": "Galle Fort · ramparts",
+    "alt": "Grassy fort ramparts frame a road and the harbour beyond."
+  },
+  "Sri Lanka/220.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Galle",
+    "place": "Galle Fort · ocean view",
+    "alt": "Sunlight reflects across the Indian Ocean beyond the stone walls of Galle Fort."
+  },
+  "Sri Lanka/229.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Galle",
+    "place": "Galle · rocky coast",
+    "alt": "Waves roll past offshore rocks along the coast of Galle."
+  },
+  "Sri Lanka/236.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Galle",
+    "place": "Galle Fort · historic streets",
+    "alt": "A tiled-roof building stands beside a large tree in the old town of Galle."
+  },
+  "Sri Lanka/240.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Galle",
+    "place": "Galle Fort · courtyard",
+    "alt": "A spreading tree shades a paved courtyard and a small tiled-roof pavilion."
+  },
+  "Sri Lanka/296.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Peradeniya",
+    "place": "Peradeniya · Royal Botanic Gardens",
+    "alt": "Tall tropical trees rise above a sunlit lawn in the Royal Botanic Gardens."
+  },
+  "Sri Lanka/328.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Sigiriya",
+    "place": "Sigiriya · Lion Rock",
+    "alt": "Visitors approach the towering rock fortress of Sigiriya along a path through the gardens."
+  },
+  "Sri Lanka/336.JPEG": {
+    "country": "Sri Lanka",
+    "city": "Sigiriya",
+    "place": "Sigiriya · landscape",
+    "alt": "Hazy hills, forest and water stretch toward the horizon in the warm evening light."
   }
 }
