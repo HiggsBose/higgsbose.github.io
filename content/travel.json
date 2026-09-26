@@ -589,7 +589,8 @@
       "height": 2000,
       "image": "images/travel/fff5c1d9796556d5784d.jpg",
       "thumbnail": "images/travel/fff5c1d9796556d5784d-thumb.jpg",
-      "place_id": "fff5c1d9796556d5784d"
+      "place_id": "fff5c1d9796556d5784d",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "7a3b4d2fca3f11f2ae46",
@@ -608,7 +609,8 @@
       "height": 1500,
       "image": "images/travel/7a3b4d2fca3f11f2ae46.jpg",
       "thumbnail": "images/travel/7a3b4d2fca3f11f2ae46-thumb.jpg",
-      "place_id": "fff5c1d9796556d5784d"
+      "place_id": "fff5c1d9796556d5784d",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "52a536dcc661bd19e0e1",
@@ -627,7 +629,8 @@
       "height": 2000,
       "image": "images/travel/52a536dcc661bd19e0e1.jpg",
       "thumbnail": "images/travel/52a536dcc661bd19e0e1-thumb.jpg",
-      "place_id": "fff5c1d9796556d5784d"
+      "place_id": "fff5c1d9796556d5784d",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "ab037f6a33e1d3c49006",
@@ -646,7 +649,8 @@
       "height": 2000,
       "image": "images/travel/ab037f6a33e1d3c49006.jpg",
       "thumbnail": "images/travel/ab037f6a33e1d3c49006-thumb.jpg",
-      "place_id": "ab037f6a33e1d3c49006"
+      "place_id": "ab037f6a33e1d3c49006",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "d6dedc0d8aef99208e2c",
@@ -665,7 +669,8 @@
       "height": 2000,
       "image": "images/travel/d6dedc0d8aef99208e2c.jpg",
       "thumbnail": "images/travel/d6dedc0d8aef99208e2c-thumb.jpg",
-      "place_id": "d6dedc0d8aef99208e2c"
+      "place_id": "d6dedc0d8aef99208e2c",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "8052e6c33c3c84bd3d43",
@@ -684,7 +689,8 @@
       "height": 2000,
       "image": "images/travel/8052e6c33c3c84bd3d43.jpg",
       "thumbnail": "images/travel/8052e6c33c3c84bd3d43-thumb.jpg",
-      "place_id": "8052e6c33c3c84bd3d43"
+      "place_id": "8052e6c33c3c84bd3d43",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "f6f895a5c3ba1c4163e3",
@@ -703,7 +709,8 @@
       "height": 2000,
       "image": "images/travel/f6f895a5c3ba1c4163e3.jpg",
       "thumbnail": "images/travel/f6f895a5c3ba1c4163e3-thumb.jpg",
-      "place_id": "f6f895a5c3ba1c4163e3"
+      "place_id": "f6f895a5c3ba1c4163e3",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "fd2b73be3103d6c8e5c6",
@@ -722,7 +729,8 @@
       "height": 1500,
       "image": "images/travel/fd2b73be3103d6c8e5c6.jpg",
       "thumbnail": "images/travel/fd2b73be3103d6c8e5c6-thumb.jpg",
-      "place_id": "fd2b73be3103d6c8e5c6"
+      "place_id": "fd2b73be3103d6c8e5c6",
+      "destination": "Paris & surroundings"
     },
     {
       "id": "d515bddfcd64057aba03",
@@ -874,7 +882,8 @@
       "height": 2000,
       "image": "images/travel/bca4200162bae2b98182.jpg",
       "thumbnail": "images/travel/bca4200162bae2b98182-thumb.jpg",
-      "place_id": "bca4200162bae2b98182"
+      "place_id": "bca4200162bae2b98182",
+      "destination": "San Francisco Bay Area"
     },
     {
       "id": "c93a929aaab65eaeae34",
@@ -893,7 +902,8 @@
       "height": 1500,
       "image": "images/travel/c93a929aaab65eaeae34.jpg",
       "thumbnail": "images/travel/c93a929aaab65eaeae34-thumb.jpg",
-      "place_id": "c93a929aaab65eaeae34"
+      "place_id": "c93a929aaab65eaeae34",
+      "destination": "San Francisco Bay Area"
     },
     {
       "id": "acf0c67d64f42c44c81f",
@@ -912,7 +922,8 @@
       "height": 2000,
       "image": "images/travel/acf0c67d64f42c44c81f.jpg",
       "thumbnail": "images/travel/acf0c67d64f42c44c81f-thumb.jpg",
-      "place_id": "c93a929aaab65eaeae34"
+      "place_id": "c93a929aaab65eaeae34",
+      "destination": "San Francisco Bay Area"
     },
     {
       "id": "d8395e76bb33f858f318",
@@ -969,7 +980,8 @@
       "height": 1500,
       "image": "images/travel/e027d83e56c3c2952d98.jpg",
       "thumbnail": "images/travel/e027d83e56c3c2952d98-thumb.jpg",
-      "place_id": "e027d83e56c3c2952d98"
+      "place_id": "e027d83e56c3c2952d98",
+      "destination": "Los Angeles area"
     },
     {
       "id": "0329404784bb83772b2b",
@@ -988,7 +1000,8 @@
       "height": 1500,
       "image": "images/travel/0329404784bb83772b2b.jpg",
       "thumbnail": "images/travel/0329404784bb83772b2b-thumb.jpg",
-      "place_id": "e027d83e56c3c2952d98"
+      "place_id": "e027d83e56c3c2952d98",
+      "destination": "Los Angeles area"
     },
     {
       "id": "ae8caa3532e9374ff200",
@@ -1007,7 +1020,8 @@
       "height": 1500,
       "image": "images/travel/ae8caa3532e9374ff200.jpg",
       "thumbnail": "images/travel/ae8caa3532e9374ff200-thumb.jpg",
-      "place_id": "ae8caa3532e9374ff200"
+      "place_id": "ae8caa3532e9374ff200",
+      "destination": "Los Angeles area"
     },
     {
       "id": "58112834e9cf853a3906",
@@ -1140,7 +1154,8 @@
       "height": 2000,
       "image": "images/travel/e62ed4669a6d241c3c18.jpg",
       "thumbnail": "images/travel/e62ed4669a6d241c3c18-thumb.jpg",
-      "place_id": "e62ed4669a6d241c3c18"
+      "place_id": "e62ed4669a6d241c3c18",
+      "destination": "Mallorca"
     },
     {
       "id": "ad092306a3268a8347bd",
@@ -1159,7 +1174,8 @@
       "height": 1500,
       "image": "images/travel/ad092306a3268a8347bd.jpg",
       "thumbnail": "images/travel/ad092306a3268a8347bd-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd"
+      "place_id": "ad092306a3268a8347bd",
+      "destination": "Mallorca"
     },
     {
       "id": "67bb427151529b4cc213",
@@ -1178,7 +1194,8 @@
       "height": 2000,
       "image": "images/travel/67bb427151529b4cc213.jpg",
       "thumbnail": "images/travel/67bb427151529b4cc213-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd"
+      "place_id": "ad092306a3268a8347bd",
+      "destination": "Mallorca"
     },
     {
       "id": "f413eac8bce0371f0740",
@@ -1197,7 +1214,8 @@
       "height": 1500,
       "image": "images/travel/f413eac8bce0371f0740.jpg",
       "thumbnail": "images/travel/f413eac8bce0371f0740-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd"
+      "place_id": "ad092306a3268a8347bd",
+      "destination": "Mallorca"
     },
     {
       "id": "ac14785b929ef0965504",
@@ -1216,7 +1234,8 @@
       "height": 1500,
       "image": "images/travel/ac14785b929ef0965504.jpg",
       "thumbnail": "images/travel/ac14785b929ef0965504-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd"
+      "place_id": "ad092306a3268a8347bd",
+      "destination": "Mallorca"
     },
     {
       "id": "1a50779dbe5f6a703cd5",
@@ -1235,7 +1254,8 @@
       "height": 1500,
       "image": "images/travel/1a50779dbe5f6a703cd5.jpg",
       "thumbnail": "images/travel/1a50779dbe5f6a703cd5-thumb.jpg",
-      "place_id": "ad092306a3268a8347bd"
+      "place_id": "ad092306a3268a8347bd",
+      "destination": "Mallorca"
     },
     {
       "id": "aff3674270393411fa74",

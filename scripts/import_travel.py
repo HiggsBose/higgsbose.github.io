@@ -120,6 +120,7 @@ def import_photos(source, image_dir, manifest_path, labels):
         photos.append({"id": digest, "date": taken, "coordinates": location,
                        "location_source": location_source, "location_note": label.get("location_note") if location_source == "manual" else None,
                        "country": label.get("country"), "city": label.get("city"),
+                       "destination": label.get("destination"),
                        "place": place, "alt": alt, "width": width, "height": height,
                        "_sort_time": raw_date or "9999",
                        "image": f"images/travel/{digest}.jpg", "thumbnail": f"images/travel/{digest}-thumb.jpg"})

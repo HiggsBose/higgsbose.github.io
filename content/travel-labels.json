@@ -3,25 +3,29 @@
     "place": "Mallorca · coast",
     "alt": "Turquoise water beside the rocky coast of Mallorca",
     "country": "Spain",
-    "city": "Santanyí"
+    "city": "Santanyí",
+    "destination": "Mallorca"
   },
   "IMG_7569.HEIC": {
     "place": "Mallorca, Spain",
     "alt": "Swimmers wade through clear water in a rocky coastal inlet.",
     "country": "Spain",
-    "city": "Santanyí"
+    "city": "Santanyí",
+    "destination": "Mallorca"
   },
   "IMG_7573.HEIC": {
     "place": "Mallorca · coast",
     "alt": "People resting on rocks beside a clear blue cove in Mallorca",
     "country": "Spain",
-    "city": "Santanyí"
+    "city": "Santanyí",
+    "destination": "Mallorca"
   },
   "IMG_7574.HEIC": {
     "place": "Mallorca · coast",
     "alt": "Stone boathouses and a rocky headland above turquoise water",
     "country": "Spain",
-    "city": "Santanyí"
+    "city": "Santanyí",
+    "destination": "Mallorca"
   },
   "IMG_7680.HEIC": {
     "place": "Barcelona · Sagrada Família",
@@ -147,7 +151,8 @@
     "place": "Mallorca, Spain",
     "alt": "Swimmers stand among rocks in a clear turquoise cove.",
     "country": "Spain",
-    "city": "Santanyí"
+    "city": "Santanyí",
+    "destination": "Mallorca"
   },
   "PhotoExport/IMG_2954.HEIC": {
     "place": "Tokyo, Japan",
@@ -207,49 +212,57 @@
     "place": "Louvre Museum, Paris",
     "alt": "Visitors gather beneath the Louvre’s glass pyramid structure.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4686.HEIC": {
     "place": "Louvre Museum, Paris",
     "alt": "The glass Louvre Pyramid stands in the museum courtyard.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4719.HEIC": {
     "place": "Louvre Museum, Paris",
     "alt": "The Winged Victory of Samothrace stands above a crowd in the museum.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4800.HEIC": {
     "place": "Eiffel Tower, Paris",
     "alt": "The Eiffel Tower shines at night beside the Seine.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4814.HEIC": {
     "place": "Palace of Versailles, France",
     "alt": "Visitors fill an ornate gilded hall inside the palace.",
     "country": "France",
-    "city": "Versailles"
+    "city": "Versailles",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4835.HEIC": {
     "place": "Paris, France",
     "alt": "A curved modern cinema building rises above its entrance.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4884.HEIC": {
     "place": "Notre-Dame de Paris",
     "alt": "The cathedral’s twin towers and sculpted central portal face the square.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_4898.HEIC": {
     "place": "Montmartre, Paris",
     "alt": "The domes and stone towers of Sacré-Cœur rise above the surrounding rooftops.",
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "destination": "Paris & surroundings"
   },
   "PhotoExport/IMG_5171.HEIC": {
     "place": "Dubai, UAE",
@@ -297,19 +310,22 @@
     "place": "Stanford University, California",
     "alt": "A long arcade frames a view through a sequence of stone arches.",
     "country": "United States",
-    "city": "Stanford"
+    "city": "Stanford",
+    "destination": "San Francisco Bay Area"
   },
   "PhotoExport/IMG_6032.HEIC": {
     "place": "Golden Gate Bridge, San Francisco",
     "alt": "The Golden Gate Bridge spans the bay, with its red towers and suspension cables visible.",
     "country": "United States",
-    "city": "San Francisco"
+    "city": "San Francisco",
+    "destination": "San Francisco Bay Area"
   },
   "PhotoExport/IMG_6051.HEIC": {
     "place": "Golden Gate Bridge, San Francisco",
     "alt": "The bridge’s red tower rises beyond a roadway and toll structures.",
     "country": "United States",
-    "city": "San Francisco"
+    "city": "San Francisco",
+    "destination": "San Francisco Bay Area"
   },
   "PhotoExport/IMG_6295.HEIC": {
     "place": "Hạ Long Bay, Vietnam",
@@ -327,19 +343,22 @@
     "place": "Santa Monica, California",
     "alt": "Waves roll toward the shore beneath a pastel sunset sky.",
     "country": "United States",
-    "city": "Santa Monica"
+    "city": "Santa Monica",
+    "destination": "Los Angeles area"
   },
   "PhotoExport/IMG_6901.HEIC": {
     "place": "Santa Monica Pier, California",
     "alt": "The pier and its Ferris wheel extend over the water at dusk.",
     "country": "United States",
-    "city": "Santa Monica"
+    "city": "Santa Monica",
+    "destination": "Los Angeles area"
   },
   "PhotoExport/IMG_7063.HEIC": {
     "place": "Griffith Park, Los Angeles",
     "alt": "A person takes a selfie with a hazy cityscape and tree-covered hills in the background.",
     "country": "United States",
-    "city": "Los Angeles"
+    "city": "Los Angeles",
+    "destination": "Los Angeles area"
   },
   "PhotoExport/IMG_7119.HEIC": {
     "place": "Tokyo, Japan",
@@ -381,13 +400,15 @@
     "place": "Palma de Mallorca, Spain",
     "alt": "People sit beside a warm-colored stone tower overlooking the waterfront.",
     "country": "Spain",
-    "city": "Palma"
+    "city": "Palma",
+    "destination": "Mallorca"
   },
   "PhotoExport/IMG_7569.HEIC": {
     "place": "Mallorca, Spain",
     "alt": "Swimmers wade through clear water in a rocky coastal inlet.",
     "country": "Spain",
-    "city": "Santanyí"
+    "city": "Santanyí",
+    "destination": "Mallorca"
   },
   "PhotoExport/a66c6ed4bbc54ce30e9421a3e4987350.PNG": {
     "place": "Sanxingdui Museum, Guanghan",

@@ -28,19 +28,20 @@ PAGES = [
 
 
 def travel_index(photos):
-    """Group editorial country/city labels independently of GPS proximity."""
+    """Group travel destinations, preserving actual localities and camera GPS."""
     grouped = {}
     for photo in photos:
-        country, city = photo.get("country"), photo.get("city")
-        if country and city:
-            grouped.setdefault(country, {}).setdefault(city, []).append(photo["id"])
+        country = photo.get("country")
+        destination = photo.get("destination") or photo.get("city")
+        if country and destination:
+            grouped.setdefault(country, {}).setdefault(destination, []).append(photo["id"])
     countries = []
-    for country, cities in sorted(grouped.items()):
-        entries = [{"id": "city-" + hashlib.sha256(f"{country}/{city}".encode()).hexdigest()[:12],
-                    "name": city, "photo_ids": ids} for city, ids in sorted(cities.items())]
+    for country, destinations in sorted(grouped.items()):
+        entries = [{"id": "destination-" + hashlib.sha256(f"{country}/{destination}".encode()).hexdigest()[:12],
+                    "name": destination, "photo_ids": ids} for destination, ids in sorted(destinations.items())]
         countries.append({"id": "country-" + hashlib.sha256(country.encode()).hexdigest()[:12],
-                          "name": country, "cities": entries,
-                          "photo_ids": [pid for city in entries for pid in city["photo_ids"]]})
+                          "name": country, "destinations": entries,
+                          "photo_ids": [pid for destination in entries for pid in destination["photo_ids"]]})
     return countries
 
 
@@ -59,7 +60,7 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
     travel_path = ROOT / "content/travel.json"
     travel = json.loads(travel_path.read_text(encoding="utf-8")) if travel_path.exists() else {"photos": [], "places": []}
     travel["countries"] = travel_index(travel["photos"])
-    travel["unindexed_count"] = sum(not (p.get("country") and p.get("city")) for p in travel["photos"])
+    travel["unindexed_count"] = sum(not (p.get("country") and (p.get("destination") or p.get("city"))) for p in travel["photos"])
     # Never delete a symlink target or a directory outside this repository.
     if OUTPUT.resolve() != ROOT / "_site" or OUTPUT.is_symlink():
         raise ValueError("Refusing to replace an output directory outside the repository")

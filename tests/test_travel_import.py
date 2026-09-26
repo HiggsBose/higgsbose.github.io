@@ -14,6 +14,21 @@ if HAS_PHOTO_DEPS:
 
 @unittest.skipUnless(HAS_PHOTO_DEPS, 'Install requirements-photos.txt to test photo importing')
 class TravelImportTests(unittest.TestCase):
+    def test_import_preserves_destination_and_actual_locality(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / 'originals'
+            source.mkdir()
+            Image.new('RGB', (20, 20), 'blue').save(source / 'pier.jpg')
+            labels = {'pier.jpg': {'country': 'United States', 'city': 'Santa Monica',
+                                  'destination': 'Los Angeles area', 'place': 'Santa Monica Pier'}}
+            result = importer['import_photos'](source, root / 'web', root / 'travel.json', labels)
+            photo = result['photos'][0]
+            self.assertEqual(photo['destination'], 'Los Angeles area')
+            self.assertEqual(photo['city'], 'Santa Monica')
+            self.assertEqual(photo['place'], 'Santa Monica Pier')
+            self.assertIsNone(photo['coordinates'])
+
     def test_manual_pin_fallback_and_gps_priority(self):
         resolve = importer['resolve_location']
         self.assertEqual(resolve(None, {'coordinates': [0, 0]}), ([0, 0], 'manual'))

@@ -3,7 +3,7 @@
   const dataNode = document.getElementById("travel-data");
   if (!dataNode) return;
   const { photos, countries = [] } = JSON.parse(dataNode.textContent);
-  const indexEntries = new Map(countries.flatMap(country => [country, ...country.cities.map(city => ({ ...city, name: `${city.name}, ${country.name}` }))]).map(entry => [entry.id, entry]));
+  const indexEntries = new Map(countries.flatMap(country => [country, ...country.destinations.map(destination => ({ ...destination, name: `${destination.name}, ${country.name}` }))]).map(entry => [entry.id, entry]));
   const cards = new Map([...document.querySelectorAll(".travel-photo")].map(card => [card.dataset.photoId, card]));
   const placeButtons = [...document.querySelectorAll(".travel-place")];
   const radius = document.getElementById("travel-radius");
@@ -79,7 +79,7 @@
       const entry = indexEntries.get(button.dataset.place);
       const ids = new Set(entry?.photo_ids || []);
       const items = button.dataset.place === "unindexed"
-        ? photos.filter(photo => !photo.country || !photo.city)
+        ? photos.filter(photo => !photo.country || !(photo.destination || photo.city))
         : photos.filter(photo => ids.has(photo.id));
       showPhotos(items, entry?.name || "Location to add", button.dataset.place);
       const points = items.filter(photo => photo.coordinates).map(photo => photo.coordinates);
@@ -130,7 +130,7 @@
   }
 
   if (typeof L === "undefined") {
-    document.querySelector(".travel-map-fallback").textContent = "The map could not load. Choose a country or city from the list to explore its photographs.";
+    document.querySelector(".travel-map-fallback").textContent = "The map could not load. Choose a country or destination from the list to explore its photographs.";
     return;
   }
   document.querySelector(".travel-map-fallback").remove();

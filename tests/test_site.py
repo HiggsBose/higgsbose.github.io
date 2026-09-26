@@ -47,7 +47,7 @@ class Document(HTMLParser):
 
 
 class SiteIntegrationTests(unittest.TestCase):
-    def test_country_city_index_uses_labels_without_requiring_gps(self):
+    def test_country_destination_index_uses_labels_without_requiring_gps(self):
         photos = [
             {'id': 'a', 'country': 'A', 'city': 'Shared', 'coordinates': None},
             {'id': 'b', 'country': 'A', 'city': 'Shared', 'coordinates': [1, 2]},
@@ -56,8 +56,22 @@ class SiteIntegrationTests(unittest.TestCase):
         ]
         countries = SITE['travel_index'](photos)
         self.assertEqual([c['photo_ids'] for c in countries], [['a', 'b'], ['c']])
-        self.assertEqual(countries[0]['cities'][0]['photo_ids'], ['a', 'b'])
-        self.assertNotEqual(countries[0]['cities'][0]['id'], countries[1]['cities'][0]['id'])
+        self.assertEqual(countries[0]['destinations'][0]['photo_ids'], ['a', 'b'])
+        self.assertNotEqual(countries[0]['destinations'][0]['id'], countries[1]['destinations'][0]['id'])
+
+    def test_destination_groups_localities_and_accepts_regions_without_a_city(self):
+        photos = [
+            {'id': 'a', 'country': 'US', 'city': 'Los Angeles', 'destination': 'Los Angeles area'},
+            {'id': 'b', 'country': 'US', 'city': 'Santa Monica', 'destination': 'Los Angeles area'},
+            {'id': 'c', 'country': 'US', 'destination': 'Island'},
+            {'id': 'd', 'country': 'US', 'city': 'Boston', 'destination': None},
+            {'id': 'e', 'country': 'US'},
+        ]
+        country = SITE['travel_index'](photos)[0]
+        self.assertEqual([(d['name'], d['photo_ids']) for d in country['destinations']],
+                         [('Boston', ['d']), ('Island', ['c']), ('Los Angeles area', ['a', 'b'])])
+        self.assertEqual(country['photo_ids'], ['d', 'c', 'a', 'b'])
+        self.assertEqual(photos[1]['city'], 'Santa Monica')
 
     @classmethod
     def setUpClass(cls):
