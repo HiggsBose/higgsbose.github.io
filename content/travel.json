@@ -440,6 +440,86 @@
       "place_id": "9e21376bd7253d1ef91f"
     },
     {
+      "id": "5663630d5192113df410",
+      "date": "2024-04-26",
+      "coordinates": [
+        35.712167,
+        139.796417
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "A narrow shopping passage decorated with hanging lanterns.",
+      "width": 1333,
+      "height": 2000,
+      "image": "images/travel/5663630d5192113df410.jpg",
+      "thumbnail": "images/travel/5663630d5192113df410-thumb.jpg",
+      "place_id": "5663630d5192113df410"
+    },
+    {
+      "id": "c528cca398309851191b",
+      "date": "2024-04-26",
+      "coordinates": [
+        35.714694,
+        139.79675
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "Rows of glowing paper lanterns beside a temple at dusk.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/c528cca398309851191b.jpg",
+      "thumbnail": "images/travel/c528cca398309851191b-thumb.jpg",
+      "place_id": "c528cca398309851191b"
+    },
+    {
+      "id": "c5878d30cc8357cdb53c",
+      "date": "2024-04-26",
+      "coordinates": [
+        35.714694,
+        139.79675
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "An illuminated red pagoda and temple roof against the evening sky.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/c5878d30cc8357cdb53c.jpg",
+      "thumbnail": "images/travel/c5878d30cc8357cdb53c-thumb.jpg",
+      "place_id": "c528cca398309851191b"
+    },
+    {
+      "id": "c7ff399340a711c34b6a",
+      "date": "2024-04-26",
+      "coordinates": [
+        35.658558,
+        139.745503
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "An illuminated orange tower above the city at night.",
+      "width": 1322,
+      "height": 2000,
+      "image": "images/travel/c7ff399340a711c34b6a.jpg",
+      "thumbnail": "images/travel/c7ff399340a711c34b6a-thumb.jpg",
+      "place_id": "c7ff399340a711c34b6a"
+    },
+    {
       "id": "d9a186d6d88c7394eaa4",
       "date": "2024-04-27",
       "coordinates": [
@@ -457,6 +537,206 @@
       "image": "images/travel/d9a186d6d88c7394eaa4.jpg",
       "thumbnail": "images/travel/d9a186d6d88c7394eaa4-thumb.jpg",
       "place_id": "d9a186d6d88c7394eaa4"
+    },
+    {
+      "id": "30b521c0a4659fc10bdf",
+      "date": "2024-04-27",
+      "coordinates": [
+        35.696242,
+        139.570461
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "A quiet residential street with a red road marking.",
+      "width": 1333,
+      "height": 2000,
+      "image": "images/travel/30b521c0a4659fc10bdf.jpg",
+      "thumbnail": "images/travel/30b521c0a4659fc10bdf-thumb.jpg",
+      "place_id": "d9a186d6d88c7394eaa4"
+    },
+    {
+      "id": "4583f734a6d2e58bad11",
+      "date": "2024-04-27",
+      "coordinates": [
+        35.696242,
+        139.570461
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "Visitors walking beneath trees in a leafy park.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/4583f734a6d2e58bad11.jpg",
+      "thumbnail": "images/travel/4583f734a6d2e58bad11-thumb.jpg",
+      "place_id": "d9a186d6d88c7394eaa4"
+    },
+    {
+      "id": "099fef6b52a4ab83f015",
+      "date": "2024-04-27",
+      "coordinates": [
+        35.703142,
+        139.579806
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Tokyo",
+      "destination": "Tokyo",
+      "place": "Tokyo, Japan",
+      "alt": "People walking along a shopping street lined with signs.",
+      "width": 1333,
+      "height": 2000,
+      "image": "images/travel/099fef6b52a4ab83f015.jpg",
+      "thumbnail": "images/travel/099fef6b52a4ab83f015-thumb.jpg",
+      "place_id": "099fef6b52a4ab83f015"
+    },
+    {
+      "id": "7314779c93dacf9ecb33",
+      "date": "2024-04-29",
+      "coordinates": [
+        34.967556,
+        135.775667
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Kyoto",
+      "destination": "Kyoto",
+      "place": "Kyoto, Japan",
+      "alt": "A visitor standing before a red shrine building.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/7314779c93dacf9ecb33.jpg",
+      "thumbnail": "images/travel/7314779c93dacf9ecb33-thumb.jpg",
+      "place_id": "7314779c93dacf9ecb33"
+    },
+    {
+      "id": "a0d61a8365014be75ce5",
+      "date": "2024-04-29",
+      "coordinates": [
+        34.967556,
+        135.775667
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Kyoto",
+      "destination": "Kyoto",
+      "place": "Kyoto, Japan",
+      "alt": "Visitors walking through a corridor of red torii gates.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/a0d61a8365014be75ce5.jpg",
+      "thumbnail": "images/travel/a0d61a8365014be75ce5-thumb.jpg",
+      "place_id": "7314779c93dacf9ecb33"
+    },
+    {
+      "id": "c08e24350128ccb00d8d",
+      "date": "2024-04-29",
+      "coordinates": [
+        34.995131,
+        135.780411
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Kyoto",
+      "destination": "Kyoto",
+      "place": "Kyoto, Japan",
+      "alt": "Visitors on a sloping street lined with traditional buildings.",
+      "width": 1333,
+      "height": 2000,
+      "image": "images/travel/c08e24350128ccb00d8d.jpg",
+      "thumbnail": "images/travel/c08e24350128ccb00d8d-thumb.jpg",
+      "place_id": "c08e24350128ccb00d8d"
+    },
+    {
+      "id": "683ffb9f42ff4f572248",
+      "date": "2024-04-29",
+      "coordinates": [
+        34.997097,
+        135.776314
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Kyoto",
+      "destination": "Kyoto",
+      "place": "Kyoto, Japan",
+      "alt": "A pagoda framed by trees and greenery on a hillside.",
+      "width": 1333,
+      "height": 2000,
+      "image": "images/travel/683ffb9f42ff4f572248.jpg",
+      "thumbnail": "images/travel/683ffb9f42ff4f572248-thumb.jpg",
+      "place_id": "683ffb9f42ff4f572248"
+    },
+    {
+      "id": "6894fcbc11b8e57f14dd",
+      "date": "2024-04-30",
+      "coordinates": [
+        35.038897,
+        135.728731
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Kyoto",
+      "destination": "Kyoto",
+      "place": "Kyoto, Japan",
+      "alt": "A golden pavilion reflected in a pond surrounded by trees.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/6894fcbc11b8e57f14dd.jpg",
+      "thumbnail": "images/travel/6894fcbc11b8e57f14dd-thumb.jpg",
+      "place_id": "6894fcbc11b8e57f14dd"
+    },
+    {
+      "id": "c3f759dc9f5753ed57b3",
+      "date": "2024-04-30",
+      "coordinates": [
+        34.681011,
+        135.846328
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Nara",
+      "destination": "Nara",
+      "place": "Nara, Japan",
+      "alt": "A deer resting beside moss-covered stone lanterns.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/c3f759dc9f5753ed57b3.jpg",
+      "thumbnail": "images/travel/c3f759dc9f5753ed57b3-thumb.jpg",
+      "place_id": "c3f759dc9f5753ed57b3"
+    },
+    {
+      "id": "032fbe6250ae4c56e294",
+      "date": "2024-04-30",
+      "coordinates": [
+        34.681011,
+        135.846328
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "Japan",
+      "city": "Nara",
+      "destination": "Nara",
+      "place": "Nara, Japan",
+      "alt": "Visitors approaching a red torii gate along a wooded path.",
+      "width": 2000,
+      "height": 1333,
+      "image": "images/travel/032fbe6250ae4c56e294.jpg",
+      "thumbnail": "images/travel/032fbe6250ae4c56e294-thumb.jpg",
+      "place_id": "c3f759dc9f5753ed57b3"
     },
     {
       "id": "da82bdbe2abedf0445f0",
@@ -1787,13 +2067,94 @@
       "count": 1
     },
     {
+      "id": "5663630d5192113df410",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.712167,
+        139.796417
+      ],
+      "count": 1
+    },
+    {
+      "id": "c528cca398309851191b",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.714694,
+        139.79675
+      ],
+      "count": 2
+    },
+    {
+      "id": "c7ff399340a711c34b6a",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.658558,
+        139.745503
+      ],
+      "count": 1
+    },
+    {
       "id": "d9a186d6d88c7394eaa4",
       "name": "Tokyo, Japan",
       "coordinates": [
         35.696281,
         139.570314
       ],
+      "count": 3
+    },
+    {
+      "id": "099fef6b52a4ab83f015",
+      "name": "Tokyo, Japan",
+      "coordinates": [
+        35.703142,
+        139.579806
+      ],
       "count": 1
+    },
+    {
+      "id": "7314779c93dacf9ecb33",
+      "name": "Kyoto, Japan",
+      "coordinates": [
+        34.967556,
+        135.775667
+      ],
+      "count": 2
+    },
+    {
+      "id": "c08e24350128ccb00d8d",
+      "name": "Kyoto, Japan",
+      "coordinates": [
+        34.995131,
+        135.780411
+      ],
+      "count": 1
+    },
+    {
+      "id": "683ffb9f42ff4f572248",
+      "name": "Kyoto, Japan",
+      "coordinates": [
+        34.997097,
+        135.776314
+      ],
+      "count": 1
+    },
+    {
+      "id": "6894fcbc11b8e57f14dd",
+      "name": "Kyoto, Japan",
+      "coordinates": [
+        35.038897,
+        135.728731
+      ],
+      "count": 1
+    },
+    {
+      "id": "c3f759dc9f5753ed57b3",
+      "name": "Nara, Japan",
+      "coordinates": [
+        34.681011,
+        135.846328
+      ],
+      "count": 2
     },
     {
       "id": "da82bdbe2abedf0445f0",
