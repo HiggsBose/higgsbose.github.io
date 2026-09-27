@@ -1326,6 +1326,46 @@
       "place_id": "9c7109dc0d52e0f206fa"
     },
     {
+      "id": "ebcd7333930ca426e7d5",
+      "date": "2025-12-05",
+      "coordinates": [
+        37.547908,
+        126.922897
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "South Korea",
+      "city": "Seoul",
+      "destination": "Seoul",
+      "place": "Seoul, South Korea",
+      "alt": "A city street beneath overhead wires, with pink clouds in the morning sky.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/ebcd7333930ca426e7d5.jpg",
+      "thumbnail": "images/travel/ebcd7333930ca426e7d5-thumb.jpg",
+      "place_id": "ebcd7333930ca426e7d5"
+    },
+    {
+      "id": "d749a491fca3f2b59ebe",
+      "date": "2025-12-05",
+      "coordinates": [
+        37.559647,
+        126.985664
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "South Korea",
+      "city": "Seoul",
+      "destination": "Seoul",
+      "place": "Seoul, South Korea",
+      "alt": "A tower rises beyond a busy shopping street lined with storefronts.",
+      "width": 1500,
+      "height": 2000,
+      "image": "images/travel/d749a491fca3f2b59ebe.jpg",
+      "thumbnail": "images/travel/d749a491fca3f2b59ebe-thumb.jpg",
+      "place_id": "d749a491fca3f2b59ebe"
+    },
+    {
       "id": "bca4200162bae2b98182",
       "date": "2025-12-06",
       "coordinates": [
@@ -1344,6 +1384,66 @@
       "thumbnail": "images/travel/bca4200162bae2b98182-thumb.jpg",
       "place_id": "bca4200162bae2b98182",
       "destination": "San Francisco Bay Area"
+    },
+    {
+      "id": "2101fa5fe72ea6cc2f0b",
+      "date": "2025-12-06",
+      "coordinates": [
+        37.424386,
+        -122.082153
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "Mountain View",
+      "destination": "San Francisco Bay Area",
+      "place": "Mountain View, California",
+      "alt": "People walk toward a building with a sweeping, patterned roof beside an open field.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/2101fa5fe72ea6cc2f0b.jpg",
+      "thumbnail": "images/travel/2101fa5fe72ea6cc2f0b-thumb.jpg",
+      "place_id": "2101fa5fe72ea6cc2f0b"
+    },
+    {
+      "id": "34fd168d2014dcc04633",
+      "date": "2025-12-07",
+      "coordinates": [
+        37.800461,
+        -122.410347
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "San Francisco",
+      "destination": "San Francisco Bay Area",
+      "place": "San Francisco, California",
+      "alt": "A bus crosses a city intersection beneath trolley wires, with a tall pyramid-shaped building in the distance.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/34fd168d2014dcc04633.jpg",
+      "thumbnail": "images/travel/34fd168d2014dcc04633-thumb.jpg",
+      "place_id": "34fd168d2014dcc04633"
+    },
+    {
+      "id": "1a51cb9b71902e729d4a",
+      "date": "2025-12-07",
+      "coordinates": [
+        37.799717,
+        -122.408272
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "San Francisco",
+      "destination": "San Francisco Bay Area",
+      "place": "San Francisco, California",
+      "alt": "Pedestrians and cars share a lively street lined with cafes and pale buildings.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/1a51cb9b71902e729d4a.jpg",
+      "thumbnail": "images/travel/1a51cb9b71902e729d4a-thumb.jpg",
+      "place_id": "34fd168d2014dcc04633"
     },
     {
       "id": "c93a929aaab65eaeae34",
@@ -1384,6 +1484,46 @@
       "thumbnail": "images/travel/acf0c67d64f42c44c81f-thumb.jpg",
       "place_id": "c93a929aaab65eaeae34",
       "destination": "San Francisco Bay Area"
+    },
+    {
+      "id": "0bd40fce8e19bb067485",
+      "date": "2025-12-10",
+      "coordinates": [
+        37.871953,
+        -122.2639
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "Berkeley",
+      "destination": "San Francisco Bay Area",
+      "place": "Berkeley, California",
+      "alt": "A university building with a red-tiled roof overlooks lawns and trees under a clear blue sky.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/0bd40fce8e19bb067485.jpg",
+      "thumbnail": "images/travel/0bd40fce8e19bb067485-thumb.jpg",
+      "place_id": "0bd40fce8e19bb067485"
+    },
+    {
+      "id": "48176781b5dccf26cf11",
+      "date": "2025-12-11",
+      "coordinates": [
+        37.785886,
+        -122.411383
+      ],
+      "location_source": "exif",
+      "location_note": null,
+      "country": "United States",
+      "city": "San Francisco",
+      "destination": "San Francisco Bay Area",
+      "place": "San Francisco, California",
+      "alt": "Morning light falls across city rooftops and a colorful mural.",
+      "width": 2000,
+      "height": 1500,
+      "image": "images/travel/48176781b5dccf26cf11.jpg",
+      "thumbnail": "images/travel/48176781b5dccf26cf11-thumb.jpg",
+      "place_id": "48176781b5dccf26cf11"
     },
     {
       "id": "c2a50aa5433190c6f5df",
@@ -2382,6 +2522,24 @@
       "count": 1
     },
     {
+      "id": "ebcd7333930ca426e7d5",
+      "name": "Seoul, South Korea",
+      "coordinates": [
+        37.547908,
+        126.922897
+      ],
+      "count": 1
+    },
+    {
+      "id": "d749a491fca3f2b59ebe",
+      "name": "Seoul, South Korea",
+      "coordinates": [
+        37.559647,
+        126.985664
+      ],
+      "count": 1
+    },
+    {
       "id": "bca4200162bae2b98182",
       "name": "Stanford University, California",
       "coordinates": [
@@ -2391,6 +2549,24 @@
       "count": 1
     },
     {
+      "id": "2101fa5fe72ea6cc2f0b",
+      "name": "Mountain View, California",
+      "coordinates": [
+        37.424386,
+        -122.082153
+      ],
+      "count": 1
+    },
+    {
+      "id": "34fd168d2014dcc04633",
+      "name": "San Francisco, California",
+      "coordinates": [
+        37.800461,
+        -122.410347
+      ],
+      "count": 2
+    },
+    {
       "id": "c93a929aaab65eaeae34",
       "name": "Golden Gate Bridge, San Francisco",
       "coordinates": [
@@ -2398,6 +2574,24 @@
         -122.475464
       ],
       "count": 2
+    },
+    {
+      "id": "0bd40fce8e19bb067485",
+      "name": "Berkeley, California",
+      "coordinates": [
+        37.871953,
+        -122.2639
+      ],
+      "count": 1
+    },
+    {
+      "id": "48176781b5dccf26cf11",
+      "name": "San Francisco, California",
+      "coordinates": [
+        37.785886,
+        -122.411383
+      ],
+      "count": 1
     },
     {
       "id": "c2a50aa5433190c6f5df",
