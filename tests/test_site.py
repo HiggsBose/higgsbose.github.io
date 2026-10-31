@@ -115,8 +115,8 @@ class SiteIntegrationTests(unittest.TestCase):
 
     def test_migrated_academic_record(self):
         publications = (OUTPUT / 'publications/index.html').read_text(encoding='utf-8')
-        self.assertEqual(publications.count('class="paper-box"'), 4)
-        self.assertEqual(publications.count('class="paper-box-text"'), 4)
+        self.assertEqual(publications.count('class="paper-box"'), 5)
+        self.assertEqual(publications.count('class="paper-box-text"'), 5)
         for marker in ('11353523', '11353856', '11353552', 'science.aee6277', 's41928-025-01534-8', 's41928-025-01405-2', 's41467-024-45923-7', 'PiMM-NoC', '617.7 TOPS/W'):
             self.assertIn(marker, publications)
         self.assertEqual((OUTPUT / 'news/index.html').read_text(encoding='utf-8').count('<li>'), 17)

@@ -6,6 +6,26 @@
 
 <div class="paper-box-image" markdown="0">
 <div>
+<div class="badge">ESSERC'26</div>
+<img src='images/ESSERC2026.png' loading="lazy" alt="Mixed-precision foveated rendering system using POSIT16 digital CIM and INT8 analog CIM on a PCM chip" width="820" height="680">
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+**[ESSERC'26] A 40nm 3.58 mJ/Frame PCM-based POSIT/INT Mixed-Precision Digital/Analog CIM Chip for Edge Foveated Rendering**
+
+Bowen Wang<sup>#</sup>, **Zelun Pan<sup>#</sup>**, Zhe Zhan, Longhao Yan^, Jiukai Fang, Xile Wang, Yuqi Li, Minghui Yin, Xi Li, Zhitang Song^, Yaoyu Tao^, Yuchao Yang^ **(<sup>#</sup>Equally Contributed)**
+
+IEEE European Conference on Solid-State Circuits (ESSERC), 2026.
+
+</div>
+</div>
+
+<div class="paper-box" markdown="1">
+
+<div class="paper-box-image" markdown="0">
+<div>
 <div class="badge">DAC'26</div>
 <img src='images/RL_Mapping_Poster.jpg' loading="lazy" alt="PiMM-NoC reinforcement-learning mapping research poster" width="7920" height="9240">
 </div>
@@ -13,7 +33,7 @@
 
 <div class='paper-box-text' markdown="1">
 
-**PiMM-NoC: Process-in-Memristor-Memory NoC with RL Mapping Framework for Versatile AI Models**
+**[DAC'26]** [PiMM-NoC: Process-in-Memristor-Memory NoC with RL Mapping Framework for Versatile AI Models](https://dl.acm.org/doi/abs/10.1145/3770743.3804275)
 
 Ziang Xie<sup>#</sup>, Yaoyu Tao<sup>#</sup>^, **Zelun Pan<sup>#</sup>**, Haojun Chen<sup>#</sup>, Zhiyuan Li, Qinghao Wang, Zhiming Pan, Yihang Zhu, Zixiang Luo, Yian Yang, Mo Guang, Kaiwen Long, Yaodong Yang, Yuchao Yang^ **(<sup>#</sup>Equally Contributed)**
 
