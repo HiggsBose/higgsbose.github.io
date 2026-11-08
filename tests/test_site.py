@@ -119,7 +119,7 @@ class SiteIntegrationTests(unittest.TestCase):
         self.assertEqual(publications.count('class="paper-box-text"'), 5)
         for marker in ('11353523', '11353856', '11353552', 'science.aee6277', 's41928-025-01534-8', 's41928-025-01405-2', 's41467-024-45923-7', 'PiMM-NoC', '617.7 TOPS/W'):
             self.assertIn(marker, publications)
-        self.assertEqual((OUTPUT / 'news/index.html').read_text(encoding='utf-8').count('<li>'), 17)
+        self.assertEqual((OUTPUT / 'news/index.html').read_text(encoding='utf-8').count('<li>'), 18)
         self.assertEqual((OUTPUT / 'talks/index.html').read_text(encoding='utf-8').count('<li>'), 5)
 
     def test_build_is_clean_and_only_publishes_site_files(self):

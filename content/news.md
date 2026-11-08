@@ -1,3 +1,4 @@
+- *2026.11* Our paper was accepted at HPCA'27!
 - *2026.08* We won 1st Prize in the 9th China Postgraduate IC Innovation Competition (CPICIC) in Shenzhen, ranking among the top 18 teams nationwide! [Read more](https://mp.weixin.qq.com/s/FwuskObSNWPe71Ok00YxGw)
 - *2026.07* Gave two oral presentations at Design Automation Conference (DAC) 2026!
 - *2026.07* Our collaborative paper was published on **Science**! [Read more](https://www.science.org/doi/10.1126/science.aee6277)
