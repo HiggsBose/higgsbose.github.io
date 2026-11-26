@@ -129,6 +129,20 @@ h2 { font-size: var(--type-section); line-height: 1.25; font-weight: 600; letter
 .news-content a::after { content: " ↗"; }
 .news-content a:hover { background: #bc39261c; }
 .prose strong { font-weight: 600; }
+.tapeouts-content > p { max-width: 65ch; }
+.tapeout { display: grid; grid-template-columns: minmax(0, 65ch) minmax(0, 16rem); justify-content: space-between; align-items: center; gap: 1.5rem; padding-block: 1.5rem; border-top: 1px solid var(--line); }
+.tapeout h2:first-child { font-size: var(--type-item); line-height: 1.35; margin: 0 0 .5rem; }
+.tapeout p { margin-bottom: .5rem; }
+.tapeout p:last-child { margin-bottom: 0; font-size: var(--type-meta); }
+.tapeout-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 1.5rem; margin-bottom: var(--section-space); }
+.tapeout-gallery figure { min-width: 0; margin: 0; }
+.tapeout-gallery img { width: 100%; height: 11rem; object-fit: contain; padding: .5rem; background: var(--paper-light); border: 1px solid var(--line); }
+.tapeout-gallery h3 { margin: .75rem 0 .5rem; }
+.tapeout-gallery p { margin: 0; font-size: var(--type-meta); color: var(--muted); }
+@media (max-width: 620px) {
+  .tapeout { grid-template-columns: 1fr; gap: .75rem; }
+  .tapeout img { width: min(100%, 16rem); }
+}
 .social-links { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 7px; }
 .social-links a { display: inline-flex; align-items: center; gap: 9px; font: var(--type-body)/1.5 var(--mono); padding: 10px 12px; border: 1px solid var(--line); background: var(--paper-light); text-decoration: none; }
 .social-links a:hover { border-color: var(--red); }
@@ -308,7 +322,7 @@ sup { line-height: 0; font-size: .7em; }
 }
 @media (max-width: 620px) {
   .primary-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .primary-nav a:last-child { grid-column: 1 / -1; }
+  .primary-nav a:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .life-placeholder { padding: 28px 22px; }
   .life-placeholder h2 { font-size: var(--type-section); }
 }

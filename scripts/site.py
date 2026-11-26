@@ -20,10 +20,11 @@ PAGES = [
     {"slug": "", "label": "About", "title": "Zelun Pan · Researcher", "number": "01"},
     {"slug": "news", "label": "News", "title": "News & updates", "number": "02"},
     {"slug": "publications", "label": "Publications", "title": "Publications", "number": "03"},
-    {"slug": "talks", "label": "Talks", "title": "Talks & presentations", "number": "04"},
-    {"slug": "projects", "label": "Projects", "title": "Selected projects", "number": "05"},
-    {"slug": "cv", "label": "CV", "title": "Curriculum vitae", "number": "06"},
-    {"slug": "life", "label": "Life", "title": "Life beyond the lab", "number": "07"},
+    {"slug": "tapeouts", "label": "Tape-outs", "title": "Chip tape-outs", "number": "04"},
+    {"slug": "talks", "label": "Talks", "title": "Talks & presentations", "number": "05"},
+    {"slug": "projects", "label": "Projects", "title": "Selected projects", "number": "06"},
+    {"slug": "cv", "label": "CV", "title": "Curriculum vitae", "number": "07"},
+    {"slug": "life", "label": "Life", "title": "Life beyond the lab", "number": "08"},
 ]
 
 
