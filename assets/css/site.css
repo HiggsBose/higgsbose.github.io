@@ -112,7 +112,7 @@ h2 { font-size: var(--type-section); line-height: 1.25; font-weight: 600; letter
 .resume-card h2 { font-size: var(--type-item); margin: 0; }
 .paper-box:target { border-top-color: var(--red); }
 @media (max-width: 620px) {
-  .hero { grid-template-columns: 1fr; }
+  .hero { grid-template-columns: minmax(0, 1fr); }
   .hero { gap: 1.25rem; }
   .hero-actions { gap: 1rem; }
   .hero-actions .button { gap: .75rem; padding: .75rem 1rem; }
