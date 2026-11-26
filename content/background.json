@@ -5,6 +5,10 @@
       "degree": "Ph.D. in Integrated Circuits",
       "institution": "Peking University",
       "detail": "School of Integrated Circuits",
+      "advisors": [
+        {"name": "Prof. Yuchao Yang", "url": "http://yuchaolab.cn/index.html"},
+        {"name": "Prof. Yaoyu Tao", "url": "https://taoyaoyu.github.io/"}
+      ],
       "note": "In progress"
     },
     {

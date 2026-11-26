@@ -45,6 +45,13 @@ def travel_index(photos):
     return countries
 
 
+def render_content(source: str, base_path: str) -> str:
+    content = markdown.markdown(source, extensions=["md_in_html", "tables", "attr_list"])
+    # Authored legacy images and CV links work on user sites and project sites.
+    content = content.replace('src="images/', f'src="{base_path}/images/').replace("src='images/", f"src='{base_path}/images/")
+    return content.replace('href="/docs/', f'href="{base_path}/docs/')
+
+
 def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") -> None:
     base_path = "/" + base_path.strip("/") if base_path.strip("/") else ""
     parsed = urlparse(site_url)
@@ -55,6 +62,11 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape())
     env.globals["url"] = lambda path: f"{base_path}/{path.lstrip('/')}"
     env.globals["asset_url"] = lambda path: f"{base_path}/{path}?v={hashlib.sha256((ROOT / path).read_bytes()).hexdigest()[:12]}"
+    news_source = (ROOT / "content/news.md").read_text(encoding="utf-8")
+    news_lines = news_source.splitlines()
+    item_starts = [i for i, line in enumerate(news_lines) if line.startswith("- ")]
+    preview_end = item_starts[3] if len(item_starts) > 3 else len(news_lines)
+    latest_news = render_content("\n".join(news_lines[:preview_end]), base_path)
     profile = json.loads((ROOT / "content/profile.json").read_text(encoding="utf-8"))
     background = json.loads((ROOT / "content/background.json").read_text(encoding="utf-8"))
     travel_path = ROOT / "content/travel.json"
@@ -79,15 +91,13 @@ def build(base_path: str = "", site_url: str = "https://higgsbose.github.io") ->
         shutil.copy2(ROOT / "docs" / name, OUTPUT / "docs" / name)
     for page in PAGES:
         source = ROOT / "content" / f"{page['slug'] or 'about'}.md"
-        content = markdown.markdown(source.read_text(encoding="utf-8"), extensions=["md_in_html", "tables", "attr_list"])
-        # Authored legacy images and CV links work on user sites and project sites.
-        content = content.replace('src="images/', f'src="{base_path}/images/').replace("src='images/", f"src='{base_path}/images/")
-        content = content.replace('href="/docs/', f'href="{base_path}/docs/')
+        source_text = news_source if page["slug"] == "news" else source.read_text(encoding="utf-8")
+        content = render_content(source_text, base_path)
         route = f"{page['slug']}/" if page["slug"] else ""
         destination = OUTPUT / route
         destination.mkdir(exist_ok=True)
         canonical = f"{site_url.rstrip('/')}{base_path}/{route}"
-        html = env.get_template("page.html").render(page=page, pages=PAGES, profile=profile, background=background, travel=travel, content=content, canonical=canonical)
+        html = env.get_template("page.html").render(page=page, pages=PAGES, profile=profile, background=background, travel=travel, content=content, latest_news=latest_news, canonical=canonical)
         (destination / "index.html").write_text(html, encoding="utf-8")
     for alias in ("about/index.html", "about.html"):
         target = OUTPUT / alias

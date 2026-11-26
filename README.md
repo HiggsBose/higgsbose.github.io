@@ -30,20 +30,22 @@ conda activate personal_page
 
 ## 页面与维护
 
+后续页面开发遵循[个人主页设计指南](docs/design-guidelines.md)。指南说明首页的阅读顺序、全站字号与间距，以及改动后的验收方法。
+
 | 页面 | 地址 | 内容来源 |
 | --- | --- | --- |
 | About | `/` | `content/about.md`、`content/background.json`、`content/profile.json`、`templates/page.html` |
-| News | `/news/` | `content/news.md` |
+| News | `/news/` | `content/news.md`，新动态加在列表顶部，首页自动展示前三条 |
 | Publications | `/publications/` | `content/publications.md` |
 | Talks | `/talks/` | `content/talks.md` |
 | Projects | `/projects/` | `content/projects.md` |
-| CV | `/cv/` | 实习求职提示、简历下载卡片、`content/cv.md` 联系说明 |
+| CV | `/cv/` | 中英文简历入口、实习求职提示、`content/cv.md` 联系说明 |
 | Life | `/life/` | `content/life.md`，日常照片、故事和小发现 |
 
 - 教育经历、荣誉奖项和学术服务：`content/background.json`，通过 `templates/background.html` 展示在 About 页。
 - 个人信息和社交链接：`content/profile.json`。
 - 共用页头、导航、页尾和 SEO：`templates/base.html`。
-- 首页构图、研究方向卡片和分页标题：`templates/page.html`。
+- 首页研究介绍：`content/about.md`。首页构图和分页标题：`templates/page.html`。
 - 样式与响应式断点：`assets/css/site.css`。
 - 移动菜单、论文图片放大和旧锚点跳转：`assets/js/site.js`。
 - 简历：`docs/潘泽伦_简历.pdf` 与 `docs/PanZelun_Resume.docx`；英文文件保留原有 DOCX 格式。
