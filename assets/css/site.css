@@ -115,7 +115,7 @@ h2 { font-size: var(--type-section); line-height: 1.25; font-weight: 600; letter
   .hero { grid-template-columns: minmax(0, 1fr); }
   .hero { gap: 1.25rem; }
   .hero-actions { gap: 1rem; }
-  .hero-actions .button { gap: .75rem; padding: .75rem 1rem; }
+  .hero-actions .button { gap: 12px; padding: .75rem 16px; }
   .hero-art { width: min(100%, 17rem); aspect-ratio: 1.9; }
   .portrait { width: 42%; left: 30%; }
 }
