@@ -27,3 +27,13 @@ Exploring learned step quantization (LSQ) and noise-aware training in a ResNet-2
 
 [Explore repository ↗](https://github.com/HiggsBose/ResNet20-with-LSQ-quantization)
 </div>
+
+<div class="project-card" markdown="1">
+<span class="card-number">04 / AUDIO SIGNAL PROCESSING</span>
+
+## 弦准 · Guitar tuner and metronome
+
+Pluck a string to see how sharp or flat it is, then set a tempo to practice with the metronome. Both tools work offline after the first download.
+
+[Open the tuner ↗](https://higgsbose.github.io/Guitar-Tuner/) · [View source on GitHub ↗](https://github.com/HiggsBose/Guitar-Tuner)
+</div>
